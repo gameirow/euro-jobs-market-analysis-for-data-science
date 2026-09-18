@@ -1,0 +1,23 @@
+select
+    {{ dbt_utils.generate_surrogate_key(['id', 'pulled_date']) }} as posting_snapshot_key,
+    cast(id as bigint)              as posting_id,
+    country                         as country_code,
+    cast(pulled_date as date)       as snapshot_date,
+    title                           as job_title,
+    description                     as description_snippet,
+    try_cast(created as timestamp)  as posted_at,
+    company_display_name            as company_name,
+    location_display_name           as location_name,
+    location_area                   as location_area_path,
+    latitude,
+    longitude,
+    category_label,
+    category_tag,
+    salary_min,
+    salary_max,
+    salary_is_predicted = '1'       as salary_is_predicted,
+    contract_type,
+    contract_time,
+    redirect_url                    as posting_url,
+    matched_role_queries
+from {{ source('adzuna', 'it') }}

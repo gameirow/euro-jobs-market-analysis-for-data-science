@@ -1,0 +1,175 @@
+# Language-requirement detection dictionary — feeds question 6 (the
+# headline finding: what share of postings are gated by a language
+# requirement, e.g. German for Zurich, French for Romandie).
+#
+# Not wired into any model yet — dictionary + dry-run first, same discipline
+# as dictionaries/skill_dictionary.yml.
+#
+# Distinguishes three tiers per language, checked in THIS order —
+# preferred BEFORE required, deliberately (see below):
+#   1. preferred  — "German a plus", "Deutschkenntnisse von Vorteil",
+#                    "allemand souhaité". Checked first so an explicit
+#                    softener always wins over the broad required fallback.
+#   2. required   — "German required", "allemand exigé", an explicit CEFR
+#                    level ("C1") near the language name, "is a must", OR
+#                    (German only) a bare "Xkenntnisse" compound with no
+#                    softener nearby — see note below on why that's required
+#                    by default, not merely "mentioned".
+#   3. mentioned  — the language name appears but matched neither tier above
+#                    (weakest signal — could be a requirement phrased in a
+#                    way this dictionary doesn't recognize yet, or could be
+#                    genuinely incidental, e.g. "Bewerbung in Englisch oder
+#                    Deutsch" — application documents may be in either
+#                    language, which is not a skill requirement at all.
+#                    Real example found sampling actual postings, 2026-09-18.
+#                    Never treat "mentioned" as equivalent to "required.")
+#
+# Why a bare "Xkenntnisse" defaults to required (German only): breaking a
+# language out as its own "Deutschkenntnisse" bullet in a requirements
+# section is itself a strong genre-convention signal in German job ads —
+# it does NOT need an intensifying adjective ("sehr gute") to count as a
+# real requirement. Verified against real postings (2026-09-18): "gute
+# Deutschkenntnisse", "Kommunikationssichere Deutschkenntnisse", "Sichere
+# Deutschkenntnisse", and bare "Deutsch- und Englischkenntnisse in Wort und
+# Schrift" all appear with qualifiers this dictionary's first draft didn't
+# anticipate — chasing every possible adjective is a losing game; the
+# compound noun itself is the reliable signal, softened only by an explicit
+# preferred-marker (von Vorteil, wünschenswert, ein Plus), which is why
+# preferred is checked first.
+#
+# `exclusion_patterns` are checked before anything else, per language: if
+# the ONLY mentions of a language in the text are inside an excluded
+# context, that language doesn't count as mentioned at all. All of these
+# are real false positives found sampling actual postings (2026-09-18), not
+# theoretical ones:
+#   - company names: "Deutsche Bank", "Deutsche Telekom"
+#   - the country name: "Deutschland" / "deutschlandweit"
+#   - "deutsch-/englischsprachigen Kunden" — describes the CLIENT base, not
+#     a candidate requirement
+#   - "im deutschsprachigen Raum" — describes a MARKET/REGION, not a
+#     candidate requirement (same shape as the Kunden case)
+#   - "Germans Trias i Pujol" — a real Catalan hospital name, coincidental
+#     substring match on "Germans"
+#
+# Known structural handling required, not solvable by regex variants alone:
+#   - German compound nouns share a suffix across languages, e.g. "Deutsch-
+#     und Englischkenntnisse" (literally "German-and-English-knowledge") or
+#     "deutsch- und englischsprachigen" (German- and English-speaking).
+#     Whatever wires this in needs to expand both constructions — suffixes
+#     "kenntnisse" AND "sprachig\w*" — into their two full constituent words
+#     before matching (e.g. "Deutschkenntnisse und Englischkenntnisse"), or
+#     the first language in the pair is invisible to a plain regex. This is
+#     a mechanical, defensible text transformation (splitting a
+#     shared-suffix compound into its two words), not an inference. The
+#     conjunction can also have an intervening qualifier — "Deutsch- und
+#     gute Englischkenntnisse" — the expansion must tolerate that extra word
+#     rather than requiring the suffix immediately after "und" (found via
+#     regression-testing real phrasings, 2026-09-18; drop the intervening
+#     qualifier word when expanding, since tier logic no longer depends on
+#     which specific adjective was used — see the required-tier note above).
+#   - Patterns are matched against raw HTML-ish text (EURES descriptions
+#     contain <br> etc.); .{0,N} proximity patterns tolerate a little markup
+#     noise but haven't been stress-tested against heavier markup.
+#
+# Not attempted yet, explicitly: Italian/Dutch/Polish/Portuguese/Danish
+# requirement phrasing. English/German/French cover the project's headline
+# finding (CH/DE/FR markets); the others are a real gap for a full picture
+# of question 6 across all 11 target countries, left for a follow-up pass.
+
+languages:
+
+  english:
+    preferred_patterns:
+      - '\benglish\b[^.,;]{0,25}\b(a plus|nice to have|preferred|advantage|desirable|bonus|beneficial)\b'
+      - 'englischkenntnisse\s+(?:von vorteil|wünschenswert|ein plus|vorteilhaft)'
+      - 'anglais\s+(?:un plus|souhaité|apprécié|un atout)'
+    required_patterns:
+      - '\benglish\b[^.,;]{0,30}\b(required|essential|mandatory|must|fluent)\b'
+      - '\b(required|must have|fluent|native)\b[^.,;]{0,20}\benglish\b'
+      - '\bfluent\s+(?:in\s+)?english\b'
+      - '\bnative\s+english\b'
+      - '\bproficiency\s+in\b[^.,;]{0,30}\benglish\b'
+      - 'englisch(?:kenntnisse)?\s*[^.,;]{0,20}(?:erforderlich|zwingend|vorausgesetzt|notwendig)'
+      - 'englischkenntnisse[^.,;]{0,25}in wort und schrift'
+      - 'anglais\s+(?:requis|exigé|obligatoire|courant)'
+      - 'maîtrise\s+de\s+l.anglais'
+      - '\benglisch\b[^.,;]{0,15}\b[abc][12]\b'
+      - 'englischkenntnisse[^.,;]{0,15}\b[abc][12]\b'
+      - '\banglais\b[^.,;]{0,15}\b[abc][12]\b'
+      - '\benglish\b[^.,;]{0,15}\b[abc][12]\b'
+      - 'englischkenntnisse'   # bare compound noun — see header note on why this defaults to required
+    mention_patterns:
+      - '\benglish\b'
+      - '\benglisch\b'
+      - '\banglais\b'
+    exclusion_patterns:
+      - '\benglish\b\s+(?:bank|company|firm|subsidiary|market|brand|startup|team|office)'
+      - '\benglish\b[^.,;]{0,10}(?:is\s+)?not\s+(?:required|necessary|essential|mandatory)'
+      - '\bno\s+english\s+(?:required|necessary)'
+
+  german:
+    preferred_patterns:
+      - '\bgerman\b[^.,;]{0,25}\b(a plus|nice to have|preferred|advantage|desirable|bonus|beneficial)\b'
+      - 'deutschkenntnisse\s+(?:von vorteil|wünschenswert|ein plus|vorteilhaft)'
+      - 'allemand\s+(?:un plus|souhaité|apprécié|un atout)'
+    required_patterns:
+      - '\bgerman\b[^.,;]{0,30}\b(required|essential|mandatory|must|fluent)\b'
+      - '\b(required|must have|fluent|native)\b[^.,;]{0,20}\bgerman\b'
+      - '\bfluent\s+(?:in\s+)?german\b'
+      - '\bnative\s+german\b'
+      - '\bproficiency\s+in\b[^.,;]{0,30}\bgerman\b'
+      - 'allemand\s+(?:requis|exigé|obligatoire|courant)'
+      - 'maîtrise\s+de\s+l.allemand'
+      - '\bdeutsch\b[^.,;]{0,15}\b[abc][12]\b'
+      - '\ballemand\b[^.,;]{0,15}\b[abc][12]\b'
+      - '\bgerman\b[^.,;]{0,15}\b[abc][12]\b'
+      - 'deutsch(?:kenntnisse)?\s*[^.,;]{0,20}(?:erforderlich|zwingend|vorausgesetzt|notwendig)'
+      - 'deutschkenntnisse'   # bare compound noun — see header note on why this defaults to required
+    mention_patterns:
+      - '\bgerman\b'
+      - '\bdeutsch\b'
+      - '\ballemand\b'
+    exclusion_patterns:
+      - 'deutsche[rs]?\s+(?:bank|telekom|bahn|post|börse|w?elle)'
+      - '\bgerman\b\s+(?:bank|company|firm|subsidiary|market|brand|startup|team|office)'
+      - '\bdeutschland(?:weit)?\b'
+      - '\w*sprachige[nr]?[^.,;]{0,25}\bkunden\b'
+      - 'im[^.,;]{0,25}sprachigen\s+raum'
+      - 'germans?\s+trias'
+      - '\bgerman\b[^.,;]{0,10}(?:is\s+)?not\s+(?:required|necessary|essential|mandatory)'
+      - '\bno\s+german\s+(?:required|necessary)'
+      - 'kein[e]?\s+deutsch'
+      - 'deutsch(?:kenntnisse)?\s+nicht\s+(?:erforderlich|notwendig|zwingend)'
+      - 'allemand\s+non\s+requis'
+      - 'pas\s+(?:d.)?allemand'
+
+  french:
+    preferred_patterns:
+      - '\bfrench\b[^.,;]{0,25}\b(a plus|nice to have|preferred|advantage|desirable|bonus|beneficial)\b'
+      - 'französischkenntnisse\s+(?:von vorteil|wünschenswert|ein plus|vorteilhaft)'
+      - 'français\s+(?:un plus|souhaité|apprécié|un atout)'
+    required_patterns:
+      - '\bfrench\b[^.,;]{0,30}\b(required|essential|mandatory|must|fluent)\b'
+      - '\b(required|must have|fluent|native)\b[^.,;]{0,20}\bfrench\b'
+      - '\bfluent\s+(?:in\s+)?french\b'
+      - '\bnative\s+french\b'
+      - '\bproficiency\s+in\b[^.,;]{0,30}\bfrench\b'
+      - 'français\s+(?:requis|exigé|obligatoire|courant)'
+      - 'maîtrise\s+du\s+français'
+      - '\bfranzösisch\b[^.,;]{0,15}\b[abc][12]\b'
+      - '\bfrançais\b[^.,;]{0,15}\b[abc][12]\b'
+      - '\bfrench\b[^.,;]{0,15}\b[abc][12]\b'
+      - 'französisch(?:kenntnisse)?\s*[^.,;]{0,20}(?:erforderlich|zwingend|vorausgesetzt|notwendig)'
+      - 'französischkenntnisse'   # bare compound noun — same default-required rule as German
+    mention_patterns:
+      - '\bfrench\b'
+      - '\bfranzösisch\b'
+      - '\bfrançais\b'
+    exclusion_patterns:
+      - '\bfrench\b\s+(?:bank|company|firm|subsidiary|market|brand|startup|team|office)'
+      - '\w*sprachige[nr]?[^.,;]{0,25}\bkunden\b'
+      - 'im[^.,;]{0,25}sprachigen\s+raum'
+      - '\bfrench\b[^.,;]{0,10}(?:is\s+)?not\s+(?:required|necessary|essential|mandatory)'
+      - '\bno\s+french\s+(?:required|necessary)'
+      - 'français\s+non\s+requis'
+      - 'pas\s+(?:de\s+)?français'

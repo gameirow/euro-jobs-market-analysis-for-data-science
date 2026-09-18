@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: adzuna
+    description: >
+      Daily Adzuna API pulls landed by ingest/adzuna_ingest.py — one Parquet
+      file per country per day, never mutated. Each file is that day's
+      snapshot of currently live postings matching our role-search phrases.
+    meta:
+      external_location: "../data/raw/adzuna_{name}_*.parquet"
+    tables:
+      - name: ch
+        description: Switzerland
+      - name: de
+        description: Germany
+      - name: fr
+        description: France
+      - name: it
+        description: Italy
+      - name: es
+        description: Spain
+      - name: nl
+        description: Netherlands
+      - name: be
+        description: Belgium
+      - name: pl
+        description: Poland

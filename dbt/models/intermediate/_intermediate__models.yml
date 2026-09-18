@@ -1,0 +1,261 @@
+version: 2
+
+models:
+  - name: int_postings_unioned
+    description: >
+      All 8 country staging models unioned into one cross-country posting
+      snapshot stream. Grain and columns are unchanged from staging — one row
+      per (posting_id, snapshot_date).
+    columns:
+      - name: posting_snapshot_key
+        description: "{{ doc('posting_snapshot_key') }}"
+        tests:
+          - unique
+          - not_null
+
+  - name: int_eures_unioned
+    description: >
+      All 11 EURES country staging models unioned, mirroring
+      int_postings_unioned's pattern for Adzuna.
+    columns:
+      - name: posting_snapshot_key
+        tests:
+          - unique
+          - not_null
+
+  - name: int_postings_all_sources
+    description: >
+      Adzuna and EURES reconciled onto one schema, tagged by source_system.
+      Not deduped yet — the same real-world posting appearing in both
+      sources is still two rows here. See int_posting_dedup for that.
+    columns:
+      - name: source_posting_key
+        description: Surrogate key over (source_system, posting_snapshot_key) — the grain of this model.
+        tests:
+          - unique
+          - not_null
+      - name: source_system
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["adzuna", "eures"]
+      - name: posting_id
+        tests:
+          - not_null
+      - name: description_is_full
+        description: >
+          False for Adzuna rows (description_text is capped at 500 chars),
+          true for EURES rows (uncapped). Exists so the shared column name
+          never gets mistaken for equal comparability across sources.
+        tests:
+          - not_null
+
+  - name: int_postings_deduped
+    description: >
+      int_postings_all_sources with cross-source duplicate postings linked
+      (not merged) via dedup_group_id, plus company_name_norm/title_norm/
+      location_norm used to compute the link. See the model's docstring for
+      the full approach (blocking, normalization, scoring, threshold).
+    columns:
+      - name: source_posting_key
+        tests:
+          - unique
+          - not_null
+      - name: dedup_group_id
+        description: >
+          Shared by exactly two rows (one per source) when matched;
+          otherwise equal to the row's own source_posting_key (a singleton
+          group of one).
+        tests:
+          - not_null
+      - name: company_norm
+        description: >
+          Country-aware normalized company name (legal suffixes stripped).
+          This is what question 4's employer rankings should group on, not
+          raw company_name, so "Google" / "Google Inc." / "Google
+          Switzerland GmbH" collapse into one employer.
+
+  - name: int_posting_language_requirements
+    description: >
+      dictionaries/language_requirements.yml applied to int_postings_deduped.
+      One row per (posting, language) — 3 rows per posting always
+      (english/german/french), never fewer, so "none" is a real value not a
+      missing row. KNOWN RECALL LIMIT: Adzuna's description is capped at 500
+      chars, so a language clause appearing later in the real posting is
+      invisible here for Adzuna rows specifically — a "none"/"mentioned"
+      result there is not necessarily a true negative.
+    columns:
+      - name: posting_language_key
+        tests:
+          - unique
+          - not_null
+      - name: source_posting_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('int_postings_deduped')
+                field: source_posting_key
+      - name: language
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["english", "german", "french"]
+      - name: requirement_level
+        description: >
+          required > preferred > mentioned > none, checked in that priority
+          order (preferred before required, so an explicit softener always
+          wins over the broad "bare compound noun defaults to required"
+          rule — see the model's docstring).
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["required", "preferred", "mentioned", "none"]
+
+  - name: int_posting_seniority
+    description: >
+      dictionaries/seniority_parsing.yml applied to int_postings_deduped.
+      One row per posting. years_experience_min/max and title_seniority are
+      independent signals, deliberately not collapsed — comparing them is
+      the point (question 5). KNOWN RECALL LIMIT: Adzuna's description is
+      capped at 500 chars, so years_experience will be null for many
+      "Senior"-titled postings not because none was stated, but because the
+      snippet doesn't reach that section.
+    columns:
+      - name: source_posting_key
+        tests:
+          - unique
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('int_postings_deduped')
+                field: source_posting_key
+      - name: years_experience_min
+        description: Nullable — not all postings state a years requirement.
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                max_value: 20
+                inclusive: true
+      - name: years_experience_max
+        description: Nullable — null both when unstated and for open-ended "N+ years" claims.
+        tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                max_value: 20
+                inclusive: true
+      - name: title_seniority
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["junior", "mid", "senior", "unspecified"]
+
+  - name: int_nuts_lookup
+    description: >
+      dictionaries/nuts_lookup.csv — Eurostat NUTS correspondence table
+      (2021 merged with 2024 for full coverage of what EURES actually
+      returns) made queryable. Reference data, not tied to any posting.
+    columns:
+      - name: nuts_id
+        tests:
+          - not_null
+          - unique
+      - name: nuts_level
+        description: 0=country, 1=major region, 2=region, 3=city/district — derived from code length.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [0, 1, 2, 3]
+      - name: country_code
+        tests:
+          - not_null
+      - name: name_latn
+        description: Latin-script place name, preferring the NUTS 2024 spelling where versions differ.
+        tests:
+          - not_null
+
+  - name: int_skill_dictionary
+    description: >
+      dictionaries/skill_dictionary.yml parsed into one row per
+      (category, skill_key), with the fully compiled regex pattern used to
+      match against posting text via DuckDB's regexp_matches. Not tied to any
+      posting data — this is the dictionary itself, made queryable.
+    columns:
+      - name: category
+        tests:
+          - not_null
+      - name: skill_key
+        description: >
+          Canonical skill identifier. Must be unique across the entire
+          dictionary, not just within its category — int_posting_skills
+          treats skill_key as its grouping key, so a duplicate here would
+          silently merge two different skills together.
+        tests:
+          - not_null
+          - unique
+      - name: match_mode
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["default", "list_context"]
+      - name: pattern
+        description: The compiled regex matched via DuckDB's regexp_matches(text, pattern, 'i').
+        tests:
+          - not_null
+
+  - name: int_posting_skills
+    description: >
+      One row per (posting_id, snapshot_date, source_system, skill) where the
+      skill's pattern matched the posting's description_text. Runs against
+      int_postings_deduped — both sources, not deduped at this layer (a
+      matched cross-source pair still produces its own skill rows per
+      source_system; dedup_group_id is carried through so a marts-layer
+      rollup can choose to count once per group instead of once per row).
+    columns:
+      - name: posting_skill_key
+        description: Surrogate key over (source_posting_key, skill_key) — the grain of this model.
+        tests:
+          - unique
+          - not_null
+      - name: source_posting_key
+        description: >
+          Foreign key back to int_postings_deduped (and transitively to
+          staging, via posting_snapshot_key upstream of that).
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('int_postings_deduped')
+                field: source_posting_key
+      - name: source_system
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["adzuna", "eures"]
+      - name: posting_id
+        tests:
+          - not_null
+      - name: snapshot_date
+        tests:
+          - not_null
+      - name: skill_key
+        description: >
+          Foreign key back to the dictionary. Not explicitly asked for, but
+          cheap to add since int_skill_dictionary already enforces skill_key
+          uniqueness — kept in for the same referential-integrity reason as
+          the source_posting_key test above.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('int_skill_dictionary')
+                field: skill_key

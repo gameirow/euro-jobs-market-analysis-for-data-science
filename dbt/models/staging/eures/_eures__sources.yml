@@ -1,0 +1,34 @@
+version: 2
+
+sources:
+  - name: eures
+    description: >
+      Daily EURES pulls landed by ingest/eures_ingest.py — one Parquet file
+      per country per day, never mutated. Role filtering already happens
+      client-side during ingest (anchor-word search + local phrase regex),
+      unlike Adzuna where the API's own what_phrase filter does the work.
+    meta:
+      external_location: "../data/raw/eures_{name}_*.parquet"
+    tables:
+      - name: ch
+        description: Switzerland
+      - name: de
+        description: Germany
+      - name: fr
+        description: France
+      - name: it
+        description: Italy
+      - name: es
+        description: Spain
+      - name: nl
+        description: Netherlands
+      - name: be
+        description: Belgium
+      - name: pl
+        description: Poland
+      - name: pt
+        description: Portugal
+      - name: dk
+        description: Denmark
+      - name: at
+        description: Austria

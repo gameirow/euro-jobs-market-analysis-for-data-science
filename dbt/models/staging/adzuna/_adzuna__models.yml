@@ -1,0 +1,85 @@
+version: 2
+
+models:
+  - name: stg_adzuna__ch
+    description: "Switzerland. {{ doc('daily_snapshot_grain') }}"
+    columns: &common_columns
+      - name: posting_snapshot_key
+        description: "{{ doc('posting_snapshot_key') }}"
+        tests:
+          - unique
+          - not_null
+      - name: posting_id
+        description: "{{ doc('posting_id') }}"
+        tests:
+          - not_null
+      - name: country_code
+        description: "{{ doc('country_code') }}"
+        tests:
+          - not_null
+      - name: snapshot_date
+        description: "{{ doc('snapshot_date') }}"
+        tests:
+          - not_null
+      - name: job_title
+        description: "{{ doc('job_title') }}"
+        tests:
+          - not_null
+      - name: description_snippet
+        description: "{{ doc('description_snippet') }}"
+      - name: posted_at
+        description: "{{ doc('posted_at') }}"
+      - name: company_name
+        description: "{{ doc('company_name') }}"
+      - name: location_name
+        description: "{{ doc('location_name') }}"
+      - name: location_area_path
+        description: "{{ doc('location_area_path') }}"
+      - name: latitude
+      - name: longitude
+      - name: category_label
+        description: "{{ doc('category_label') }}"
+      - name: category_tag
+        description: "{{ doc('category_tag') }}"
+      - name: salary_min
+        description: "{{ doc('salary_min') }}"
+      - name: salary_max
+        description: "{{ doc('salary_max') }}"
+      - name: salary_is_predicted
+        description: "{{ doc('salary_is_predicted') }}"
+      - name: contract_type
+        description: "{{ doc('contract_type') }}"
+      - name: contract_time
+        description: "{{ doc('contract_time') }}"
+      - name: posting_url
+        description: "{{ doc('posting_url') }}"
+      - name: matched_role_queries
+        description: "{{ doc('matched_role_queries') }}"
+
+  - name: stg_adzuna__de
+    description: "Germany. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns
+
+  - name: stg_adzuna__fr
+    description: "France. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns
+
+  - name: stg_adzuna__it
+    description: "Italy. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns
+
+  - name: stg_adzuna__es
+    description: "Spain. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns
+
+  - name: stg_adzuna__nl
+    description: "Netherlands. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns
+
+  - name: stg_adzuna__be
+    description: "Belgium. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns
+
+  - name: stg_adzuna__pl
+    description: "Poland. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns

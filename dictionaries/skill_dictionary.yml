@@ -1,0 +1,198 @@
+# Skill keyword dictionary for keyword-based skill extraction.
+#
+# Not wired into any model yet — this is the reference data only. When it gets
+# consumed (intermediate layer), the intended matching contract is:
+#
+#   - Match against job_title + description_snippet, case-insensitive.
+#   - Each variant matches as a whole word/phrase via word-boundary matching
+#     (e.g. \bPower BI\b), not substring containment — so "R" doesn't match
+#     inside "HR" and "SAS" doesn't match inside "disaster".
+#   - A skill's `match_mode` says which matching rule applies (default: plain
+#     word-boundary matching against `variants` if the field is absent):
+#       - "list_context": only count a match when the variant appears
+#         adjacent to another known language, e.g. "(Python, R, SQL)" or
+#         "Python/R". Plain word-boundary matching is not safe for this skill.
+#   - A posting can match multiple skills and multiple categories; this
+#     dictionary says nothing about how matches roll up into counts.
+#
+# Confirmed by a dry run against 3,313 real postings from the 2026-09-17 pull
+# (see conversation, not re-derivable from this file alone):
+#   - Adzuna's `description` field is hard-capped at 500 characters — verified
+#     against the raw API response directly, and there is no full_description
+#     field or per-ad detail endpoint to get the rest. This is the opening
+#     blurb of the ad, not the requirements section, so only ~25% of postings
+#     matched *any* skill in the visible text. Whatever consumes this
+#     dictionary MUST frame its output as "% of postings surfacing skill X in
+#     the visible ad summary," not "% of postings requiring X" — this needs to
+#     be prominent wherever the numbers are shown (dashboard included, not
+#     just a README footnote), not just noted here.
+#   - Bare "Informatica" and bare "R" were both dictionary bugs, not just
+#     theoretical risks — see their notes below for what was actually found.
+#
+# Known limitations, true regardless of how this gets wired in:
+#   - Short tokens and acronyms (ML, BI, SAS, NLP...) carry real
+#     false-positive risk even with word-boundary matching, since they also
+#     occur as ordinary words, other acronyms, or company names in free text.
+#     Flagged per-skill below with a `note`. These need the same kind of
+#     spot-check against real postings that "Informatica" and "R" already got.
+#   - This dictionary is start-of-list, not exhaustive. Expect to extend it
+#     once we look at what real postings actually say and where the current
+#     list is under- or over-matching.
+
+categories:
+
+  languages:
+    python:
+      variants: ["Python"]
+    sql:
+      variants: ["SQL"]
+    r:
+      variants: ["R"]
+      match_mode: list_context
+      note: >
+        Bare \bR\b was checked by hand against every match in the 2026-09-17
+        pull: only 1 of the first 10 was a genuine hit ("Python, R, SQL").
+        The rest were "R&D" (the ampersand is a non-word character, so it
+        still satisfies a word boundary), spaced-out acronyms like Dutch
+        "B E D R I J F" (company), and Adzuna's mid-word "…" truncation
+        landing right after a lone "r". Restricting to list_context (R
+        adjacent to another known language via a comma or slash) was tested
+        against the same dataset and returned 7 matches, all genuine
+        ("Python, R, SQL", "Python/R", "Python / R SQL", etc.) — that's the
+        matching rule to actually implement, not plain word-boundary.
+    java:
+      variants: ["Java"]
+      note: >
+        Word-boundary matching keeps this from matching inside "JavaScript"
+        (no boundary between "Java" and "Script" in that word), so no special
+        handling needed there.
+    scala:
+      variants: ["Scala"]
+    sas:
+      variants: ["SAS"]
+      note: "Acronym collision risk (airlines, other SAS-named entities)."
+    vba:
+      variants: ["VBA", "Visual Basic for Applications"]
+    matlab:
+      variants: ["MATLAB"]
+
+  bi_visualization:
+    power_bi:
+      variants: ["Power BI", "PowerBI", "Power-BI"]
+    tableau:
+      variants: ["Tableau"]
+    looker:
+      variants: ["Looker"]
+    looker_studio:
+      variants: ["Looker Studio", "Google Data Studio", "Data Studio"]
+      note: "Distinct product from Looker itself, despite the shared name."
+    qlik:
+      variants: ["QlikView", "Qlik Sense", "Qlik"]
+    metabase:
+      variants: ["Metabase"]
+    superset:
+      variants: ["Superset", "Apache Superset"]
+
+  data_engineering:
+    spark:
+      variants: ["Spark", "PySpark", "Apache Spark"]
+    airflow:
+      variants: ["Airflow", "Apache Airflow"]
+    dbt:
+      variants: ["dbt", "data build tool"]
+      note: >
+        Three-letter lowercase token. Word-boundary matching should keep
+        false positives low, but verify against real postings once wired in.
+    kafka:
+      variants: ["Kafka", "Apache Kafka"]
+    hadoop:
+      variants: ["Hadoop"]
+    talend:
+      variants: ["Talend"]
+    informatica:
+      variants: ["Informatica PowerCenter", "Informatica Cloud"]
+      note: >
+        Bare "Informatica" was dropped after checking every match in the
+        2026-09-17 pull: 39 hits, 38 in Italy + 1 in Belgium, and every
+        sampled context was the Italian/Dutch word for "Computer Science"/IT
+        ("Laurea in Informatica", "Gielle Informatica Srl") — 0 genuine ETL
+        vendor mentions found. Scoped to unambiguous multi-word product
+        names instead; this will under-count real Informatica-the-tool
+        mentions that don't happen to include "PowerCenter" or "Cloud", but
+        that's a safer failure mode than the false-positive rate bare
+        "Informatica" had.
+    ssis:
+      variants: ["SSIS", "SQL Server Integration Services"]
+    nifi:
+      variants: ["NiFi", "Apache NiFi"]
+
+  warehouses_cloud:
+    aws:
+      variants: ["AWS", "Amazon Web Services"]
+    azure:
+      variants: ["Azure", "Microsoft Azure"]
+    gcp:
+      variants: ["GCP", "Google Cloud Platform", "Google Cloud"]
+    snowflake:
+      variants: ["Snowflake"]
+    bigquery:
+      variants: ["BigQuery", "Big Query"]
+    redshift:
+      variants: ["Redshift", "Amazon Redshift"]
+    databricks:
+      variants: ["Databricks"]
+    synapse:
+      variants: ["Synapse", "Azure Synapse"]
+
+  ml_stats:
+    machine_learning:
+      variants: ["Machine Learning", "ML"]
+      note: >
+        "ML" alone is a risky short acronym. Consider requiring the full
+        phrase, or only counting "ML" when another ml_stats/data_engineering
+        term also matches in the same posting, once this is wired in.
+    deep_learning:
+      variants: ["Deep Learning"]
+    scikit_learn:
+      variants: ["scikit-learn", "scikit learn", "sklearn"]
+    tensorflow:
+      variants: ["TensorFlow"]
+    pytorch:
+      variants: ["PyTorch"]
+    keras:
+      variants: ["Keras"]
+    nlp:
+      variants: ["NLP", "Natural Language Processing"]
+      note: "Short acronym; lower collision risk than 'ML' but still worth a spot-check."
+    statistics:
+      variants: ["Statistics", "Statistical Analysis"]
+    spss:
+      variants: ["SPSS"]
+    xgboost:
+      variants: ["XGBoost", "XG Boost"]
+
+  other_tools:
+    excel:
+      variants: ["Excel", "Microsoft Excel"]
+    git:
+      variants: ["Git"]
+    github:
+      variants: ["GitHub"]
+    gitlab:
+      variants: ["GitLab"]
+    docker:
+      variants: ["Docker"]
+    kubernetes:
+      variants: ["Kubernetes", "K8s"]
+    jira:
+      variants: ["Jira"]
+    confluence:
+      variants: ["Confluence"]
+    sap:
+      variants: ["SAP"]
+    salesforce:
+      variants: ["Salesforce"]
+    alteryx:
+      variants: ["Alteryx"]
+    powerpoint:
+      variants: ["PowerPoint", "Microsoft PowerPoint"]

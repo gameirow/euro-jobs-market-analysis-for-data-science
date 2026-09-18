@@ -1,0 +1,107 @@
+version: 2
+
+models:
+  - name: stg_eures__ch
+    description: "Switzerland. {{ doc('daily_snapshot_grain') }}"
+    columns: &common_columns
+      - name: posting_snapshot_key
+        description: "{{ doc('posting_snapshot_key') }}"
+        tests:
+          - unique
+          - not_null
+      - name: posting_id
+        description: >
+          EURES's own vacancy id (base64-ish string) — unlike Adzuna's
+          numeric id, kept as varchar since it is not numeric.
+        tests:
+          - not_null
+      - name: country_code
+        description: "{{ doc('country_code') }}"
+        tests:
+          - not_null
+      - name: snapshot_date
+        description: "{{ doc('snapshot_date') }}"
+        tests:
+          - not_null
+      - name: job_title
+        description: "{{ doc('job_title') }}"
+        tests:
+          - not_null
+      - name: description_text
+        description: >
+          Full EURES posting text, not a truncated snippet — verified
+          2026-09-18 lengths range ~900-8,300 chars (mean ~3,660) with no
+          hard cap found, unlike Adzuna's fixed 500-char description.
+      - name: posted_at
+        description: "{{ doc('posted_at') }}"
+      - name: last_modified_at
+        description: EURES-specific — no Adzuna equivalent.
+      - name: number_of_posts
+        description: Number of openings this single vacancy represents. EURES-specific.
+      - name: location_nuts_codes
+        description: >
+          Pipe-delimited NUTS region codes. Not the same taxonomy as Adzuna's
+          human-readable location_area_path — kept under its own name rather
+          than forced into that column.
+      - name: eures_flag
+        description: EURES-specific flag on the posting. No Adzuna equivalent.
+      - name: occupation_codes
+        description: >
+          Pipe-delimited ESCO occupation URIs. Not the same taxonomy as
+          Adzuna's category_label/category_tag — kept under its own name.
+      - name: contract_time
+        description: "{{ doc('contract_time') }}"
+      - name: contract_type
+        description: "{{ doc('contract_type') }}"
+      - name: company_name
+        description: "{{ doc('company_name') }}"
+      - name: employer_website
+        description: EURES-specific — no Adzuna equivalent.
+      - name: employer_sector_codes
+        description: EURES-specific — no Adzuna equivalent.
+      - name: available_languages
+        description: EURES-specific — no Adzuna equivalent.
+      - name: translation_type
+        description: EURES-specific ingest metadata — no Adzuna equivalent.
+      - name: matched_role_queries
+        description: "{{ doc('matched_role_queries') }}"
+
+  - name: stg_eures__de
+    description: "Germany. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns
+
+  - name: stg_eures__fr
+    description: "France. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns
+
+  - name: stg_eures__it
+    description: "Italy. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns
+
+  - name: stg_eures__es
+    description: "Spain. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns
+
+  - name: stg_eures__nl
+    description: "Netherlands. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns
+
+  - name: stg_eures__be
+    description: "Belgium. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns
+
+  - name: stg_eures__pl
+    description: "Poland. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns
+
+  - name: stg_eures__pt
+    description: "Portugal. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns
+
+  - name: stg_eures__dk
+    description: "Denmark. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns
+
+  - name: stg_eures__at
+    description: "Austria. {{ doc('daily_snapshot_grain') }}"
+    columns: *common_columns

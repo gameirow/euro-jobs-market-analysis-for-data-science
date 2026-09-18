@@ -1,0 +1,7 @@
+euro_data_jobs:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../warehouse.duckdb
+      threads: 4

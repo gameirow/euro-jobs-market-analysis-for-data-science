@@ -1,0 +1,10 @@
+.env
+*.duckdb
+node_modules/
+__pycache__/
+.venv/
+dbt/dbt_packages/
+dbt/target/
+dbt/logs/
+dbt/.user.yml
+.claude/scheduled_tasks.lock

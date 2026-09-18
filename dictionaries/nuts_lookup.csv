@@ -1,0 +1,2262 @@
+nuts_id,nuts_level,country_code,name_latn,name_national,source_version
+AL,0,al,Shqipëria,Shqipëria,2024
+AL0,1,al,Shqipëria,Shqipëria,2024
+AL01,2,al,Veri,Veri,2024
+AL011,3,al,Dibër,Dibër,2024
+AL012,3,al,Durrës,Durrës,2024
+AL013,3,al,Kukës,Kukës,2024
+AL014,3,al,Lezhë,Lezhë,2024
+AL015,3,al,Shkodër,Shkodër,2024
+AL02,2,al,Qender,Qender,2024
+AL021,3,al,Elbasan,Elbasan,2024
+AL022,3,al,Tiranë,Tiranë,2024
+AL03,2,al,Jug,Jug,2024
+AL031,3,al,Berat,Berat,2024
+AL032,3,al,Fier,Fier,2024
+AL033,3,al,Gjirokastër,Gjirokastër,2024
+AL034,3,al,Korcë,Korcë,2024
+AL035,3,al,Vlorë,Vlorë,2024
+AT,0,at,Österreich,Österreich,2024
+AT1,1,at,Ostösterreich,Ostösterreich,2024
+AT11,2,at,Burgenland,Burgenland,2024
+AT111,3,at,Mittelburgenland,Mittelburgenland,2024
+AT112,3,at,Nordburgenland,Nordburgenland,2024
+AT113,3,at,Südburgenland,Südburgenland,2024
+AT12,2,at,Niederösterreich,Niederösterreich,2024
+AT121,3,at,Mostviertel-Eisenwurzen,Mostviertel-Eisenwurzen,2024
+AT122,3,at,Niederösterreich-Süd,Niederösterreich-Süd,2024
+AT123,3,at,Sankt Pölten,Sankt Pölten,2024
+AT124,3,at,Waldviertel,Waldviertel,2024
+AT125,3,at,Weinviertel,Weinviertel,2024
+AT126,3,at,Wiener Umland/Nordteil,Wiener Umland/Nordteil,2024
+AT127,3,at,Wiener Umland/Südteil,Wiener Umland/Südteil,2024
+AT13,2,at,Wien,Wien,2024
+AT130,3,at,Wien,Wien,2024
+AT2,1,at,Südösterreich,Südösterreich,2024
+AT21,2,at,Kärnten,Kärnten,2024
+AT211,3,at,Klagenfurt-Villach,Klagenfurt-Villach,2024
+AT212,3,at,Oberkärnten,Oberkärnten,2024
+AT213,3,at,Unterkärnten,Unterkärnten,2024
+AT22,2,at,Steiermark,Steiermark,2024
+AT221,3,at,Graz,Graz,2024
+AT222,3,at,Liezen,Liezen,2024
+AT223,3,at,Östliche Obersteiermark,Östliche Obersteiermark,2024
+AT224,3,at,Oststeiermark,Oststeiermark,2024
+AT225,3,at,West- und Südsteiermark,West- und Südsteiermark,2024
+AT226,3,at,Westliche Obersteiermark,Westliche Obersteiermark,2024
+AT3,1,at,Westösterreich,Westösterreich,2024
+AT31,2,at,Oberösterreich,Oberösterreich,2024
+AT311,3,at,Innviertel,Innviertel,2024
+AT312,3,at,Linz-Wels,Linz-Wels,2024
+AT313,3,at,Mühlviertel,Mühlviertel,2024
+AT314,3,at,Steyr-Kirchdorf,Steyr-Kirchdorf,2024
+AT315,3,at,Traunviertel,Traunviertel,2024
+AT32,2,at,Salzburg,Salzburg,2024
+AT321,3,at,Lungau,Lungau,2024
+AT322,3,at,Pinzgau-Pongau,Pinzgau-Pongau,2024
+AT323,3,at,Salzburg und Umgebung,Salzburg und Umgebung,2024
+AT33,2,at,Tirol,Tirol,2024
+AT331,3,at,Außerfern,Außerfern,2024
+AT332,3,at,Innsbruck,Innsbruck,2024
+AT333,3,at,Osttirol,Osttirol,2024
+AT334,3,at,Tiroler Oberland,Tiroler Oberland,2024
+AT335,3,at,Tiroler Unterland,Tiroler Unterland,2024
+AT34,2,at,Vorarlberg,Vorarlberg,2024
+AT341,3,at,Bludenz-Bregenzer Wald,Bludenz-Bregenzer Wald,2024
+AT342,3,at,Rheintal-Bodenseegebiet,Rheintal-Bodenseegebiet,2024
+BA,0,ba,Bosna I Hercegovina,Bosna I Hercegovina,2024
+BA0,1,ba,Bosna I Hercegovina,Bosna I Hercegovina,2024
+BA01,2,ba,Federacija Bosne i Hercegovine,Federacija Bosne i Hercegovine,2024
+BA02,2,ba,Republika Srpska,Republika Srpska,2024
+BA03,2,ba,Brčko District BiH,Brčko District BiH,2024
+BE,0,be,Belgique/België,Belgique/België,2024
+BE1,1,be,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest,2024
+BE10,2,be,Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest,Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest,2024
+BE100,3,be,Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad,Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad,2024
+BE2,1,be,Vlaams Gewest,Vlaams Gewest,2024
+BE21,2,be,Prov. Antwerpen,Prov. Antwerpen,2024
+BE211,3,be,Arr. Antwerpen,Arr. Antwerpen,2024
+BE212,3,be,Arr. Mechelen,Arr. Mechelen,2024
+BE213,3,be,Arr. Turnhout,Arr. Turnhout,2024
+BE22,2,be,Prov. Limburg (BE),Prov. Limburg (BE),2024
+BE223,3,be,Arr. Tongeren,Arr. Tongeren,2024
+BE224,3,be,Arr. Hasselt,Arr. Hasselt,2024
+BE225,3,be,Arr. Maaseik,Arr. Maaseik,2024
+BE23,2,be,Prov. Oost-Vlaanderen,Prov. Oost-Vlaanderen,2024
+BE231,3,be,Arr. Aalst,Arr. Aalst,2024
+BE232,3,be,Arr. Dendermonde,Arr. Dendermonde,2024
+BE233,3,be,Arr. Eeklo,Arr. Eeklo,2024
+BE234,3,be,Arr. Gent,Arr. Gent,2024
+BE235,3,be,Arr. Oudenaarde,Arr. Oudenaarde,2024
+BE236,3,be,Arr. Sint-Niklaas,Arr. Sint-Niklaas,2024
+BE24,2,be,Prov. Vlaams-Brabant,Prov. Vlaams-Brabant,2024
+BE241,3,be,Arr. Halle-Vilvoorde,Arr. Halle-Vilvoorde,2024
+BE242,3,be,Arr. Leuven,Arr. Leuven,2024
+BE25,2,be,Prov. West-Vlaanderen,Prov. West-Vlaanderen,2024
+BE251,3,be,Arr. Brugge,Arr. Brugge,2024
+BE252,3,be,Arr. Diksmuide,Arr. Diksmuide,2024
+BE253,3,be,Arr. Ieper,Arr. Ieper,2024
+BE254,3,be,Arr. Kortrijk,Arr. Kortrijk,2024
+BE255,3,be,Arr. Oostende,Arr. Oostende,2024
+BE256,3,be,Arr. Roeselare,Arr. Roeselare,2024
+BE257,3,be,Arr. Tielt,Arr. Tielt,2024
+BE258,3,be,Arr. Veurne,Arr. Veurne,2024
+BE3,1,be,Région wallonne,Région wallonne,2024
+BE31,2,be,Prov. Brabant wallon,Prov. Brabant wallon,2024
+BE310,3,be,Arr. Nivelles,Arr. Nivelles,2024
+BE32,2,be,Prov. Hainaut,Prov. Hainaut,2024
+BE323,3,be,Arr. Mons,Arr. Mons,2024
+BE328,3,be,Arr. Tournai-Mouscron,Arr. Tournai-Mouscron,2024
+BE329,3,be,Arr. La Louvière,Arr. La Louvière,2024
+BE32A,3,be,Arr. Ath,Arr. Ath,2024
+BE32B,3,be,Arr. Charleroi,Arr. Charleroi,2024
+BE32C,3,be,Arr. Soignies,Arr. Soignies,2024
+BE32D,3,be,Arr. Thuin,Arr. Thuin,2024
+BE33,2,be,Prov. Liège,Prov. Liège,2024
+BE331,3,be,Arr. Huy,Arr. Huy,2024
+BE332,3,be,Arr. Liège,Arr. Liège,2024
+BE334,3,be,Arr. Waremme,Arr. Waremme,2024
+BE335,3,be,Arr. Verviers — communes francophones,Arr. Verviers — communes francophones,2024
+BE336,3,be,Bezirk Verviers — Deutschsprachige Gemeinschaft,Bezirk Verviers — Deutschsprachige Gemeinschaft,2024
+BE34,2,be,Prov. Luxembourg (BE),Prov. Luxembourg (BE),2024
+BE341,3,be,Arr. Arlon,Arr. Arlon,2024
+BE342,3,be,Arr. Bastogne,Arr. Bastogne,2024
+BE343,3,be,Arr. Marche-en-Famenne,Arr. Marche-en-Famenne,2024
+BE344,3,be,Arr. Neufchâteau,Arr. Neufchâteau,2024
+BE345,3,be,Arr. Virton,Arr. Virton,2024
+BE35,2,be,Prov. Namur,Prov. Namur,2024
+BE351,3,be,Arr. Dinant,Arr. Dinant,2024
+BE352,3,be,Arr. Namur,Arr. Namur,2024
+BE353,3,be,Arr. Philippeville,Arr. Philippeville,2024
+BG,0,bg,Bulgaria,България,2024
+BG3,1,bg,Severna i Yugoiztochna Bulgaria,Северна и Югоизточна България,2024
+BG31,2,bg,Severozapaden,Северозападен,2024
+BG311,3,bg,Vidin,Видин,2024
+BG312,3,bg,Montana,Монтана,2024
+BG313,3,bg,Vratsa,Враца,2024
+BG314,3,bg,Pleven,Плевен,2024
+BG315,3,bg,Lovech,Ловеч,2024
+BG32,2,bg,Severen tsentralen,Северен централен,2024
+BG321,3,bg,Veliko Tarnovo,Велико Търново,2024
+BG322,3,bg,Gabrovo,Габрово,2024
+BG323,3,bg,Ruse,Русе,2024
+BG324,3,bg,Razgrad,Разград,2024
+BG325,3,bg,Silistra,Силистра,2024
+BG33,2,bg,Severoiztochen,Североизточен,2024
+BG331,3,bg,Varna,Варна,2024
+BG332,3,bg,Dobrich,Добрич,2024
+BG333,3,bg,Shumen,Шумен,2024
+BG334,3,bg,Targovishte,Търговище,2024
+BG34,2,bg,Yugoiztochen,Югоизточен,2024
+BG341,3,bg,Burgas,Бургас,2024
+BG342,3,bg,Sliven,Сливен,2024
+BG343,3,bg,Yambol,Ямбол,2024
+BG344,3,bg,Stara Zagora,Стара Загора,2024
+BG4,1,bg,Yugozapadna i Yuzhna tsentralna Bulgaria,Югозападна и Южна централна България,2024
+BG41,2,bg,Yugozapaden,Югозападен,2024
+BG411,3,bg,Sofia (stolitsa),София (столица),2024
+BG412,3,bg,Sofia,София,2024
+BG413,3,bg,Blagoevgrad,Благоевград,2024
+BG414,3,bg,Pernik,Перник,2024
+BG415,3,bg,Kyustendil,Кюстендил,2024
+BG42,2,bg,Yuzhen tsentralen,Южен централен,2024
+BG421,3,bg,Plovdiv,Пловдив,2024
+BG422,3,bg,Haskovo,Хасково,2024
+BG423,3,bg,Pazardzhik,Пазарджик,2024
+BG424,3,bg,Smolyan,Смолян,2024
+BG425,3,bg,Kardzhali,Кърджали,2024
+CH,0,ch,Schweiz/Suisse/Svizzera,Schweiz/Suisse/Svizzera,2024
+CH0,1,ch,Schweiz/Suisse/Svizzera,Schweiz/Suisse/Svizzera,2024
+CH01,2,ch,Région lémanique,Région lémanique,2024
+CH011,3,ch,Vaud,Vaud,2024
+CH012,3,ch,Valais / Wallis,Valais / Wallis,2024
+CH013,3,ch,Genève,Genève,2024
+CH02,2,ch,Espace Mittelland,Espace Mittelland,2024
+CH021,3,ch,Bern / Berne,Bern / Berne,2024
+CH022,3,ch,Fribourg / Freiburg,Fribourg / Freiburg,2024
+CH023,3,ch,Solothurn,Solothurn,2024
+CH024,3,ch,Neuchâtel,Neuchâtel,2024
+CH025,3,ch,Jura,Jura,2024
+CH03,2,ch,Nordwestschweiz,Nordwestschweiz,2024
+CH031,3,ch,Basel-Stadt,Basel-Stadt,2024
+CH032,3,ch,Basel-Landschaft,Basel-Landschaft,2024
+CH033,3,ch,Aargau,Aargau,2024
+CH04,2,ch,Zürich,Zürich,2024
+CH040,3,ch,Zürich,Zürich,2024
+CH05,2,ch,Ostschweiz,Ostschweiz,2024
+CH051,3,ch,Glarus,Glarus,2024
+CH052,3,ch,Schaffhausen,Schaffhausen,2024
+CH053,3,ch,Appenzell Ausserrhoden,Appenzell Ausserrhoden,2024
+CH054,3,ch,Appenzell Innerrhoden,Appenzell Innerrhoden,2024
+CH055,3,ch,St. Gallen,St. Gallen,2024
+CH056,3,ch,Graubünden / Grigioni / Grischun,Graubünden / Grigioni / Grischun,2024
+CH057,3,ch,Thurgau,Thurgau,2024
+CH06,2,ch,Zentralschweiz,Zentralschweiz,2024
+CH061,3,ch,Luzern,Luzern,2024
+CH062,3,ch,Uri,Uri,2024
+CH063,3,ch,Schwyz,Schwyz,2024
+CH064,3,ch,Obwalden,Obwalden,2024
+CH065,3,ch,Nidwalden,Nidwalden,2024
+CH066,3,ch,Zug,Zug,2024
+CH07,2,ch,Ticino,Ticino,2024
+CH070,3,ch,Ticino,Ticino,2024
+CY,0,cy,Kýpros,Κύπρος,2024
+CY0,1,cy,Kýpros,Κύπρος,2024
+CY00,2,cy,Kýpros,Κύπρος,2024
+CY000,3,cy,Kýpros,Κύπρος,2024
+CZ,0,cz,Česko,Česko,2024
+CZ0,1,cz,Česko,Česko,2024
+CZ01,2,cz,Praha,Praha,2024
+CZ010,3,cz,Hlavní město Praha,Hlavní město Praha,2024
+CZ02,2,cz,Střední Čechy,Střední Čechy,2024
+CZ020,3,cz,Středočeský kraj,Středočeský kraj,2024
+CZ03,2,cz,Jihozápad,Jihozápad,2024
+CZ031,3,cz,Jihočeský kraj,Jihočeský kraj,2024
+CZ032,3,cz,Plzeňský kraj,Plzeňský kraj,2024
+CZ04,2,cz,Severozápad,Severozápad,2024
+CZ041,3,cz,Karlovarský kraj,Karlovarský kraj,2024
+CZ042,3,cz,Ústecký kraj,Ústecký kraj,2024
+CZ05,2,cz,Severovýchod,Severovýchod,2024
+CZ051,3,cz,Liberecký kraj,Liberecký kraj,2024
+CZ052,3,cz,Královéhradecký kraj,Královéhradecký kraj,2024
+CZ053,3,cz,Pardubický kraj,Pardubický kraj,2024
+CZ06,2,cz,Jihovýchod,Jihovýchod,2024
+CZ063,3,cz,Kraj Vysočina,Kraj Vysočina,2024
+CZ064,3,cz,Jihomoravský kraj,Jihomoravský kraj,2024
+CZ07,2,cz,Střední Morava,Střední Morava,2024
+CZ071,3,cz,Olomoucký kraj,Olomoucký kraj,2024
+CZ072,3,cz,Zlínský kraj,Zlínský kraj,2024
+CZ08,2,cz,Moravskoslezsko,Moravskoslezsko,2024
+CZ080,3,cz,Moravskoslezský kraj,Moravskoslezský kraj,2024
+DE,0,de,Deutschland,Deutschland,2024
+DE1,1,de,Baden-Württemberg,Baden-Württemberg,2024
+DE11,2,de,Stuttgart,Stuttgart,2024
+DE111,3,de,"Stuttgart, Stadtkreis","Stuttgart, Stadtkreis",2024
+DE112,3,de,Böblingen,Böblingen,2024
+DE113,3,de,Esslingen,Esslingen,2024
+DE114,3,de,Göppingen,Göppingen,2024
+DE115,3,de,Ludwigsburg,Ludwigsburg,2024
+DE116,3,de,Rems-Murr-Kreis,Rems-Murr-Kreis,2024
+DE117,3,de,"Heilbronn, Stadtkreis","Heilbronn, Stadtkreis",2024
+DE118,3,de,"Heilbronn, Landkreis","Heilbronn, Landkreis",2024
+DE119,3,de,Hohenlohekreis,Hohenlohekreis,2024
+DE11A,3,de,Schwäbisch Hall,Schwäbisch Hall,2024
+DE11B,3,de,Main-Tauber-Kreis,Main-Tauber-Kreis,2024
+DE11C,3,de,Heidenheim,Heidenheim,2024
+DE11D,3,de,Ostalbkreis,Ostalbkreis,2024
+DE12,2,de,Karlsruhe,Karlsruhe,2024
+DE121,3,de,"Baden-Baden, Stadtkreis","Baden-Baden, Stadtkreis",2024
+DE122,3,de,"Karlsruhe, Stadtkreis","Karlsruhe, Stadtkreis",2024
+DE123,3,de,"Karlsruhe, Landkreis","Karlsruhe, Landkreis",2024
+DE124,3,de,Rastatt,Rastatt,2024
+DE125,3,de,"Heidelberg, Stadtkreis","Heidelberg, Stadtkreis",2024
+DE126,3,de,"Mannheim, Stadtkreis","Mannheim, Stadtkreis",2024
+DE127,3,de,Neckar-Odenwald-Kreis,Neckar-Odenwald-Kreis,2024
+DE128,3,de,Rhein-Neckar-Kreis,Rhein-Neckar-Kreis,2024
+DE129,3,de,"Pforzheim, Stadtkreis","Pforzheim, Stadtkreis",2024
+DE12A,3,de,Calw,Calw,2024
+DE12B,3,de,Enzkreis,Enzkreis,2024
+DE12C,3,de,Freudenstadt,Freudenstadt,2024
+DE13,2,de,Freiburg,Freiburg,2024
+DE131,3,de,"Freiburg im Breisgau, Stadtkreis","Freiburg im Breisgau, Stadtkreis",2024
+DE132,3,de,Breisgau-Hochschwarzwald,Breisgau-Hochschwarzwald,2024
+DE133,3,de,Emmendingen,Emmendingen,2024
+DE134,3,de,Ortenaukreis,Ortenaukreis,2024
+DE135,3,de,Rottweil,Rottweil,2024
+DE136,3,de,Schwarzwald-Baar-Kreis,Schwarzwald-Baar-Kreis,2024
+DE137,3,de,Tuttlingen,Tuttlingen,2024
+DE138,3,de,Konstanz,Konstanz,2024
+DE139,3,de,Lörrach,Lörrach,2024
+DE13A,3,de,Waldshut,Waldshut,2024
+DE14,2,de,Tübingen,Tübingen,2024
+DE141,3,de,Reutlingen,Reutlingen,2024
+DE142,3,de,"Tübingen, Landkreis","Tübingen, Landkreis",2024
+DE143,3,de,Zollernalbkreis,Zollernalbkreis,2024
+DE144,3,de,"Ulm, Stadtkreis","Ulm, Stadtkreis",2024
+DE145,3,de,Alb-Donau-Kreis,Alb-Donau-Kreis,2024
+DE146,3,de,Biberach,Biberach,2024
+DE147,3,de,Bodenseekreis,Bodenseekreis,2024
+DE148,3,de,Ravensburg,Ravensburg,2024
+DE149,3,de,Sigmaringen,Sigmaringen,2024
+DE2,1,de,Bayern,Bayern,2024
+DE21,2,de,Oberbayern,Oberbayern,2024
+DE211,3,de,"Ingolstadt, Kreisfreie Stadt","Ingolstadt, Kreisfreie Stadt",2024
+DE212,3,de,"München, Kreisfreie Stadt","München, Kreisfreie Stadt",2024
+DE213,3,de,"Rosenheim, Kreisfreie Stadt","Rosenheim, Kreisfreie Stadt",2024
+DE214,3,de,Altötting,Altötting,2024
+DE215,3,de,Berchtesgadener Land,Berchtesgadener Land,2024
+DE216,3,de,Bad Tölz-Wolfratshausen,Bad Tölz-Wolfratshausen,2024
+DE217,3,de,Dachau,Dachau,2024
+DE218,3,de,Ebersberg,Ebersberg,2024
+DE219,3,de,Eichstätt,Eichstätt,2024
+DE21A,3,de,Erding,Erding,2024
+DE21B,3,de,Freising,Freising,2024
+DE21C,3,de,Fürstenfeldbruck,Fürstenfeldbruck,2024
+DE21D,3,de,Garmisch-Partenkirchen,Garmisch-Partenkirchen,2024
+DE21E,3,de,Landsberg am Lech,Landsberg am Lech,2024
+DE21F,3,de,Miesbach,Miesbach,2024
+DE21G,3,de,Mühldorf a. Inn,Mühldorf a. Inn,2024
+DE21H,3,de,"München, Landkreis","München, Landkreis",2024
+DE21I,3,de,Neuburg-Schrobenhausen,Neuburg-Schrobenhausen,2024
+DE21J,3,de,Pfaffenhofen a. d. Ilm,Pfaffenhofen a. d. Ilm,2024
+DE21K,3,de,"Rosenheim, Landkreis","Rosenheim, Landkreis",2024
+DE21L,3,de,Starnberg,Starnberg,2024
+DE21M,3,de,Traunstein,Traunstein,2024
+DE21N,3,de,Weilheim-Schongau,Weilheim-Schongau,2024
+DE22,2,de,Niederbayern,Niederbayern,2024
+DE221,3,de,"Landshut, Kreisfreie Stadt","Landshut, Kreisfreie Stadt",2024
+DE222,3,de,"Passau, Kreisfreie Stadt","Passau, Kreisfreie Stadt",2024
+DE223,3,de,"Straubing, Kreisfreie Stadt","Straubing, Kreisfreie Stadt",2024
+DE224,3,de,Deggendorf,Deggendorf,2024
+DE225,3,de,Freyung-Grafenau,Freyung-Grafenau,2024
+DE226,3,de,Kelheim,Kelheim,2024
+DE227,3,de,"Landshut, Landkreis","Landshut, Landkreis",2024
+DE228,3,de,"Passau, Landkreis","Passau, Landkreis",2024
+DE229,3,de,Regen,Regen,2024
+DE22A,3,de,Rottal-Inn,Rottal-Inn,2024
+DE22B,3,de,Straubing-Bogen,Straubing-Bogen,2024
+DE22C,3,de,Dingolfing-Landau,Dingolfing-Landau,2024
+DE23,2,de,Oberpfalz,Oberpfalz,2024
+DE231,3,de,"Amberg, Kreisfreie Stadt","Amberg, Kreisfreie Stadt",2024
+DE232,3,de,"Regensburg, Kreisfreie Stadt","Regensburg, Kreisfreie Stadt",2024
+DE233,3,de,"Weiden i. d. Opf, Kreisfreie Stadt","Weiden i. d. Opf, Kreisfreie Stadt",2024
+DE234,3,de,Amberg-Sulzbach,Amberg-Sulzbach,2024
+DE235,3,de,Cham,Cham,2024
+DE236,3,de,Neumarkt i. d. OPf.,Neumarkt i. d. OPf.,2024
+DE237,3,de,Neustadt a. d. Waldnaab,Neustadt a. d. Waldnaab,2024
+DE238,3,de,"Regensburg, Landkreis","Regensburg, Landkreis",2024
+DE239,3,de,Schwandorf,Schwandorf,2024
+DE23A,3,de,Tirschenreuth,Tirschenreuth,2024
+DE24,2,de,Oberfranken,Oberfranken,2024
+DE241,3,de,"Bamberg, Kreisfreie Stadt","Bamberg, Kreisfreie Stadt",2024
+DE242,3,de,"Bayreuth, Kreisfreie Stadt","Bayreuth, Kreisfreie Stadt",2024
+DE243,3,de,"Coburg, Kreisfreie Stadt","Coburg, Kreisfreie Stadt",2024
+DE244,3,de,"Hof, Kreisfreie Stadt","Hof, Kreisfreie Stadt",2024
+DE245,3,de,"Bamberg, Landkreis","Bamberg, Landkreis",2024
+DE246,3,de,"Bayreuth, Landkreis","Bayreuth, Landkreis",2024
+DE247,3,de,"Coburg, Landkreis","Coburg, Landkreis",2024
+DE248,3,de,Forchheim,Forchheim,2024
+DE249,3,de,"Hof, Landkreis","Hof, Landkreis",2024
+DE24A,3,de,Kronach,Kronach,2024
+DE24B,3,de,Kulmbach,Kulmbach,2024
+DE24C,3,de,Lichtenfels,Lichtenfels,2024
+DE24D,3,de,Wunsiedel i. Fichtelgebirge,Wunsiedel i. Fichtelgebirge,2024
+DE25,2,de,Mittelfranken,Mittelfranken,2024
+DE251,3,de,"Ansbach, Kreisfreie Stadt","Ansbach, Kreisfreie Stadt",2024
+DE252,3,de,"Erlangen, Kreisfreie Stadt","Erlangen, Kreisfreie Stadt",2024
+DE253,3,de,"Fürth, Kreisfreie Stadt","Fürth, Kreisfreie Stadt",2024
+DE254,3,de,"Nürnberg, Kreisfreie Stadt","Nürnberg, Kreisfreie Stadt",2024
+DE255,3,de,"Schwabach, Kreisfreie Stadt","Schwabach, Kreisfreie Stadt",2024
+DE256,3,de,"Ansbach, Landkreis","Ansbach, Landkreis",2024
+DE257,3,de,Erlangen-Höchstadt,Erlangen-Höchstadt,2024
+DE258,3,de,"Fürth, Landkreis","Fürth, Landkreis",2024
+DE259,3,de,Nürnberger Land,Nürnberger Land,2024
+DE25A,3,de,Neustadt a. d. Aisch-Bad Windsheim,Neustadt a. d. Aisch-Bad Windsheim,2024
+DE25B,3,de,Roth,Roth,2024
+DE25C,3,de,Weißenburg-Gunzenhausen,Weißenburg-Gunzenhausen,2024
+DE26,2,de,Unterfranken,Unterfranken,2024
+DE261,3,de,"Aschaffenburg, Kreisfreie Stadt","Aschaffenburg, Kreisfreie Stadt",2024
+DE262,3,de,"Schweinfurt, Kreisfreie Stadt","Schweinfurt, Kreisfreie Stadt",2024
+DE263,3,de,"Würzburg, Kreisfreie Stadt","Würzburg, Kreisfreie Stadt",2024
+DE264,3,de,"Aschaffenburg, Landkreis","Aschaffenburg, Landkreis",2024
+DE265,3,de,Bad Kissingen,Bad Kissingen,2024
+DE266,3,de,Rhön-Grabfeld,Rhön-Grabfeld,2024
+DE267,3,de,Haßberge,Haßberge,2024
+DE268,3,de,Kitzingen,Kitzingen,2024
+DE269,3,de,Miltenberg,Miltenberg,2024
+DE26A,3,de,Main-Spessart,Main-Spessart,2024
+DE26B,3,de,"Schweinfurt, Landkreis","Schweinfurt, Landkreis",2024
+DE26C,3,de,"Würzburg, Landkreis","Würzburg, Landkreis",2024
+DE27,2,de,Schwaben,Schwaben,2024
+DE271,3,de,"Augsburg, Kreisfreie Stadt","Augsburg, Kreisfreie Stadt",2024
+DE272,3,de,"Kaufbeuren, Kreisfreie Stadt","Kaufbeuren, Kreisfreie Stadt",2024
+DE273,3,de,"Kempten (Allgäu), Kreisfreie Stadt","Kempten (Allgäu), Kreisfreie Stadt",2024
+DE274,3,de,"Memmingen, Kreisfreie Stadt","Memmingen, Kreisfreie Stadt",2024
+DE275,3,de,Aichach-Friedberg,Aichach-Friedberg,2024
+DE276,3,de,"Augsburg, Landkreis","Augsburg, Landkreis",2024
+DE277,3,de,Dillingen a.d. Donau,Dillingen a.d. Donau,2024
+DE278,3,de,Günzburg,Günzburg,2024
+DE279,3,de,Neu-Ulm,Neu-Ulm,2024
+DE27A,3,de,Lindau (Bodensee),Lindau (Bodensee),2024
+DE27B,3,de,Ostallgäu,Ostallgäu,2024
+DE27C,3,de,Unterallgäu,Unterallgäu,2024
+DE27D,3,de,Donau-Ries,Donau-Ries,2024
+DE27E,3,de,Oberallgäu,Oberallgäu,2024
+DE3,1,de,Berlin,Berlin,2024
+DE30,2,de,Berlin,Berlin,2024
+DE300,3,de,Berlin,Berlin,2024
+DE4,1,de,Brandenburg,Brandenburg,2024
+DE40,2,de,Brandenburg,Brandenburg,2024
+DE401,3,de,"Brandenburg an der Havel, Kreisfreie Stadt","Brandenburg an der Havel, Kreisfreie Stadt",2024
+DE402,3,de,"Cottbus, Kreisfreie Stadt","Cottbus, Kreisfreie Stadt",2024
+DE403,3,de,"Frankfurt (Oder), Kreisfreie Stadt","Frankfurt (Oder), Kreisfreie Stadt",2024
+DE404,3,de,"Potsdam, Kreisfreie Stadt","Potsdam, Kreisfreie Stadt",2024
+DE405,3,de,Barnim,Barnim,2024
+DE406,3,de,Dahme-Spreewald,Dahme-Spreewald,2024
+DE407,3,de,Elbe-Elster,Elbe-Elster,2024
+DE408,3,de,Havelland,Havelland,2024
+DE409,3,de,Märkisch-Oderland,Märkisch-Oderland,2024
+DE40A,3,de,Oberhavel,Oberhavel,2024
+DE40B,3,de,Oberspreewald-Lausitz,Oberspreewald-Lausitz,2024
+DE40C,3,de,Oder-Spree,Oder-Spree,2024
+DE40D,3,de,Ostprignitz-Ruppin,Ostprignitz-Ruppin,2024
+DE40E,3,de,Potsdam-Mittelmark,Potsdam-Mittelmark,2024
+DE40F,3,de,Prignitz,Prignitz,2024
+DE40G,3,de,Spree-Neiße,Spree-Neiße,2024
+DE40H,3,de,Teltow-Fläming,Teltow-Fläming,2024
+DE40I,3,de,Uckermark,Uckermark,2024
+DE5,1,de,Bremen,Bremen,2024
+DE50,2,de,Bremen,Bremen,2024
+DE501,3,de,"Bremen, Kreisfreie Stadt","Bremen, Kreisfreie Stadt",2024
+DE502,3,de,"Bremerhaven, Kreisfreie Stadt","Bremerhaven, Kreisfreie Stadt",2024
+DE6,1,de,Hamburg,Hamburg,2024
+DE60,2,de,Hamburg,Hamburg,2024
+DE600,3,de,Hamburg,Hamburg,2024
+DE7,1,de,Hessen,Hessen,2024
+DE71,2,de,Darmstadt,Darmstadt,2024
+DE711,3,de,"Darmstadt, Kreisfreie Stadt","Darmstadt, Kreisfreie Stadt",2024
+DE712,3,de,"Frankfurt am Main, Kreisfreie Stadt","Frankfurt am Main, Kreisfreie Stadt",2024
+DE713,3,de,"Offenbach am Main, Kreisfreie Stadt","Offenbach am Main, Kreisfreie Stadt",2024
+DE714,3,de,"Wiesbaden, Kreisfreie Stadt","Wiesbaden, Kreisfreie Stadt",2024
+DE715,3,de,Bergstraße,Bergstraße,2024
+DE716,3,de,Darmstadt-Dieburg,Darmstadt-Dieburg,2024
+DE717,3,de,Groß-Gerau,Groß-Gerau,2024
+DE718,3,de,Hochtaunuskreis,Hochtaunuskreis,2024
+DE719,3,de,Main-Kinzig-Kreis,Main-Kinzig-Kreis,2024
+DE71A,3,de,Main-Taunus-Kreis,Main-Taunus-Kreis,2024
+DE71B,3,de,Odenwaldkreis,Odenwaldkreis,2024
+DE71C,3,de,"Offenbach, Landkreis","Offenbach, Landkreis",2024
+DE71D,3,de,Rheingau-Taunus-Kreis,Rheingau-Taunus-Kreis,2024
+DE71E,3,de,Wetteraukreis,Wetteraukreis,2024
+DE72,2,de,Gießen,Gießen,2024
+DE721,3,de,"Gießen, Landkreis","Gießen, Landkreis",2024
+DE722,3,de,Lahn-Dill-Kreis,Lahn-Dill-Kreis,2024
+DE723,3,de,Limburg-Weilburg,Limburg-Weilburg,2024
+DE724,3,de,Marburg-Biedenkopf,Marburg-Biedenkopf,2024
+DE725,3,de,Vogelsbergkreis,Vogelsbergkreis,2024
+DE73,2,de,Kassel,Kassel,2024
+DE731,3,de,"Kassel, Kreisfreie Stadt","Kassel, Kreisfreie Stadt",2024
+DE732,3,de,Fulda,Fulda,2024
+DE733,3,de,Hersfeld-Rotenburg,Hersfeld-Rotenburg,2024
+DE734,3,de,"Kassel, Landkreis","Kassel, Landkreis",2024
+DE735,3,de,Schwalm-Eder-Kreis,Schwalm-Eder-Kreis,2024
+DE736,3,de,Waldeck-Frankenberg,Waldeck-Frankenberg,2024
+DE737,3,de,Werra-Meißner-Kreis,Werra-Meißner-Kreis,2024
+DE8,1,de,Mecklenburg-Vorpommern,Mecklenburg-Vorpommern,2024
+DE80,2,de,Mecklenburg-Vorpommern,Mecklenburg-Vorpommern,2024
+DE803,3,de,"Rostock, Kreisfreie Stadt","Rostock, Kreisfreie Stadt",2024
+DE804,3,de,"Schwerin, Kreisfreie Stadt","Schwerin, Kreisfreie Stadt",2024
+DE80J,3,de,Mecklenburgische Seenplatte,Mecklenburgische Seenplatte,2024
+DE80K,3,de,Landkreis Rostock,Landkreis Rostock,2024
+DE80L,3,de,Vorpommern-Rügen,Vorpommern-Rügen,2024
+DE80M,3,de,Nordwestmecklenburg,Nordwestmecklenburg,2024
+DE80N,3,de,Vorpommern-Greifswald,Vorpommern-Greifswald,2024
+DE80O,3,de,Ludwigslust-Parchim,Ludwigslust-Parchim,2024
+DE9,1,de,Niedersachsen,Niedersachsen,2024
+DE91,2,de,Braunschweig,Braunschweig,2024
+DE911,3,de,"Braunschweig, Kreisfreie Stadt","Braunschweig, Kreisfreie Stadt",2024
+DE912,3,de,"Salzgitter, Kreisfreie Stadt","Salzgitter, Kreisfreie Stadt",2024
+DE913,3,de,"Wolfsburg, Kreisfreie Stadt","Wolfsburg, Kreisfreie Stadt",2024
+DE914,3,de,Gifhorn,Gifhorn,2024
+DE916,3,de,Goslar,Goslar,2024
+DE917,3,de,Helmstedt,Helmstedt,2024
+DE918,3,de,Northeim,Northeim,2024
+DE91A,3,de,Peine,Peine,2024
+DE91B,3,de,Wolfenbüttel,Wolfenbüttel,2024
+DE91C,3,de,Göttingen,Göttingen,2024
+DE92,2,de,Hannover,Hannover,2024
+DE922,3,de,Diepholz,Diepholz,2024
+DE923,3,de,Hameln-Pyrmont,Hameln-Pyrmont,2024
+DE925,3,de,Hildesheim,Hildesheim,2024
+DE926,3,de,Holzminden,Holzminden,2024
+DE927,3,de,Nienburg (Weser),Nienburg (Weser),2024
+DE928,3,de,Schaumburg,Schaumburg,2024
+DE929,3,de,Region Hannover,Region Hannover,2024
+DE93,2,de,Lüneburg,Lüneburg,2024
+DE931,3,de,Celle,Celle,2024
+DE932,3,de,Cuxhaven,Cuxhaven,2024
+DE933,3,de,Harburg,Harburg,2024
+DE934,3,de,Lüchow-Dannenberg,Lüchow-Dannenberg,2024
+DE935,3,de,"Lüneburg, Landkreis","Lüneburg, Landkreis",2024
+DE936,3,de,Osterholz,Osterholz,2024
+DE937,3,de,Rotenburg (Wümme),Rotenburg (Wümme),2024
+DE938,3,de,Heidekreis,Heidekreis,2024
+DE939,3,de,Stade,Stade,2024
+DE93A,3,de,Uelzen,Uelzen,2024
+DE93B,3,de,Verden,Verden,2024
+DE94,2,de,Weser-Ems,Weser-Ems,2024
+DE941,3,de,"Delmenhorst, Kreisfreie Stadt","Delmenhorst, Kreisfreie Stadt",2024
+DE942,3,de,"Emden, Kreisfreie Stadt","Emden, Kreisfreie Stadt",2024
+DE943,3,de,"Oldenburg (Oldenburg), Kreisfreie Stadt","Oldenburg (Oldenburg), Kreisfreie Stadt",2024
+DE944,3,de,"Osnabrück, Kreisfreie Stadt","Osnabrück, Kreisfreie Stadt",2024
+DE945,3,de,"Wilhelmshaven, Kreisfreie Stadt","Wilhelmshaven, Kreisfreie Stadt",2024
+DE946,3,de,Ammerland,Ammerland,2024
+DE947,3,de,Aurich,Aurich,2024
+DE948,3,de,Cloppenburg,Cloppenburg,2024
+DE949,3,de,Emsland,Emsland,2024
+DE94A,3,de,Friesland (DE),Friesland (DE),2024
+DE94B,3,de,Grafschaft Bentheim,Grafschaft Bentheim,2024
+DE94C,3,de,Leer,Leer,2024
+DE94D,3,de,"Oldenburg, Landkreis","Oldenburg, Landkreis",2024
+DE94E,3,de,"Osnabrück, Landkreis","Osnabrück, Landkreis",2024
+DE94F,3,de,Vechta,Vechta,2024
+DE94G,3,de,Wesermarsch,Wesermarsch,2024
+DE94H,3,de,Wittmund,Wittmund,2024
+DEA,1,de,Nordrhein-Westfalen,Nordrhein-Westfalen,2024
+DEA1,2,de,Düsseldorf,Düsseldorf,2024
+DEA11,3,de,"Düsseldorf, Kreisfreie Stadt","Düsseldorf, Kreisfreie Stadt",2024
+DEA12,3,de,"Duisburg, Kreisfreie Stadt","Duisburg, Kreisfreie Stadt",2024
+DEA13,3,de,"Essen, Kreisfreie Stadt","Essen, Kreisfreie Stadt",2024
+DEA14,3,de,"Krefeld, Kreisfreie Stadt","Krefeld, Kreisfreie Stadt",2024
+DEA15,3,de,"Mönchengladbach, Kreisfreie Stadt","Mönchengladbach, Kreisfreie Stadt",2024
+DEA16,3,de,"Mülheim an der Ruhr, Kreisfreie Stadt","Mülheim an der Ruhr, Kreisfreie Stadt",2024
+DEA17,3,de,"Oberhausen, Kreisfreie Stadt","Oberhausen, Kreisfreie Stadt",2024
+DEA18,3,de,"Remscheid, Kreisfreie Stadt","Remscheid, Kreisfreie Stadt",2024
+DEA19,3,de,"Solingen, Kreisfreie Stadt","Solingen, Kreisfreie Stadt",2024
+DEA1A,3,de,"Wuppertal, Kreisfreie Stadt","Wuppertal, Kreisfreie Stadt",2024
+DEA1B,3,de,Kleve,Kleve,2024
+DEA1C,3,de,Mettmann,Mettmann,2024
+DEA1D,3,de,Rhein-Kreis Neuss,Rhein-Kreis Neuss,2024
+DEA1E,3,de,Viersen,Viersen,2024
+DEA1F,3,de,Wesel,Wesel,2024
+DEA2,2,de,Köln,Köln,2024
+DEA22,3,de,"Bonn, Kreisfreie Stadt","Bonn, Kreisfreie Stadt",2024
+DEA23,3,de,"Köln, Kreisfreie Stadt","Köln, Kreisfreie Stadt",2024
+DEA24,3,de,"Leverkusen, Kreisfreie Stadt","Leverkusen, Kreisfreie Stadt",2024
+DEA26,3,de,Düren,Düren,2024
+DEA27,3,de,Rhein-Erft-Kreis,Rhein-Erft-Kreis,2024
+DEA28,3,de,Euskirchen,Euskirchen,2024
+DEA29,3,de,Heinsberg,Heinsberg,2024
+DEA2A,3,de,Oberbergischer Kreis,Oberbergischer Kreis,2024
+DEA2B,3,de,Rheinisch-Bergischer Kreis,Rheinisch-Bergischer Kreis,2024
+DEA2C,3,de,Rhein-Sieg-Kreis,Rhein-Sieg-Kreis,2024
+DEA2D,3,de,Städteregion Aachen,Städteregion Aachen,2024
+DEA3,2,de,Münster,Münster,2024
+DEA31,3,de,"Bottrop, Kreisfreie Stadt","Bottrop, Kreisfreie Stadt",2024
+DEA32,3,de,"Gelsenkirchen, Kreisfreie Stadt","Gelsenkirchen, Kreisfreie Stadt",2024
+DEA33,3,de,"Münster, Kreisfreie Stadt","Münster, Kreisfreie Stadt",2024
+DEA34,3,de,Borken,Borken,2024
+DEA35,3,de,Coesfeld,Coesfeld,2024
+DEA36,3,de,Recklinghausen,Recklinghausen,2024
+DEA37,3,de,Steinfurt,Steinfurt,2024
+DEA38,3,de,Warendorf,Warendorf,2024
+DEA4,2,de,Detmold,Detmold,2024
+DEA41,3,de,"Bielefeld, Kreisfreie Stadt","Bielefeld, Kreisfreie Stadt",2024
+DEA42,3,de,Gütersloh,Gütersloh,2024
+DEA43,3,de,Herford,Herford,2024
+DEA44,3,de,Höxter,Höxter,2024
+DEA45,3,de,Lippe,Lippe,2024
+DEA46,3,de,Minden-Lübbecke,Minden-Lübbecke,2024
+DEA47,3,de,Paderborn,Paderborn,2024
+DEA5,2,de,Arnsberg,Arnsberg,2024
+DEA51,3,de,"Bochum, Kreisfreie Stadt","Bochum, Kreisfreie Stadt",2024
+DEA52,3,de,"Dortmund, Kreisfreie Stadt","Dortmund, Kreisfreie Stadt",2024
+DEA53,3,de,"Hagen, Kreisfreie Stadt","Hagen, Kreisfreie Stadt",2024
+DEA54,3,de,"Hamm, Kreisfreie Stadt","Hamm, Kreisfreie Stadt",2024
+DEA55,3,de,"Herne, Kreisfreie Stadt","Herne, Kreisfreie Stadt",2024
+DEA56,3,de,Ennepe-Ruhr-Kreis,Ennepe-Ruhr-Kreis,2024
+DEA57,3,de,Hochsauerlandkreis,Hochsauerlandkreis,2024
+DEA58,3,de,Märkischer Kreis,Märkischer Kreis,2024
+DEA59,3,de,Olpe,Olpe,2024
+DEA5A,3,de,Siegen-Wittgenstein,Siegen-Wittgenstein,2024
+DEA5B,3,de,Soest,Soest,2024
+DEA5C,3,de,Unna,Unna,2024
+DEB,1,de,Rheinland-Pfalz,Rheinland-Pfalz,2024
+DEB1,2,de,Koblenz,Koblenz,2024
+DEB11,3,de,"Koblenz, Kreisfreie Stadt","Koblenz, Kreisfreie Stadt",2024
+DEB12,3,de,Ahrweiler,Ahrweiler,2024
+DEB13,3,de,Altenkirchen (Westerwald),Altenkirchen (Westerwald),2024
+DEB14,3,de,Bad Kreuznach,Bad Kreuznach,2024
+DEB15,3,de,Birkenfeld,Birkenfeld,2024
+DEB17,3,de,Mayen-Koblenz,Mayen-Koblenz,2024
+DEB18,3,de,Neuwied,Neuwied,2024
+DEB1A,3,de,Rhein-Lahn-Kreis,Rhein-Lahn-Kreis,2024
+DEB1B,3,de,Westerwaldkreis,Westerwaldkreis,2024
+DEB1C,3,de,Cochem-Zell,Cochem-Zell,2024
+DEB1D,3,de,Rhein-Hunsrück-Kreis,Rhein-Hunsrück-Kreis,2024
+DEB2,2,de,Trier,Trier,2024
+DEB21,3,de,"Trier, Kreisfreie Stadt","Trier, Kreisfreie Stadt",2024
+DEB22,3,de,Bernkastel-Wittlich,Bernkastel-Wittlich,2024
+DEB23,3,de,Eifelkreis Bitburg-Prüm,Eifelkreis Bitburg-Prüm,2024
+DEB24,3,de,Vulkaneifel,Vulkaneifel,2024
+DEB25,3,de,Trier-Saarburg,Trier-Saarburg,2024
+DEB3,2,de,Rheinhessen-Pfalz,Rheinhessen-Pfalz,2024
+DEB31,3,de,"Frankenthal (Pfalz), Kreisfreie Stadt","Frankenthal (Pfalz), Kreisfreie Stadt",2024
+DEB32,3,de,"Kaiserslautern, Kreisfreie Stadt","Kaiserslautern, Kreisfreie Stadt",2024
+DEB33,3,de,"Landau in der Pfalz, Kreisfreie Stadt","Landau in der Pfalz, Kreisfreie Stadt",2024
+DEB34,3,de,"Ludwigshafen am Rhein, Kreisfreie Stadt","Ludwigshafen am Rhein, Kreisfreie Stadt",2024
+DEB35,3,de,"Mainz, Kreisfreie Stadt","Mainz, Kreisfreie Stadt",2024
+DEB36,3,de,"Neustadt an der Weinstraße, Kreisfreie Stadt","Neustadt an der Weinstraße, Kreisfreie Stadt",2024
+DEB37,3,de,"Pirmasens, Kreisfreie Stadt","Pirmasens, Kreisfreie Stadt",2024
+DEB38,3,de,"Speyer, Kreisfreie Stadt","Speyer, Kreisfreie Stadt",2024
+DEB39,3,de,"Worms, Kreisfreie Stadt","Worms, Kreisfreie Stadt",2024
+DEB3A,3,de,"Zweibrücken, Kreisfreie Stadt","Zweibrücken, Kreisfreie Stadt",2024
+DEB3B,3,de,Alzey-Worms,Alzey-Worms,2024
+DEB3C,3,de,Bad Dürkheim,Bad Dürkheim,2024
+DEB3D,3,de,Donnersbergkreis,Donnersbergkreis,2024
+DEB3E,3,de,Germersheim,Germersheim,2024
+DEB3F,3,de,"Kaiserslautern, Landkreis","Kaiserslautern, Landkreis",2024
+DEB3G,3,de,Kusel,Kusel,2024
+DEB3H,3,de,Südliche Weinstraße,Südliche Weinstraße,2024
+DEB3I,3,de,Rhein-Pfalz-Kreis,Rhein-Pfalz-Kreis,2024
+DEB3J,3,de,Mainz-Bingen,Mainz-Bingen,2024
+DEB3K,3,de,Südwestpfalz,Südwestpfalz,2024
+DEC,1,de,Saarland,Saarland,2024
+DEC0,2,de,Saarland,Saarland,2024
+DEC01,3,de,Regionalverband Saarbrücken,Regionalverband Saarbrücken,2024
+DEC02,3,de,Merzig-Wadern,Merzig-Wadern,2024
+DEC03,3,de,Neunkirchen,Neunkirchen,2024
+DEC04,3,de,Saarlouis,Saarlouis,2024
+DEC05,3,de,Saarpfalz-Kreis,Saarpfalz-Kreis,2024
+DEC06,3,de,St. Wendel,St. Wendel,2024
+DED,1,de,Sachsen,Sachsen,2024
+DED2,2,de,Dresden,Dresden,2024
+DED21,3,de,"Dresden, Kreisfreie Stadt","Dresden, Kreisfreie Stadt",2024
+DED2C,3,de,Bautzen,Bautzen,2024
+DED2D,3,de,Görlitz,Görlitz,2024
+DED2E,3,de,Meißen,Meißen,2024
+DED2F,3,de,Sächsische Schweiz-Osterzgebirge,Sächsische Schweiz-Osterzgebirge,2024
+DED4,2,de,Chemnitz,Chemnitz,2024
+DED41,3,de,"Chemnitz, Kreisfreie Stadt","Chemnitz, Kreisfreie Stadt",2024
+DED42,3,de,Erzgebirgskreis,Erzgebirgskreis,2024
+DED43,3,de,Mittelsachsen,Mittelsachsen,2024
+DED44,3,de,Vogtlandkreis,Vogtlandkreis,2024
+DED45,3,de,Zwickau,Zwickau,2024
+DED5,2,de,Leipzig,Leipzig,2024
+DED51,3,de,"Leipzig, Kreisfreie Stadt","Leipzig, Kreisfreie Stadt",2024
+DED52,3,de,Leipzig,Leipzig,2024
+DED53,3,de,Nordsachsen,Nordsachsen,2024
+DEE,1,de,Sachsen-Anhalt,Sachsen-Anhalt,2024
+DEE0,2,de,Sachsen-Anhalt,Sachsen-Anhalt,2024
+DEE01,3,de,"Dessau-Roßlau, Kreisfreie Stadt","Dessau-Roßlau, Kreisfreie Stadt",2024
+DEE02,3,de,"Halle (Saale), Kreisfreie Stadt","Halle (Saale), Kreisfreie Stadt",2024
+DEE03,3,de,"Magdeburg, Kreisfreie Stadt","Magdeburg, Kreisfreie Stadt",2024
+DEE04,3,de,Altmarkkreis Salzwedel,Altmarkkreis Salzwedel,2024
+DEE05,3,de,Anhalt-Bitterfeld,Anhalt-Bitterfeld,2024
+DEE06,3,de,Jerichower Land,Jerichower Land,2024
+DEE07,3,de,Börde,Börde,2024
+DEE08,3,de,Burgenlandkreis,Burgenlandkreis,2024
+DEE09,3,de,Harz,Harz,2024
+DEE0A,3,de,Mansfeld-Südharz,Mansfeld-Südharz,2024
+DEE0B,3,de,Saalekreis,Saalekreis,2024
+DEE0C,3,de,Salzlandkreis,Salzlandkreis,2024
+DEE0D,3,de,Stendal,Stendal,2024
+DEE0E,3,de,Wittenberg,Wittenberg,2024
+DEF,1,de,Schleswig-Holstein,Schleswig-Holstein,2024
+DEF0,2,de,Schleswig-Holstein,Schleswig-Holstein,2024
+DEF01,3,de,"Flensburg, Kreisfreie Stadt","Flensburg, Kreisfreie Stadt",2024
+DEF02,3,de,"Kiel, Kreisfreie Stadt","Kiel, Kreisfreie Stadt",2024
+DEF03,3,de,"Lübeck, Kreisfreie Stadt","Lübeck, Kreisfreie Stadt",2024
+DEF04,3,de,"Neumünster, Kreisfreie Stadt","Neumünster, Kreisfreie Stadt",2024
+DEF05,3,de,Dithmarschen,Dithmarschen,2024
+DEF06,3,de,Herzogtum Lauenburg,Herzogtum Lauenburg,2024
+DEF07,3,de,Nordfriesland,Nordfriesland,2024
+DEF08,3,de,Ostholstein,Ostholstein,2024
+DEF09,3,de,Pinneberg,Pinneberg,2024
+DEF0A,3,de,Plön,Plön,2024
+DEF0B,3,de,Rendsburg-Eckernförde,Rendsburg-Eckernförde,2024
+DEF0C,3,de,Schleswig-Flensburg,Schleswig-Flensburg,2024
+DEF0D,3,de,Segeberg,Segeberg,2024
+DEF0E,3,de,Steinburg,Steinburg,2024
+DEF0F,3,de,Stormarn,Stormarn,2024
+DEG,1,de,Thüringen,Thüringen,2024
+DEG0,2,de,Thüringen,Thüringen,2024
+DEG01,3,de,"Erfurt, Kreisfreie Stadt","Erfurt, Kreisfreie Stadt",2024
+DEG02,3,de,"Gera, Kreisfreie Stadt","Gera, Kreisfreie Stadt",2024
+DEG03,3,de,"Jena, Kreisfreie Stadt","Jena, Kreisfreie Stadt",2024
+DEG04,3,de,"Suhl, Kreisfreie Stadt","Suhl, Kreisfreie Stadt",2021
+DEG05,3,de,"Weimar, Kreisfreie Stadt","Weimar, Kreisfreie Stadt",2024
+DEG06,3,de,Eichsfeld,Eichsfeld,2024
+DEG07,3,de,Nordhausen,Nordhausen,2024
+DEG09,3,de,Unstrut-Hainich-Kreis,Unstrut-Hainich-Kreis,2024
+DEG0A,3,de,Kyffhäuserkreis,Kyffhäuserkreis,2024
+DEG0B,3,de,Schmalkalden-Meiningen,Schmalkalden-Meiningen,2021
+DEG0C,3,de,Gotha,Gotha,2024
+DEG0D,3,de,Sömmerda,Sömmerda,2024
+DEG0E,3,de,Hildburghausen,Hildburghausen,2024
+DEG0F,3,de,Ilm-Kreis,Ilm-Kreis,2021
+DEG0G,3,de,Weimarer Land,Weimarer Land,2024
+DEG0H,3,de,Sonneberg,Sonneberg,2021
+DEG0I,3,de,Saalfeld-Rudolstadt,Saalfeld-Rudolstadt,2021
+DEG0J,3,de,Saale-Holzland-Kreis,Saale-Holzland-Kreis,2024
+DEG0K,3,de,Saale-Orla-Kreis,Saale-Orla-Kreis,2024
+DEG0L,3,de,Greiz,Greiz,2024
+DEG0M,3,de,Altenburger Land,Altenburger Land,2024
+DEG0N,3,de,"Eisenach, Kreisfreie Stadt","Eisenach, Kreisfreie Stadt",2021
+DEG0P,3,de,Wartburgkreis,Wartburgkreis,2021
+DEG0Q,3,de,Schmalkalden-Meiningen,Schmalkalden-Meiningen,2024
+DEG0R,3,de,Wartburgkreis,Wartburgkreis,2024
+DEG0S,3,de,"Suhl, Kreisfreie Stadt","Suhl, Kreisfreie Stadt",2024
+DEG0T,3,de,Ilm-Kreis,Ilm-Kreis,2024
+DEG0U,3,de,Saalfeld-Rudolstadt,Saalfeld-Rudolstadt,2024
+DEG0V,3,de,Sonneberg,Sonneberg,2024
+DK,0,dk,Danmark,Danmark,2024
+DK0,1,dk,Danmark,Danmark,2024
+DK01,2,dk,Hovedstaden,Hovedstaden,2024
+DK011,3,dk,Byen København,Byen København,2024
+DK012,3,dk,Københavns omegn,Københavns omegn,2024
+DK013,3,dk,Nordsjælland,Nordsjælland,2024
+DK014,3,dk,Bornholm,Bornholm,2024
+DK02,2,dk,Sjælland,Sjælland,2024
+DK021,3,dk,Østsjælland,Østsjælland,2024
+DK022,3,dk,Vest- og Sydsjælland,Vest- og Sydsjælland,2024
+DK03,2,dk,Syddanmark,Syddanmark,2024
+DK031,3,dk,Fyn,Fyn,2024
+DK032,3,dk,Sydjylland,Sydjylland,2024
+DK04,2,dk,Midtjylland,Midtjylland,2024
+DK041,3,dk,Vestjylland,Vestjylland,2024
+DK042,3,dk,Østjylland,Østjylland,2024
+DK05,2,dk,Nordjylland,Nordjylland,2024
+DK050,3,dk,Nordjylland,Nordjylland,2024
+EE,0,ee,Eesti,Eesti,2024
+EE0,1,ee,Eesti,Eesti,2024
+EE00,2,ee,Eesti,Eesti,2024
+EE001,3,ee,Põhja-Eesti,Põhja-Eesti,2024
+EE004,3,ee,Lääne-Eesti,Lääne-Eesti,2024
+EE008,3,ee,Lõuna-Eesti,Lõuna-Eesti,2024
+EE009,3,ee,Kesk-Eesti,Kesk-Eesti,2024
+EE00A,3,ee,Kirde-Eesti,Kirde-Eesti,2024
+EL,0,el,Elláda,Ελλάδα,2024
+EL3,1,el,Attiki,Αττική,2024
+EL30,2,el,Attiki,Aττική,2024
+EL301,3,el,Voreios Tomeas Athinon,Βόρειος Τομέας Αθηνών,2024
+EL302,3,el,Dytikos Tomeas Athinon,Δυτικός Τομέας Αθηνών,2024
+EL303,3,el,Kentrikos Tomeas Athinon,Κεντρικός Τομέας Αθηνών,2024
+EL304,3,el,Notios Tomeas Athinon,Νότιος Τομέας Αθηνών,2024
+EL305,3,el,Anatoliki Attiki,Ανατολική Αττική,2024
+EL306,3,el,Dytiki Attiki,Δυτική Αττική,2024
+EL307,3,el,"Peiraias, Nisoi","Πειραιάς, Νήσοι",2024
+EL4,1,el,"Nisia Aigaiou, Kriti","Νησιά Αιγαίου, Κρήτη",2024
+EL41,2,el,Voreio Aigaio,Βόρειο Αιγαίο,2024
+EL411,3,el,"Lesvos, Limnos","Λέσβος, Λήμνος",2024
+EL412,3,el,"Ikaria, Samos","Ικαρία, Σάμος",2024
+EL413,3,el,Chios,Χίος,2024
+EL42,2,el,Notio Aigaio,Νότιο Αιγαίο,2024
+EL421,3,el,"Kalymnos, Karpathos, Kasos, Kos, Rodos","Κάλυμνος, Κάρπαθος – Ηρωική Νήσος Κάσος, Κως, Ρόδος",2024
+EL422,3,el,"Andros, Thira, Kea - Kythnos, Milos, Mykonos, Naxos, Paros,  Syros, Tinos","Άνδρος, Θήρα, Κέα - Κύθνος, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος",2024
+EL43,2,el,Kriti,Κρήτη,2024
+EL431,3,el,Irakleio,Ηράκλειο,2024
+EL432,3,el,Lasithi,Λασίθι,2024
+EL433,3,el,Rethymni,Ρέθυμνο,2024
+EL434,3,el,Chania,Χανιά,2024
+EL5,1,el,Voreia Elláda,Βόρεια Ελλάδα,2024
+EL51,2,el,"Anatoliki Makedonia, Thraki","Aνατολική Μακεδονία, Θράκη",2024
+EL511,3,el,Evros,Έβρος,2024
+EL512,3,el,Xanthi,Ξάνθη,2024
+EL513,3,el,Rodopi,Ροδόπη,2024
+EL514,3,el,Drama,Δράμα,2024
+EL515,3,el,"Thasos, Kavala","Θάσος, Καβάλα",2024
+EL52,2,el,Kentriki Makedonia,Κεντρική Μακεδονία,2024
+EL521,3,el,Imathia,Ημαθία,2024
+EL522,3,el,Thessaloniki,Θεσσαλονίκη,2024
+EL523,3,el,Kilkis,Κιλκίς,2024
+EL524,3,el,Pella,Πέλλα,2024
+EL525,3,el,Pieria,Πιερία,2024
+EL526,3,el,Serres,Σέρρες,2024
+EL527,3,el,Chalkidiki,Χαλκιδική,2024
+EL53,2,el,Dytiki Makedonia,Δυτική Μακεδονία,2024
+EL531,3,el,"Grevena, Kozani","Γρεβενά, Κοζάνη",2024
+EL532,3,el,Kastoria,Καστοριά,2024
+EL533,3,el,Florina,Φλώρινα,2024
+EL54,2,el,Ipeiros,Ήπειρος,2024
+EL541,3,el,"Arta, Preveza","Άρτα, Πρέβεζα",2024
+EL542,3,el,Thesprotia,Θεσπρωτία,2024
+EL543,3,el,Ioannina,Ιωάννινα,2024
+EL6,1,el,Kentriki Elláda,Κεντρική Ελλάδα,2024
+EL61,2,el,Thessalia,Θεσσαλία,2024
+EL611,3,el,"Karditsa, Trikala","Καρδίτσα, Τρίκαλα",2024
+EL612,3,el,Larisa,Λάρισα,2024
+EL613,3,el,"Magnisia, Sporades","Μαγνησία, Σποράδες",2024
+EL62,2,el,Ionia Nisia,Ιόνια Νησιά,2024
+EL621,3,el,Zakynthos,Ζάκυνθος,2024
+EL622,3,el,Kerkyra,Κέρκυρα,2024
+EL623,3,el,"Ithaki, Kefallinia","Ιθάκη, Κεφαλληνία",2024
+EL624,3,el,Lefkada,Λευκάδα,2024
+EL63,2,el,Dytiki Elláda,Δυτική Ελλάδα,2024
+EL631,3,el,Aitoloakarnania,Αιτωλοακαρνανία,2024
+EL632,3,el,Achaia,Αχαΐα,2024
+EL633,3,el,Ileia,Ηλεία,2024
+EL64,2,el,Sterea Elláda,Στερεά Ελλάδα,2024
+EL641,3,el,Voiotia,Βοιωτία,2024
+EL642,3,el,Evvoia,Εύβοια,2024
+EL643,3,el,Evrytania,Ευρυτανία,2024
+EL644,3,el,Fthiotida,Φθιώτιδα,2024
+EL645,3,el,Fokida,Φωκίδα,2024
+EL65,2,el,Peloponnisos,Πελοπόννησος,2024
+EL651,3,el,"Argolida, Arkadia","Αργολίδα, Αρκαδία",2024
+EL652,3,el,Korinthia,Κορινθία,2024
+EL653,3,el,"Lakonia, Messinia","Λακωνία, Μεσσηνία",2024
+ES,0,es,España,España,2024
+ES1,1,es,Noroeste,Noroeste,2024
+ES11,2,es,Galicia,Galicia,2024
+ES111,3,es,A Coruña,A Coruña,2024
+ES112,3,es,Lugo,Lugo,2024
+ES113,3,es,Ourense,Ourense,2024
+ES114,3,es,Pontevedra,Pontevedra,2024
+ES12,2,es,Principado de Asturias,Principado de Asturias,2024
+ES120,3,es,Asturias,Asturias,2024
+ES13,2,es,Cantabria,Cantabria,2024
+ES130,3,es,Cantabria,Cantabria,2024
+ES2,1,es,Noreste,Noreste,2024
+ES21,2,es,País Vasco,País Vasco,2024
+ES211,3,es,Araba/Álava,Araba/Álava,2024
+ES212,3,es,Gipuzkoa,Gipuzkoa,2024
+ES213,3,es,Bizkaia,Bizkaia,2024
+ES22,2,es,Comunidad Foral de Navarra,Comunidad Foral de Navarra,2024
+ES220,3,es,Navarra,Navarra,2024
+ES23,2,es,La Rioja,La Rioja,2024
+ES230,3,es,La Rioja,La Rioja,2024
+ES24,2,es,Aragón,Aragón,2024
+ES241,3,es,Huesca,Huesca,2024
+ES242,3,es,Teruel,Teruel,2024
+ES243,3,es,Zaragoza,Zaragoza,2024
+ES3,1,es,Comunidad de Madrid,Comunidad de Madrid,2024
+ES30,2,es,Comunidad de Madrid,Comunidad de Madrid,2024
+ES300,3,es,Madrid,Madrid,2024
+ES4,1,es,Centro (ES),Centro (ES),2024
+ES41,2,es,Castilla y León,Castilla y León,2024
+ES411,3,es,Ávila,Ávila,2024
+ES412,3,es,Burgos,Burgos,2024
+ES413,3,es,León,León,2024
+ES414,3,es,Palencia,Palencia,2024
+ES415,3,es,Salamanca,Salamanca,2024
+ES416,3,es,Segovia,Segovia,2024
+ES417,3,es,Soria,Soria,2024
+ES418,3,es,Valladolid,Valladolid,2024
+ES419,3,es,Zamora,Zamora,2024
+ES42,2,es,Castilla-La Mancha,Castilla-La Mancha,2024
+ES421,3,es,Albacete,Albacete,2024
+ES422,3,es,Ciudad Real,Ciudad Real,2024
+ES423,3,es,Cuenca,Cuenca,2024
+ES424,3,es,Guadalajara,Guadalajara,2024
+ES425,3,es,Toledo,Toledo,2024
+ES43,2,es,Extremadura,Extremadura,2024
+ES431,3,es,Badajoz,Badajoz,2024
+ES432,3,es,Cáceres,Cáceres,2024
+ES5,1,es,Este,Este,2024
+ES51,2,es,Cataluña,Cataluña,2024
+ES511,3,es,Barcelona,Barcelona,2024
+ES512,3,es,Girona,Girona,2024
+ES513,3,es,Lleida,Lleida,2024
+ES514,3,es,Tarragona,Tarragona,2024
+ES52,2,es,Comunitat Valenciana,Comunitat Valenciana,2024
+ES521,3,es,Alicante/Alacant,Alicante/Alacant,2024
+ES522,3,es,Castellón/Castelló,Castellón/Castelló,2024
+ES523,3,es,Valencia/València,Valencia/València,2024
+ES53,2,es,Illes Balears,Illes Balears,2024
+ES531,3,es,Eivissa y Formentera,Eivissa y Formentera,2024
+ES532,3,es,Mallorca,Mallorca,2024
+ES533,3,es,Menorca,Menorca,2024
+ES6,1,es,Sur,Sur,2024
+ES61,2,es,Andalucía,Andalucía,2024
+ES611,3,es,Almería,Almería,2024
+ES612,3,es,Cádiz,Cádiz,2024
+ES613,3,es,Córdoba,Córdoba,2024
+ES614,3,es,Granada,Granada,2024
+ES615,3,es,Huelva,Huelva,2024
+ES616,3,es,Jaén,Jaén,2024
+ES617,3,es,Málaga,Málaga,2024
+ES618,3,es,Sevilla,Sevilla,2024
+ES62,2,es,Región de Murcia,Región de Murcia,2024
+ES620,3,es,Murcia,Murcia,2024
+ES63,2,es,Ciudad de Ceuta,Ciudad de Ceuta,2024
+ES630,3,es,Ceuta,Ceuta,2024
+ES64,2,es,Ciudad de Melilla,Ciudad de Melilla,2024
+ES640,3,es,Melilla,Melilla,2024
+ES7,1,es,Canarias,Canarias,2024
+ES70,2,es,Canarias,Canarias,2024
+ES703,3,es,El Hierro,El Hierro,2024
+ES704,3,es,Fuerteventura,Fuerteventura,2024
+ES705,3,es,Gran Canaria,Gran Canaria,2024
+ES706,3,es,La Gomera,La Gomera,2024
+ES707,3,es,La Palma,La Palma,2024
+ES708,3,es,Lanzarote,Lanzarote,2024
+ES709,3,es,Tenerife,Tenerife,2024
+FI,0,fi,Suomi/Finland,Suomi/Finland,2024
+FI1,1,fi,Manner-Suomi,Manner-Suomi,2024
+FI19,2,fi,Länsi-Suomi,Länsi-Suomi,2024
+FI193,3,fi,Keski-Suomi,Keski-Suomi,2021
+FI194,3,fi,Etelä-Pohjanmaa,Etelä-Pohjanmaa,2021
+FI195,3,fi,Pohjanmaa,Pohjanmaa,2021
+FI196,3,fi,Satakunta,Satakunta,2024
+FI197,3,fi,Pirkanmaa,Pirkanmaa,2021
+FI198,3,fi,Keski-Suomi,Keski-Suomi,2024
+FI199,3,fi,Etelä-Pohjanmaa,Etelä-Pohjanmaa,2024
+FI19A,3,fi,Pohjanmaa,Pohjanmaa,2024
+FI19B,3,fi,Pirkanmaa,Pirkanmaa,2024
+FI1B,2,fi,Helsinki-Uusimaa,Helsinki-Uusimaa,2024
+FI1B1,3,fi,Helsinki-Uusimaa,Helsinki-Uusimaa,2024
+FI1C,2,fi,Etelä-Suomi,Etelä-Suomi,2024
+FI1C1,3,fi,Varsinais-Suomi,Varsinais-Suomi,2024
+FI1C2,3,fi,Kanta-Häme,Kanta-Häme,2024
+FI1C3,3,fi,Päijät-Häme,Päijät-Häme,2021
+FI1C4,3,fi,Kymenlaakso,Kymenlaakso,2021
+FI1C5,3,fi,Etelä-Karjala,Etelä-Karjala,2024
+FI1C6,3,fi,Päijät-Häme,Päijät-Häme,2024
+FI1C7,3,fi,Kymenlaakso,Kymenlaakso,2024
+FI1D,2,fi,Pohjois- ja Itä-Suomi,Pohjois- ja Itä-Suomi,2024
+FI1D1,3,fi,Etelä-Savo,Etelä-Savo,2021
+FI1D2,3,fi,Pohjois-Savo,Pohjois-Savo,2021
+FI1D3,3,fi,Pohjois-Karjala,Pohjois-Karjala,2021
+FI1D5,3,fi,Keski-Pohjanmaa,Keski-Pohjanmaa,2024
+FI1D7,3,fi,Lappi,Lappi,2024
+FI1D8,3,fi,Kainuu,Kainuu,2024
+FI1D9,3,fi,Pohjois-Pohjanmaa,Pohjois-Pohjanmaa,2024
+FI1DA,3,fi,Etelä-Savo,Etelä-Savo,2024
+FI1DB,3,fi,Pohjois-Savo,Pohjois-Savo,2024
+FI1DC,3,fi,Pohjois-Karjala,Pohjois-Karjala,2024
+FI2,1,fi,Åland,Åland,2024
+FI20,2,fi,Åland,Åland,2024
+FI200,3,fi,Åland,Åland,2024
+FR,0,fr,France,France,2024
+FR1,1,fr,Ile-de-France,Ile-de-France,2024
+FR10,2,fr,Ile-de-France,Ile-de-France,2024
+FR101,3,fr,Paris,Paris,2024
+FR102,3,fr,Seine-et-Marne,Seine-et-Marne,2024
+FR103,3,fr,Yvelines,Yvelines,2024
+FR104,3,fr,Essonne,Essonne,2024
+FR105,3,fr,Hauts-de-Seine,Hauts-de-Seine,2024
+FR106,3,fr,Seine-Saint-Denis,Seine-Saint-Denis,2024
+FR107,3,fr,Val-de-Marne,Val-de-Marne,2024
+FR108,3,fr,Val-d’Oise,Val-d’Oise,2024
+FRB,1,fr,Centre — Val de Loire,Centre — Val de Loire,2024
+FRB0,2,fr,Centre — Val de Loire,Centre — Val de Loire,2024
+FRB01,3,fr,Cher,Cher,2024
+FRB02,3,fr,Eure-et-Loir,Eure-et-Loir,2024
+FRB03,3,fr,Indre,Indre,2024
+FRB04,3,fr,Indre-et-Loire,Indre-et-Loire,2024
+FRB05,3,fr,Loir-et-Cher,Loir-et-Cher,2024
+FRB06,3,fr,Loiret,Loiret,2024
+FRC,1,fr,Bourgogne-Franche-Comté,Bourgogne-Franche-Comté,2024
+FRC1,2,fr,Bourgogne,Bourgogne,2024
+FRC11,3,fr,Côte-d’Or,Côte-d’Or,2024
+FRC12,3,fr,Nièvre,Nièvre,2024
+FRC13,3,fr,Saône-et-Loire,Saône-et-Loire,2024
+FRC14,3,fr,Yonne,Yonne,2024
+FRC2,2,fr,Franche-Comté,Franche-Comté,2024
+FRC21,3,fr,Doubs,Doubs,2024
+FRC22,3,fr,Jura,Jura,2024
+FRC23,3,fr,Haute-Saône,Haute-Saône,2024
+FRC24,3,fr,Territoire de Belfort,Territoire de Belfort,2024
+FRD,1,fr,Normandie,Normandie,2024
+FRD1,2,fr,Basse-Normandie,Basse-Normandie,2024
+FRD11,3,fr,Calvados,Calvados,2024
+FRD12,3,fr,Manche,Manche,2024
+FRD13,3,fr,Orne,Orne,2024
+FRD2,2,fr,Haute-Normandie,Haute-Normandie,2024
+FRD21,3,fr,Eure,Eure,2024
+FRD22,3,fr,Seine-Maritime,Seine-Maritime,2024
+FRE,1,fr,Hauts-de-France,Hauts-de-France,2024
+FRE1,2,fr,Nord-Pas de Calais,Nord-Pas de Calais,2024
+FRE11,3,fr,Nord,Nord,2024
+FRE12,3,fr,Pas-de-Calais,Pas-de-Calais,2024
+FRE2,2,fr,Picardie,Picardie,2024
+FRE21,3,fr,Aisne,Aisne,2024
+FRE22,3,fr,Oise,Oise,2024
+FRE23,3,fr,Somme,Somme,2024
+FRF,1,fr,Grand Est,Grand Est,2024
+FRF1,2,fr,Alsace,Alsace,2024
+FRF11,3,fr,Bas-Rhin,Bas-Rhin,2024
+FRF12,3,fr,Haut-Rhin,Haut-Rhin,2024
+FRF2,2,fr,Champagne-Ardenne,Champagne-Ardenne,2024
+FRF21,3,fr,Ardennes,Ardennes,2024
+FRF22,3,fr,Aube,Aube,2024
+FRF23,3,fr,Marne,Marne,2024
+FRF24,3,fr,Haute-Marne,Haute-Marne,2024
+FRF3,2,fr,Lorraine,Lorraine,2024
+FRF31,3,fr,Meurthe-et-Moselle,Meurthe-et-Moselle,2024
+FRF32,3,fr,Meuse,Meuse,2024
+FRF33,3,fr,Moselle,Moselle,2024
+FRF34,3,fr,Vosges,Vosges,2024
+FRG,1,fr,Pays de la Loire,Pays de la Loire,2024
+FRG0,2,fr,Pays de la Loire,Pays de la Loire,2024
+FRG01,3,fr,Loire-Atlantique,Loire-Atlantique,2024
+FRG02,3,fr,Maine-et-Loire,Maine-et-Loire,2024
+FRG03,3,fr,Mayenne,Mayenne,2024
+FRG04,3,fr,Sarthe,Sarthe,2024
+FRG05,3,fr,Vendée,Vendée,2024
+FRH,1,fr,Bretagne,Bretagne,2024
+FRH0,2,fr,Bretagne,Bretagne,2024
+FRH01,3,fr,Côtes-d’Armor,Côtes-d’Armor,2024
+FRH02,3,fr,Finistère,Finistère,2024
+FRH03,3,fr,Ille-et-Vilaine,Ille-et-Vilaine,2024
+FRH04,3,fr,Morbihan,Morbihan,2024
+FRI,1,fr,Nouvelle-Aquitaine,Nouvelle-Aquitaine,2024
+FRI1,2,fr,Aquitaine,Aquitaine,2024
+FRI11,3,fr,Dordogne,Dordogne,2024
+FRI12,3,fr,Gironde,Gironde,2024
+FRI13,3,fr,Landes,Landes,2024
+FRI14,3,fr,Lot-et-Garonne,Lot-et-Garonne,2024
+FRI15,3,fr,Pyrénées-Atlantiques,Pyrénées-Atlantiques,2024
+FRI2,2,fr,Limousin,Limousin,2024
+FRI21,3,fr,Corrèze,Corrèze,2024
+FRI22,3,fr,Creuse,Creuse,2024
+FRI23,3,fr,Haute-Vienne,Haute-Vienne,2024
+FRI3,2,fr,Poitou-Charentes,Poitou-Charentes,2024
+FRI31,3,fr,Charente,Charente,2024
+FRI32,3,fr,Charente-Maritime,Charente-Maritime,2024
+FRI33,3,fr,Deux-Sèvres,Deux-Sèvres,2024
+FRI34,3,fr,Vienne,Vienne,2024
+FRJ,1,fr,Occitanie,Occitanie,2024
+FRJ1,2,fr,Languedoc-Roussillon,Languedoc-Roussillon,2024
+FRJ11,3,fr,Aude,Aude,2024
+FRJ12,3,fr,Gard,Gard,2024
+FRJ13,3,fr,Hérault,Hérault,2024
+FRJ14,3,fr,Lozère,Lozère,2024
+FRJ15,3,fr,Pyrénées-Orientales,Pyrénées-Orientales,2024
+FRJ2,2,fr,Midi-Pyrénées,Midi-Pyrénées,2024
+FRJ21,3,fr,Ariège,Ariège,2024
+FRJ22,3,fr,Aveyron,Aveyron,2024
+FRJ23,3,fr,Haute-Garonne,Haute-Garonne,2024
+FRJ24,3,fr,Gers,Gers,2024
+FRJ25,3,fr,Lot,Lot,2024
+FRJ26,3,fr,Hautes-Pyrénées,Hautes-Pyrénées,2024
+FRJ27,3,fr,Tarn,Tarn,2024
+FRJ28,3,fr,Tarn-et-Garonne,Tarn-et-Garonne,2024
+FRK,1,fr,Auvergne-Rhône-Alpes,Auvergne-Rhône-Alpes,2024
+FRK1,2,fr,Auvergne,Auvergne,2024
+FRK11,3,fr,Allier,Allier,2024
+FRK12,3,fr,Cantal,Cantal,2024
+FRK13,3,fr,Haute-Loire,Haute-Loire,2024
+FRK14,3,fr,Puy-de-Dôme,Puy-de-Dôme,2024
+FRK2,2,fr,Rhône-Alpes,Rhône-Alpes,2024
+FRK21,3,fr,Ain,Ain,2024
+FRK22,3,fr,Ardèche,Ardèche,2024
+FRK23,3,fr,Drôme,Drôme,2024
+FRK24,3,fr,Isère,Isère,2024
+FRK25,3,fr,Loire,Loire,2024
+FRK26,3,fr,Rhône,Rhône,2024
+FRK27,3,fr,Savoie,Savoie,2024
+FRK28,3,fr,Haute-Savoie,Haute-Savoie,2024
+FRL,1,fr,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,2024
+FRL0,2,fr,Provence-Alpes-Côte d’Azur,Provence-Alpes-Côte d’Azur,2024
+FRL01,3,fr,Alpes-de-Haute-Provence,Alpes-de-Haute-Provence,2024
+FRL02,3,fr,Hautes-Alpes,Hautes-Alpes,2024
+FRL03,3,fr,Alpes-Maritimes,Alpes-Maritimes,2024
+FRL04,3,fr,Bouches-du-Rhône,Bouches-du-Rhône,2024
+FRL05,3,fr,Var,Var,2024
+FRL06,3,fr,Vaucluse,Vaucluse,2024
+FRM,1,fr,Corse,Corse,2024
+FRM0,2,fr,Corse,Corse,2024
+FRM01,3,fr,Corse-du-Sud,Corse-du-Sud,2024
+FRM02,3,fr,Haute-Corse,Haute-Corse,2024
+FRY,1,fr,RUP FR — Régions Ultrapériphériques Françaises,RUP FR — Régions Ultrapériphériques Françaises,2024
+FRY1,2,fr,Guadeloupe,Guadeloupe,2024
+FRY10,3,fr,Guadeloupe,Guadeloupe,2024
+FRY2,2,fr,Martinique,Martinique,2024
+FRY20,3,fr,Martinique,Martinique,2024
+FRY3,2,fr,Guyane,Guyane,2024
+FRY30,3,fr,Guyane,Guyane,2024
+FRY4,2,fr,La Réunion,La Réunion,2024
+FRY40,3,fr,La Réunion,La Réunion,2024
+FRY5,2,fr,Mayotte,Mayotte,2024
+FRY50,3,fr,Mayotte,Mayotte,2024
+HR,0,hr,Hrvatska,Hrvatska,2024
+HR0,1,hr,Hrvatska,Hrvatska,2024
+HR02,2,hr,Panonska Hrvatska,Panonska Hrvatska,2024
+HR021,3,hr,Bjelovarsko-bilogorska županija,Bjelovarsko-bilogorska županija,2024
+HR022,3,hr,Virovitičko-podravska županija,Virovitičko-podravska županija,2024
+HR023,3,hr,Požeško-slavonska županija,Požeško-slavonska županija,2024
+HR024,3,hr,Brodsko-posavska županija,Brodsko-posavska županija,2024
+HR025,3,hr,Osječko-baranjska županija,Osječko-baranjska županija,2024
+HR026,3,hr,Vukovarsko-srijemska županija,Vukovarsko-srijemska županija,2024
+HR027,3,hr,Karlovačka županija,Karlovačka županija,2024
+HR028,3,hr,Sisačko-moslavačka županija,Sisačko-moslavačka županija,2024
+HR03,2,hr,Jadranska Hrvatska,Jadranska Hrvatska,2024
+HR031,3,hr,Primorsko-goranska županija,Primorsko-goranska županija,2024
+HR032,3,hr,Ličko-senjska županija,Ličko-senjska županija,2024
+HR033,3,hr,Zadarska županija,Zadarska županija,2024
+HR034,3,hr,Šibensko-kninska županija,Šibensko-kninska županija,2024
+HR035,3,hr,Splitsko-dalmatinska županija,Splitsko-dalmatinska županija,2024
+HR036,3,hr,Istarska županija,Istarska županija,2024
+HR037,3,hr,Dubrovačko-neretvanska županija,Dubrovačko-neretvanska županija,2024
+HR05,2,hr,Grad Zagreb,Grad Zagreb,2024
+HR050,3,hr,Grad Zagreb,Grad Zagreb,2024
+HR06,2,hr,Sjeverna Hrvatska,Sjeverna Hrvatska,2024
+HR061,3,hr,Međimurska županija,Međimurska županija,2024
+HR062,3,hr,Varaždinska županija,Varaždinska županija,2024
+HR063,3,hr,Koprivničko-križevačka županija,Koprivničko-križevačka županija,2024
+HR064,3,hr,Krapinsko-zagorska županija,Krapinsko-zagorska županija,2024
+HR065,3,hr,Zagrebačka županija,Zagrebačka županija,2024
+HU,0,hu,Magyarország,Magyarország,2024
+HU1,1,hu,Közép-Magyarország,Közép-Magyarország,2024
+HU11,2,hu,Budapest,Budapest,2024
+HU110,3,hu,Budapest,Budapest,2024
+HU12,2,hu,Pest,Pest,2024
+HU120,3,hu,Pest,Pest,2024
+HU2,1,hu,Dunántúl,Dunántúl,2024
+HU21,2,hu,Közép-Dunántúl,Közép-Dunántúl,2024
+HU211,3,hu,Fejér,Fejér,2024
+HU212,3,hu,Komárom-Esztergom,Komárom-Esztergom,2024
+HU213,3,hu,Veszprém,Veszprém,2024
+HU22,2,hu,Nyugat-Dunántúl,Nyugat-Dunántúl,2024
+HU221,3,hu,Győr-Moson-Sopron,Győr-Moson-Sopron,2024
+HU222,3,hu,Vas,Vas,2024
+HU223,3,hu,Zala,Zala,2024
+HU23,2,hu,Dél-Dunántúl,Dél-Dunántúl,2024
+HU231,3,hu,Baranya,Baranya,2024
+HU232,3,hu,Somogy,Somogy,2024
+HU233,3,hu,Tolna,Tolna,2024
+HU3,1,hu,Alföld és Észak,Alföld és Észak,2024
+HU31,2,hu,Észak-Magyarország,Észak-Magyarország,2024
+HU311,3,hu,Borsod-Abaúj-Zemplén,Borsod-Abaúj-Zemplén,2024
+HU312,3,hu,Heves,Heves,2024
+HU313,3,hu,Nógrád,Nógrád,2024
+HU32,2,hu,Észak-Alföld,Észak-Alföld,2024
+HU321,3,hu,Hajdú-Bihar,Hajdú-Bihar,2024
+HU322,3,hu,Jász-Nagykun-Szolnok,Jász-Nagykun-Szolnok,2024
+HU323,3,hu,Szabolcs-Szatmár-Bereg,Szabolcs-Szatmár-Bereg,2024
+HU33,2,hu,Dél-Alföld,Dél-Alföld,2024
+HU331,3,hu,Bács-Kiskun,Bács-Kiskun,2024
+HU332,3,hu,Békés,Békés,2024
+HU333,3,hu,Csongrád-Csanád,Csongrád-Csanád,2024
+IE,0,ie,Éire/Ireland,Éire/Ireland,2024
+IE0,1,ie,Ireland,Ireland,2024
+IE04,2,ie,Northern and Western,Northern and Western,2024
+IE041,3,ie,Border,Border,2024
+IE042,3,ie,West,West,2024
+IE05,2,ie,Southern,Southern,2024
+IE051,3,ie,Mid-West,Mid-West,2024
+IE052,3,ie,South-East,South-East,2024
+IE053,3,ie,South-West,South-West,2024
+IE06,2,ie,Eastern and Midland,Eastern and Midland,2024
+IE061,3,ie,Dublin,Dublin,2024
+IE062,3,ie,Mid-East,Mid-East,2024
+IE063,3,ie,Midland,Midland,2024
+IS,0,is,Ísland,Ísland,2024
+IS0,1,is,Ísland,Ísland,2024
+IS00,2,is,Ísland,Ísland,2024
+IS001,3,is,Höfuðborgarsvæði,Höfuðborgarsvæði,2024
+IS002,3,is,Landsbyggð,Landsbyggð,2024
+IT,0,it,Italia,Italia,2024
+ITC,1,it,Nord-Ovest,Nord-Ovest,2024
+ITC1,2,it,Piemonte,Piemonte,2024
+ITC11,3,it,Torino,Torino,2024
+ITC12,3,it,Vercelli,Vercelli,2024
+ITC13,3,it,Biella,Biella,2024
+ITC14,3,it,Verbano-Cusio-Ossola,Verbano-Cusio-Ossola,2024
+ITC15,3,it,Novara,Novara,2024
+ITC16,3,it,Cuneo,Cuneo,2024
+ITC17,3,it,Asti,Asti,2024
+ITC18,3,it,Alessandria,Alessandria,2024
+ITC2,2,it,Valle d’Aosta/Vallée d’Aoste,Valle d’Aosta/Vallée d’Aoste,2024
+ITC20,3,it,Valle d’Aosta/Vallée d’Aoste,Valle d’Aosta/Vallée d’Aoste,2024
+ITC3,2,it,Liguria,Liguria,2024
+ITC31,3,it,Imperia,Imperia,2024
+ITC32,3,it,Savona,Savona,2024
+ITC33,3,it,Genova,Genova,2024
+ITC34,3,it,La Spezia,La Spezia,2024
+ITC4,2,it,Lombardia,Lombardia,2024
+ITC41,3,it,Varese,Varese,2024
+ITC42,3,it,Como,Como,2024
+ITC43,3,it,Lecco,Lecco,2024
+ITC44,3,it,Sondrio,Sondrio,2024
+ITC46,3,it,Bergamo,Bergamo,2024
+ITC47,3,it,Brescia,Brescia,2024
+ITC48,3,it,Pavia,Pavia,2024
+ITC49,3,it,Lodi,Lodi,2024
+ITC4A,3,it,Cremona,Cremona,2024
+ITC4B,3,it,Mantova,Mantova,2024
+ITC4C,3,it,Milano,Milano,2024
+ITC4D,3,it,Monza e della Brianza,Monza e della Brianza,2024
+ITF,1,it,Sud,Sud,2024
+ITF1,2,it,Abruzzo,Abruzzo,2024
+ITF11,3,it,L’Aquila,L’Aquila,2024
+ITF12,3,it,Teramo,Teramo,2024
+ITF13,3,it,Pescara,Pescara,2024
+ITF14,3,it,Chieti,Chieti,2024
+ITF2,2,it,Molise,Molise,2024
+ITF21,3,it,Isernia,Isernia,2024
+ITF22,3,it,Campobasso,Campobasso,2024
+ITF3,2,it,Campania,Campania,2024
+ITF31,3,it,Caserta,Caserta,2024
+ITF32,3,it,Benevento,Benevento,2024
+ITF33,3,it,Napoli,Napoli,2024
+ITF34,3,it,Avellino,Avellino,2024
+ITF35,3,it,Salerno,Salerno,2024
+ITF4,2,it,Puglia,Puglia,2024
+ITF43,3,it,Taranto,Taranto,2024
+ITF44,3,it,Brindisi,Brindisi,2024
+ITF45,3,it,Lecce,Lecce,2024
+ITF46,3,it,Foggia,Foggia,2024
+ITF47,3,it,Bari,Bari,2024
+ITF48,3,it,Barletta-Andria-Trani,Barletta-Andria-Trani,2024
+ITF5,2,it,Basilicata,Basilicata,2024
+ITF51,3,it,Potenza,Potenza,2024
+ITF52,3,it,Matera,Matera,2024
+ITF6,2,it,Calabria,Calabria,2024
+ITF61,3,it,Cosenza,Cosenza,2024
+ITF62,3,it,Crotone,Crotone,2024
+ITF63,3,it,Catanzaro,Catanzaro,2024
+ITF64,3,it,Vibo Valentia,Vibo Valentia,2024
+ITF65,3,it,Reggio Calabria,Reggio Calabria,2024
+ITG,1,it,Isole,Isole,2024
+ITG1,2,it,Sicilia,Sicilia,2024
+ITG11,3,it,Trapani,Trapani,2024
+ITG12,3,it,Palermo,Palermo,2024
+ITG13,3,it,Messina,Messina,2024
+ITG14,3,it,Agrigento,Agrigento,2024
+ITG15,3,it,Caltanissetta,Caltanissetta,2024
+ITG16,3,it,Enna,Enna,2024
+ITG17,3,it,Catania,Catania,2024
+ITG18,3,it,Ragusa,Ragusa,2024
+ITG19,3,it,Siracusa,Siracusa,2024
+ITG2,2,it,Sardegna,Sardegna,2024
+ITG2D,3,it,Sassari,Sassari,2024
+ITG2E,3,it,Nuoro,Nuoro,2024
+ITG2F,3,it,Cagliari,Cagliari,2024
+ITG2G,3,it,Oristano,Oristano,2024
+ITG2H,3,it,Sud Sardegna,Sud Sardegna,2024
+ITH,1,it,Nord-Est,Nord-Est,2024
+ITH1,2,it,Provincia Autonoma di Bolzano/Bozen,Provincia Autonoma di Bolzano/Bozen,2024
+ITH10,3,it,Bolzano-Bozen,Bolzano-Bozen,2024
+ITH2,2,it,Provincia Autonoma di Trento,Provincia Autonoma di Trento,2024
+ITH20,3,it,Trento,Trento,2024
+ITH3,2,it,Veneto,Veneto,2024
+ITH31,3,it,Verona,Verona,2024
+ITH32,3,it,Vicenza,Vicenza,2024
+ITH33,3,it,Belluno,Belluno,2024
+ITH34,3,it,Treviso,Treviso,2024
+ITH35,3,it,Venezia,Venezia,2024
+ITH36,3,it,Padova,Padova,2024
+ITH37,3,it,Rovigo,Rovigo,2024
+ITH4,2,it,Friuli-Venezia Giulia,Friuli-Venezia Giulia,2024
+ITH41,3,it,Pordenone,Pordenone,2024
+ITH42,3,it,Udine,Udine,2024
+ITH43,3,it,Gorizia,Gorizia,2024
+ITH44,3,it,Trieste,Trieste,2024
+ITH5,2,it,Emilia-Romagna,Emilia-Romagna,2024
+ITH51,3,it,Piacenza,Piacenza,2024
+ITH52,3,it,Parma,Parma,2024
+ITH53,3,it,Reggio nell’Emilia,Reggio nell’Emilia,2024
+ITH54,3,it,Modena,Modena,2024
+ITH55,3,it,Bologna,Bologna,2024
+ITH56,3,it,Ferrara,Ferrara,2024
+ITH57,3,it,Ravenna,Ravenna,2024
+ITH58,3,it,Forlì-Cesena,Forlì-Cesena,2024
+ITH59,3,it,Rimini,Rimini,2024
+ITI,1,it,Centro (IT),Centro (IT),2024
+ITI1,2,it,Toscana,Toscana,2024
+ITI11,3,it,Massa-Carrara,Massa-Carrara,2024
+ITI12,3,it,Lucca,Lucca,2024
+ITI13,3,it,Pistoia,Pistoia,2024
+ITI14,3,it,Firenze,Firenze,2024
+ITI15,3,it,Prato,Prato,2024
+ITI16,3,it,Livorno,Livorno,2024
+ITI17,3,it,Pisa,Pisa,2024
+ITI18,3,it,Arezzo,Arezzo,2024
+ITI19,3,it,Siena,Siena,2024
+ITI1A,3,it,Grosseto,Grosseto,2024
+ITI2,2,it,Umbria,Umbria,2024
+ITI21,3,it,Perugia,Perugia,2024
+ITI22,3,it,Terni,Terni,2024
+ITI3,2,it,Marche,Marche,2024
+ITI31,3,it,Pesaro e Urbino,Pesaro e Urbino,2024
+ITI32,3,it,Ancona,Ancona,2024
+ITI33,3,it,Macerata,Macerata,2024
+ITI34,3,it,Ascoli Piceno,Ascoli Piceno,2024
+ITI35,3,it,Fermo,Fermo,2024
+ITI4,2,it,Lazio,Lazio,2024
+ITI41,3,it,Viterbo,Viterbo,2024
+ITI42,3,it,Rieti,Rieti,2024
+ITI43,3,it,Roma,Roma,2024
+ITI44,3,it,Latina,Latina,2024
+ITI45,3,it,Frosinone,Frosinone,2024
+LI,0,li,Liechtenstein,Liechtenstein,2024
+LI0,1,li,Liechtenstein,Liechtenstein,2024
+LI00,2,li,Liechtenstein,Liechtenstein,2024
+LI000,3,li,Liechtenstein,Liechtenstein,2024
+LT,0,lt,Lietuva,Lietuva,2024
+LT0,1,lt,Lietuva,Lietuva,2024
+LT01,2,lt,Sostinės regionas,Sostinės regionas,2024
+LT011,3,lt,Vilniaus apskritis,Vilniaus apskritis,2024
+LT02,2,lt,Vidurio ir vakarų Lietuvos regionas,Vidurio ir vakarų Lietuvos regionas,2024
+LT021,3,lt,Alytaus apskritis,Alytaus apskritis,2024
+LT022,3,lt,Kauno apskritis,Kauno apskritis,2024
+LT023,3,lt,Klaipėdos apskritis,Klaipėdos apskritis,2024
+LT024,3,lt,Marijampolės apskritis,Marijampolės apskritis,2024
+LT025,3,lt,Panevėžio apskritis,Panevėžio apskritis,2024
+LT026,3,lt,Šiaulių apskritis,Šiaulių apskritis,2024
+LT027,3,lt,Tauragės apskritis,Tauragės apskritis,2024
+LT028,3,lt,Telšių apskritis,Telšių apskritis,2024
+LT029,3,lt,Utenos apskritis,Utenos apskritis,2024
+LU,0,lu,Luxembourg,Luxembourg,2024
+LU0,1,lu,Luxembourg,Luxembourg,2024
+LU00,2,lu,Luxembourg,Luxembourg,2024
+LU000,3,lu,Luxembourg,Luxembourg,2024
+LV,0,lv,Latvija,Latvija,2024
+LV0,1,lv,Latvija,Latvija,2024
+LV00,2,lv,Latvija,Latvija,2024
+LV003,3,lv,Kurzeme,Kurzeme,2021
+LV005,3,lv,Latgale,Latgale,2024
+LV006,3,lv,Rīga,Rīga,2021
+LV007,3,lv,Pierīga,Pierīga,2021
+LV008,3,lv,Vidzeme,Vidzeme,2021
+LV009,3,lv,Zemgale,Zemgale,2024
+LV00A,3,lv,Rīga,Rīga,2024
+LV00B,3,lv,Kurzeme,Kurzeme,2024
+LV00C,3,lv,Vidzeme,Vidzeme,2024
+ME,0,me,Crna Gora,Црна Гора,2024
+ME0,1,me,Crna Gora,Црна Гора,2024
+ME00,2,me,Crna Gora,Црна Гора,2024
+ME000,3,me,Crna Gora,Црна Гора,2024
+MK,0,mk,Severna Makedonija,Северна Македонија,2024
+MK0,1,mk,Severna Makedonija,Северна Македонија,2024
+MK00,2,mk,Severna Makedonija,Северна Македонија,2024
+MK001,3,mk,Vardarski,Вардарски,2024
+MK002,3,mk,Istočen,Источен,2024
+MK003,3,mk,Jugozapaden,Југозападен,2024
+MK004,3,mk,Jugoistočen,Југоисточен,2024
+MK005,3,mk,Pelagoniski,Пелагониски,2024
+MK006,3,mk,Pološki,Полошки,2024
+MK007,3,mk,Severoistočen,Североисточен,2024
+MK008,3,mk,Skopski,Скопски,2024
+MT,0,mt,Malta,Malta,2024
+MT0,1,mt,Malta,Malta,2024
+MT00,2,mt,Malta,Malta,2024
+MT001,3,mt,Malta,Malta,2024
+MT002,3,mt,Gozo and Comino/Għawdex u Kemmuna,Gozo and Comino/Għawdex u Kemmuna,2024
+NL,0,nl,Nederland,Nederland,2024
+NL1,1,nl,Noord-Nederland,Noord-Nederland,2024
+NL11,2,nl,Groningen,Groningen,2024
+NL111,3,nl,Oost-Groningen,Oost-Groningen,2021
+NL112,3,nl,Delfzijl en omgeving,Delfzijl en omgeving,2024
+NL113,3,nl,Overig Groningen,Overig Groningen,2021
+NL114,3,nl,Oost-Groningen,Oost-Groningen,2024
+NL115,3,nl,Overig Groningen,Overig Groningen,2024
+NL12,2,nl,Friesland (NL),Friesland (NL),2024
+NL124,3,nl,Noord-Friesland,Noord-Friesland,2021
+NL125,3,nl,Zuidwest-Friesland,Zuidwest-Friesland,2021
+NL126,3,nl,Zuidoost-Friesland,Zuidoost-Friesland,2024
+NL127,3,nl,Noord-Friesland,Noord-Friesland,2024
+NL128,3,nl,Zuidwest-Friesland,Zuidwest-Friesland,2024
+NL13,2,nl,Drenthe,Drenthe,2024
+NL131,3,nl,Noord-Drenthe,Noord-Drenthe,2024
+NL132,3,nl,Zuidoost-Drenthe,Zuidoost-Drenthe,2024
+NL133,3,nl,Zuidwest-Drenthe,Zuidwest-Drenthe,2024
+NL2,1,nl,Oost-Nederland,Oost-Nederland,2024
+NL21,2,nl,Overijssel,Overijssel,2024
+NL211,3,nl,Noord-Overijssel,Noord-Overijssel,2024
+NL212,3,nl,Zuidwest-Overijssel,Zuidwest-Overijssel,2024
+NL213,3,nl,Twente,Twente,2024
+NL22,2,nl,Gelderland,Gelderland,2024
+NL221,3,nl,Veluwe,Veluwe,2024
+NL224,3,nl,Zuidwest-Gelderland,Zuidwest-Gelderland,2024
+NL225,3,nl,Achterhoek,Achterhoek,2024
+NL226,3,nl,Arnhem/Nijmegen,Arnhem/Nijmegen,2024
+NL23,2,nl,Flevoland,Flevoland,2024
+NL230,3,nl,Flevoland,Flevoland,2024
+NL3,1,nl,West-Nederland,West-Nederland,2024
+NL31,2,nl,Utrecht,Utrecht,2021
+NL310,3,nl,Utrecht,Utrecht,2021
+NL32,2,nl,Noord-Holland,Noord-Holland,2024
+NL321,3,nl,Kop van Noord-Holland,Kop van Noord-Holland,2024
+NL323,3,nl,IJmond,IJmond,2024
+NL324,3,nl,Agglomeratie Haarlem,Agglomeratie Haarlem,2021
+NL325,3,nl,Zaanstreek,Zaanstreek,2024
+NL327,3,nl,Het Gooi en Vechtstreek,Het Gooi en Vechtstreek,2024
+NL328,3,nl,Alkmaar en omgeving,Alkmaar en omgeving,2024
+NL329,3,nl,Groot-Amsterdam,Groot-Amsterdam,2021
+NL32A,3,nl,Agglomeratie Haarlem,Agglomeratie Haarlem,2024
+NL32B,3,nl,Groot-Amsterdam,Groot-Amsterdam,2024
+NL33,2,nl,Zuid-Holland,Zuid-Holland,2021
+NL332,3,nl,Agglomeratie ’s-Gravenhage,Agglomeratie ’s-Gravenhage,2021
+NL333,3,nl,Delft en Westland,Delft en Westland,2021
+NL337,3,nl,Agglomeratie Leiden en Bollenstreek,Agglomeratie Leiden en Bollenstreek,2021
+NL33A,3,nl,Zuidoost-Zuid-Holland,Zuidoost-Zuid-Holland,2021
+NL33B,3,nl,Oost-Zuid-Holland,Oost-Zuid-Holland,2021
+NL33C,3,nl,Groot-Rijnmond,Groot-Rijnmond,2021
+NL34,2,nl,Zeeland,Zeeland,2024
+NL341,3,nl,Zeeuwsch-Vlaanderen,Zeeuwsch-Vlaanderen,2024
+NL342,3,nl,Overig Zeeland,Overig Zeeland,2024
+NL35,2,nl,Utrecht,Utrecht,2024
+NL350,3,nl,Utrecht,Utrecht,2024
+NL36,2,nl,Zuid-Holland,Zuid-Holland,2024
+NL361,3,nl,Agglomeratie ’s-Gravenhage,Agglomeratie ’s-Gravenhage,2024
+NL362,3,nl,Delft en Westland,Delft en Westland,2024
+NL363,3,nl,Agglomeratie Leiden en Bollenstreek,Agglomeratie Leiden en Bollenstreek,2024
+NL364,3,nl,Zuidoost-Zuid-Holland,Zuidoost-Zuid-Holland,2024
+NL365,3,nl,Oost-Zuid-Holland,Oost-Zuid-Holland,2024
+NL366,3,nl,Groot-Rijnmond,Groot-Rijnmond,2024
+NL4,1,nl,Zuid-Nederland,Zuid-Nederland,2024
+NL41,2,nl,Noord-Brabant,Noord-Brabant,2024
+NL411,3,nl,West-Noord-Brabant,West-Noord-Brabant,2024
+NL412,3,nl,Midden-Noord-Brabant,Midden-Noord-Brabant,2021
+NL413,3,nl,Noordoost-Noord-Brabant,Noordoost-Noord-Brabant,2021
+NL414,3,nl,Zuidoost-Noord-Brabant,Zuidoost-Noord-Brabant,2024
+NL415,3,nl,Midden-Noord-Brabant,Midden-Noord-Brabant,2024
+NL416,3,nl,Noordoost-Noord-Brabant,Noordoost-Noord-Brabant,2024
+NL42,2,nl,Limburg (NL),Limburg (NL),2024
+NL421,3,nl,Noord-Limburg,Noord-Limburg,2024
+NL422,3,nl,Midden-Limburg,Midden-Limburg,2024
+NL423,3,nl,Zuid-Limburg,Zuid-Limburg,2024
+NO,0,no,Norge,Norge,2024
+NO0,1,no,Norge,Norge,2024
+NO02,2,no,Innlandet,Innlandet,2024
+NO020,3,no,Innlandet,Innlandet,2024
+NO06,2,no,Trøndelag/Trööndelage,Trøndelag/Trööndelage,2024
+NO060,3,no,Trøndelag/Trööndelage,Trøndelag/Trööndelage,2024
+NO07,2,no,Nord-Norge,Nord-Norge,2024
+NO071,3,no,Nordland/Nordlánnda,Nordland/Nordlánnda,2024
+NO072,3,no,Troms/Romsa/Tromssa,Troms/Romsa/Tromssa,2024
+NO073,3,no,Finnmark/Finnmárku/Finmarkku,Finnmark/Finnmárku/Finmarkku,2024
+NO074,3,no,Troms og Finnmark,Troms og Finnmark,2021
+NO08,2,no,Oslo og Viken,Oslo og Viken,2024
+NO081,3,no,Oslo,Oslo,2024
+NO082,3,no,Viken,Viken,2021
+NO083,3,no,Østfold,Østfold,2024
+NO084,3,no,Akershus,Akershus,2024
+NO085,3,no,Buskerud,Buskerud,2024
+NO09,2,no,Agder og Sør-Østlandet,Agder og Sør-Østlandet,2024
+NO091,3,no,Vestfold og Telemark,Vestfold og Telemark,2021
+NO092,3,no,Agder,Agder,2024
+NO093,3,no,Vestfold,Vestfold,2024
+NO094,3,no,Telemark,Telemark,2024
+NO0A,2,no,Vestlandet,Vestlandet,2024
+NO0A1,3,no,Rogaland,Rogaland,2024
+NO0A2,3,no,Vestland,Vestland,2024
+NO0A3,3,no,Møre og Romsdal,Møre og Romsdal,2024
+NO0B,2,no,Svalbard og Jan Mayen,Svalbard og Jan Mayen,2024
+NO0B1,3,no,Jan Mayen,Jan Mayen,2024
+NO0B2,3,no,Svalbard,Svalbard,2024
+PL,0,pl,Polska,Polska,2024
+PL2,1,pl,Makroregion południowy,Makroregion południowy,2024
+PL21,2,pl,Małopolskie,Małopolskie,2024
+PL213,3,pl,Miasto Kraków,Miasto Kraków,2024
+PL214,3,pl,Krakowski,Krakowski,2024
+PL217,3,pl,Tarnowski,Tarnowski,2024
+PL218,3,pl,Nowosądecki,Nowosądecki,2024
+PL219,3,pl,Nowotarski,Nowotarski,2024
+PL21A,3,pl,Oświęcimski,Oświęcimski,2024
+PL22,2,pl,Śląskie,Śląskie,2024
+PL224,3,pl,Częstochowski,Częstochowski,2024
+PL225,3,pl,Bielski,Bielski,2024
+PL227,3,pl,Rybnicki,Rybnicki,2024
+PL228,3,pl,Bytomski,Bytomski,2024
+PL229,3,pl,Gliwicki,Gliwicki,2024
+PL22A,3,pl,Katowicki,Katowicki,2024
+PL22B,3,pl,Sosnowiecki,Sosnowiecki,2024
+PL22C,3,pl,Tyski,Tyski,2024
+PL4,1,pl,Makroregion północno-zachodni,Makroregion północno-zachodni,2024
+PL41,2,pl,Wielkopolskie,Wielkopolskie,2024
+PL411,3,pl,Pilski,Pilski,2024
+PL414,3,pl,Koniński,Koniński,2024
+PL415,3,pl,Miasto Poznań,Miasto Poznań,2024
+PL416,3,pl,Kaliski,Kaliski,2024
+PL417,3,pl,Leszczyński,Leszczyński,2024
+PL418,3,pl,Poznański,Poznański,2024
+PL42,2,pl,Zachodniopomorskie,Zachodniopomorskie,2024
+PL424,3,pl,Miasto Szczecin,Miasto Szczecin,2024
+PL426,3,pl,Koszaliński,Koszaliński,2024
+PL427,3,pl,Szczecinecko-pyrzycki,Szczecinecko-pyrzycki,2024
+PL428,3,pl,Szczeciński,Szczeciński,2024
+PL43,2,pl,Lubuskie,Lubuskie,2024
+PL431,3,pl,Gorzowski,Gorzowski,2024
+PL432,3,pl,Zielonogórski,Zielonogórski,2024
+PL5,1,pl,Makroregion południowo-zachodni,Makroregion południowo-zachodni,2024
+PL51,2,pl,Dolnośląskie,Dolnośląskie,2024
+PL514,3,pl,Miasto Wrocław,Miasto Wrocław,2024
+PL515,3,pl,Jeleniogórski,Jeleniogórski,2024
+PL516,3,pl,Legnicko-głogowski,Legnicko-głogowski,2024
+PL517,3,pl,Wałbrzyski,Wałbrzyski,2024
+PL518,3,pl,Wrocławski,Wrocławski,2024
+PL52,2,pl,Opolskie,Opolskie,2024
+PL523,3,pl,Nyski,Nyski,2024
+PL524,3,pl,Opolski,Opolski,2024
+PL6,1,pl,Makroregion północny,Makroregion północny,2024
+PL61,2,pl,Kujawsko-pomorskie,Kujawsko-pomorskie,2024
+PL613,3,pl,Bydgosko-toruński,Bydgosko-toruński,2024
+PL616,3,pl,Grudziądzki,Grudziądzki,2024
+PL617,3,pl,Inowrocławski,Inowrocławski,2024
+PL618,3,pl,Świecki,Świecki,2024
+PL619,3,pl,Włocławski,Włocławski,2024
+PL62,2,pl,Warmińsko-mazurskie,Warmińsko-mazurskie,2024
+PL621,3,pl,Elbląski,Elbląski,2024
+PL622,3,pl,Olsztyński,Olsztyński,2024
+PL623,3,pl,Ełcki,Ełcki,2024
+PL63,2,pl,Pomorskie,Pomorskie,2024
+PL633,3,pl,Trójmiejski,Trójmiejski,2024
+PL634,3,pl,Gdański,Gdański,2024
+PL636,3,pl,Słupski,Słupski,2024
+PL637,3,pl,Chojnicki,Chojnicki,2024
+PL638,3,pl,Starogardzki,Starogardzki,2024
+PL7,1,pl,Makroregion centralny,Makroregion centralny,2024
+PL71,2,pl,Łódzkie,Łódzkie,2024
+PL711,3,pl,Miasto Łódź,Miasto Łódź,2024
+PL712,3,pl,Łódzki,Łódzki,2024
+PL713,3,pl,Piotrkowski,Piotrkowski,2024
+PL714,3,pl,Sieradzki,Sieradzki,2024
+PL715,3,pl,Skierniewicki,Skierniewicki,2024
+PL72,2,pl,Świętokrzyskie,Świętokrzyskie,2024
+PL721,3,pl,Kielecki,Kielecki,2024
+PL722,3,pl,Sandomiersko-jędrzejowski,Sandomiersko-jędrzejowski,2024
+PL8,1,pl,Makroregion wschodni,Makroregion wschodni,2024
+PL81,2,pl,Lubelskie,Lubelskie,2024
+PL811,3,pl,Bialski,Bialski,2024
+PL812,3,pl,Chełmsko-zamojski,Chełmsko-zamojski,2024
+PL814,3,pl,Lubelski,Lubelski,2024
+PL815,3,pl,Puławski,Puławski,2024
+PL82,2,pl,Podkarpackie,Podkarpackie,2024
+PL821,3,pl,Krośnieński,Krośnieński,2024
+PL822,3,pl,Przemyski,Przemyski,2024
+PL823,3,pl,Rzeszowski,Rzeszowski,2024
+PL824,3,pl,Tarnobrzeski,Tarnobrzeski,2024
+PL84,2,pl,Podlaskie,Podlaskie,2024
+PL841,3,pl,Białostocki,Białostocki,2024
+PL842,3,pl,Łomżyński,Łomżyński,2024
+PL843,3,pl,Suwalski,Suwalski,2024
+PL9,1,pl,Makroregion województwo mazowieckie,Makroregion województwo mazowieckie,2024
+PL91,2,pl,Warszawski stołeczny,Warszawski stołeczny,2024
+PL911,3,pl,Miasto Warszawa,Miasto Warszawa,2024
+PL912,3,pl,Warszawski wschodni,Warszawski wschodni,2024
+PL913,3,pl,Warszawski zachodni,Warszawski zachodni,2024
+PL92,2,pl,Mazowiecki regionalny,Mazowiecki regionalny,2024
+PL921,3,pl,Radomski,Radomski,2024
+PL922,3,pl,Ciechanowski,Ciechanowski,2024
+PL923,3,pl,Płocki,Płocki,2024
+PL924,3,pl,Ostrołęcki,Ostrołęcki,2024
+PL925,3,pl,Siedlecki,Siedlecki,2024
+PL926,3,pl,Żyrardowski,Żyrardowski,2024
+PT,0,pt,Portugal,Portugal,2024
+PT1,1,pt,Continente,Continente,2024
+PT11,2,pt,Norte,Norte,2024
+PT111,3,pt,Alto Minho,Alto Minho,2024
+PT112,3,pt,Cávado,Cávado,2024
+PT119,3,pt,Ave,Ave,2024
+PT11A,3,pt,Área Metropolitana do Porto,Área Metropolitana do Porto,2024
+PT11B,3,pt,Alto Tâmega e Barroso,Alto Tâmega e Barroso,2024
+PT11C,3,pt,Tâmega e Sousa,Tâmega e Sousa,2024
+PT11D,3,pt,Douro,Douro,2024
+PT11E,3,pt,Terras de Trás-os-Montes,Terras de Trás-os-Montes,2024
+PT15,2,pt,Algarve,Algarve,2024
+PT150,3,pt,Algarve,Algarve,2024
+PT16,2,pt,Centro (PT),Centro (PT),2021
+PT16B,3,pt,Oeste,Oeste,2021
+PT16D,3,pt,Região de Aveiro,Região de Aveiro,2021
+PT16E,3,pt,Região de Coimbra,Região de Coimbra,2021
+PT16F,3,pt,Região de Leiria,Região de Leiria,2021
+PT16G,3,pt,Viseu Dão Lafões,Viseu Dão Lafões,2021
+PT16H,3,pt,Beira Baixa,Beira Baixa,2021
+PT16I,3,pt,Médio Tejo,Médio Tejo,2021
+PT16J,3,pt,Beiras e Serra da Estrela,Beiras e Serra da Estrela,2021
+PT17,2,pt,Área Metropolitana de Lisboa,Área Metropolitana de Lisboa,2021
+PT170,3,pt,Área Metropolitana de Lisboa,Área Metropolitana de Lisboa,2021
+PT18,2,pt,Alentejo,Alentejo,2021
+PT181,3,pt,Alentejo Litoral,Alentejo Litoral,2021
+PT184,3,pt,Baixo Alentejo,Baixo Alentejo,2021
+PT185,3,pt,Lezíria do Tejo,Lezíria do Tejo,2021
+PT186,3,pt,Alto Alentejo,Alto Alentejo,2021
+PT187,3,pt,Alentejo Central,Alentejo Central,2021
+PT19,2,pt,Centro (PT),Centro (PT),2024
+PT191,3,pt,Região de Aveiro,Região de Aveiro,2024
+PT192,3,pt,Região de Coimbra,Região de Coimbra,2024
+PT193,3,pt,Região de Leiria,Região de Leiria,2024
+PT194,3,pt,Viseu Dão Lafões,Viseu Dão Lafões,2024
+PT195,3,pt,Beira Baixa,Beira Baixa,2024
+PT196,3,pt,Beiras e Serra da Estrela,Beiras e Serra da Estrela,2024
+PT1A,2,pt,Grande Lisboa,Grande Lisboa,2024
+PT1A0,3,pt,Grande Lisboa,Grande Lisboa,2024
+PT1B,2,pt,Península de Setúbal,Península de Setúbal,2024
+PT1B0,3,pt,Península de Setúbal,Península de Setúbal,2024
+PT1C,2,pt,Alentejo,Alentejo,2024
+PT1C1,3,pt,Alentejo Litoral,Alentejo Litoral,2024
+PT1C2,3,pt,Baixo Alentejo,Baixo Alentejo,2024
+PT1C3,3,pt,Alto Alentejo,Alto Alentejo,2024
+PT1C4,3,pt,Alentejo Central,Alentejo Central,2024
+PT1D,2,pt,Oeste e Vale do Tejo,Oeste e Vale do Tejo,2024
+PT1D1,3,pt,Oeste,Oeste,2024
+PT1D2,3,pt,Médio Tejo,Médio Tejo,2024
+PT1D3,3,pt,Lezíria do Tejo,Lezíria do Tejo,2024
+PT2,1,pt,Região Autónoma dos Açores,Região Autónoma dos Açores,2024
+PT20,2,pt,Região Autónoma dos Açores,Região Autónoma dos Açores,2024
+PT200,3,pt,Região Autónoma dos Açores,Região Autónoma dos Açores,2024
+PT3,1,pt,Região Autónoma da Madeira,Região Autónoma da Madeira,2024
+PT30,2,pt,Região Autónoma da Madeira,Região Autónoma da Madeira,2024
+PT300,3,pt,Região Autónoma da Madeira,Região Autónoma da Madeira,2024
+RO,0,ro,România,România,2024
+RO1,1,ro,Macroregiunea Unu,Macroregiunea Unu,2024
+RO11,2,ro,Nord-Vest,Nord-Vest,2024
+RO111,3,ro,Bihor,Bihor,2024
+RO112,3,ro,Bistriţa-Năsăud,Bistriţa-Năsăud,2024
+RO113,3,ro,Cluj,Cluj,2024
+RO114,3,ro,Maramureş,Maramureş,2024
+RO115,3,ro,Satu Mare,Satu Mare,2024
+RO116,3,ro,Sălaj,Sălaj,2024
+RO12,2,ro,Centru,Centru,2024
+RO121,3,ro,Alba,Alba,2024
+RO122,3,ro,Braşov,Braşov,2024
+RO123,3,ro,Covasna,Covasna,2024
+RO124,3,ro,Harghita,Harghita,2024
+RO125,3,ro,Mureş,Mureş,2024
+RO126,3,ro,Sibiu,Sibiu,2024
+RO2,1,ro,Macroregiunea Doi,Macroregiunea Doi,2024
+RO21,2,ro,Nord-Est,Nord-Est,2024
+RO211,3,ro,Bacău,Bacău,2024
+RO212,3,ro,Botoşani,Botoşani,2024
+RO213,3,ro,Iaşi,Iaşi,2024
+RO214,3,ro,Neamţ,Neamţ,2024
+RO215,3,ro,Suceava,Suceava,2024
+RO216,3,ro,Vaslui,Vaslui,2024
+RO22,2,ro,Sud-Est,Sud-Est,2024
+RO221,3,ro,Brăila,Brăila,2024
+RO222,3,ro,Buzău,Buzău,2024
+RO223,3,ro,Constanţa,Constanţa,2024
+RO224,3,ro,Galaţi,Galaţi,2024
+RO225,3,ro,Tulcea,Tulcea,2024
+RO226,3,ro,Vrancea,Vrancea,2024
+RO3,1,ro,Macroregiunea Trei,Macroregiunea Trei,2024
+RO31,2,ro,Sud-Muntenia,Sud-Muntenia,2024
+RO311,3,ro,Argeş,Argeş,2024
+RO312,3,ro,Călăraşi,Călăraşi,2024
+RO313,3,ro,Dâmboviţa,Dâmboviţa,2024
+RO314,3,ro,Giurgiu,Giurgiu,2024
+RO315,3,ro,Ialomiţa,Ialomiţa,2024
+RO316,3,ro,Prahova,Prahova,2024
+RO317,3,ro,Teleorman,Teleorman,2024
+RO32,2,ro,Bucureşti-Ilfov,Bucureşti-Ilfov,2024
+RO321,3,ro,Bucureşti,Bucureşti,2024
+RO322,3,ro,Ilfov,Ilfov,2024
+RO4,1,ro,Macroregiunea Patru,Macroregiunea Patru,2024
+RO41,2,ro,Sud-Vest Oltenia,Sud-Vest Oltenia,2024
+RO411,3,ro,Dolj,Dolj,2024
+RO412,3,ro,Gorj,Gorj,2024
+RO413,3,ro,Mehedinţi,Mehedinţi,2024
+RO414,3,ro,Olt,Olt,2024
+RO415,3,ro,Vâlcea,Vâlcea,2024
+RO42,2,ro,Vest,Vest,2024
+RO421,3,ro,Arad,Arad,2024
+RO422,3,ro,Caraş-Severin,Caraş-Severin,2024
+RO423,3,ro,Hunedoara,Hunedoara,2024
+RO424,3,ro,Timiş,Timiş,2024
+RS,0,rs,Serbia,Srbija/Сpбија,2024
+RS1,1,rs,Serbia - sever,Србија - север,2024
+RS11,2,rs,City of Belgrade,Београдски регион,2024
+RS110,3,rs,City of Belgrade,Београдска област,2024
+RS12,2,rs,Autonomous Province of Vojvodina,Регион Војводине,2024
+RS121,3,rs,Zapadnobačka oblast,Западнобачка област,2024
+RS122,3,rs,Južnobanatska oblast,Јужнобанатска област,2024
+RS123,3,rs,Južnobačka oblast,Јужнобачка област,2024
+RS124,3,rs,Severnobanatska oblast,Севернобанатска област,2024
+RS125,3,rs,Severnobačka oblast,Севернобачка област,2024
+RS126,3,rs,Srednjobanatska oblast,Средњобанатска област,2024
+RS127,3,rs,Sremska oblast,Сремска област,2024
+RS2,1,rs,Serbia - jug,Србија - југ,2024
+RS21,2,rs,Region Šumadije i Zapadne Srbije,Регион Шумадије и Западне Србије,2024
+RS211,3,rs,Zlatiborska oblast,Златиборска област,2024
+RS212,3,rs,Kolubarska oblast,Колубарска област,2024
+RS213,3,rs,Mačvanska oblast,Мачванска област,2024
+RS214,3,rs,Moravička oblast,Моравичка област,2024
+RS215,3,rs,Pomoravska oblast,Поморавска област,2024
+RS216,3,rs,Rasinska oblast,Расинска област,2024
+RS217,3,rs,Raška oblast,Рашка област,2024
+RS218,3,rs,Šumadijska oblast,Шумадијска област,2024
+RS22,2,rs,Region Južne i Istočne Srbije,Регион Јужне и Источне Србије,2024
+RS221,3,rs,Borska oblast,Борска област,2024
+RS222,3,rs,Braničevska oblast,Браничевска област,2024
+RS223,3,rs,Zaječarska oblast,Зајечарска област,2024
+RS224,3,rs,Jablanička oblast,Јабланичка област,2024
+RS225,3,rs,Nišavska oblast,Нишавска област,2024
+RS226,3,rs,Pirotska oblast,Пиротска област,2024
+RS227,3,rs,Podunavska oblast,Подунавска област,2024
+RS228,3,rs,Pčinjska oblast,Пчињска област,2024
+RS229,3,rs,Toplička oblast,Топличка област,2024
+SE,0,se,Sverige,Sverige,2024
+SE1,1,se,Östra Sverige,Östra Sverige,2024
+SE11,2,se,Stockholm,Stockholm,2024
+SE110,3,se,Stockholms län,Stockholms län,2024
+SE12,2,se,Östra Mellansverige,Östra Mellansverige,2024
+SE121,3,se,Uppsala län,Uppsala län,2024
+SE122,3,se,Södermanlands län,Södermanlands län,2024
+SE123,3,se,Östergötlands län,Östergötlands län,2024
+SE124,3,se,Örebro län,Örebro län,2024
+SE125,3,se,Västmanlands län,Västmanlands län,2024
+SE2,1,se,Södra Sverige,Södra Sverige,2024
+SE21,2,se,Småland med öarna,Småland med öarna,2024
+SE211,3,se,Jönköpings län,Jönköpings län,2024
+SE212,3,se,Kronobergs län,Kronobergs län,2024
+SE213,3,se,Kalmar län,Kalmar län,2024
+SE214,3,se,Gotlands län,Gotlands län,2024
+SE22,2,se,Sydsverige,Sydsverige,2024
+SE221,3,se,Blekinge län,Blekinge län,2024
+SE224,3,se,Skåne län,Skåne län,2024
+SE23,2,se,Västsverige,Västsverige,2024
+SE231,3,se,Hallands län,Hallands län,2024
+SE232,3,se,Västra Götalands län,Västra Götalands län,2024
+SE3,1,se,Norra Sverige,Norra Sverige,2024
+SE31,2,se,Norra Mellansverige,Norra Mellansverige,2024
+SE311,3,se,Värmlands län,Värmlands län,2024
+SE312,3,se,Dalarnas län,Dalarnas län,2024
+SE313,3,se,Gävleborgs län,Gävleborgs län,2024
+SE32,2,se,Mellersta Norrland,Mellersta Norrland,2024
+SE321,3,se,Västernorrlands län,Västernorrlands län,2024
+SE322,3,se,Jämtlands län,Jämtlands län,2024
+SE33,2,se,Övre Norrland,Övre Norrland,2024
+SE331,3,se,Västerbottens län,Västerbottens län,2024
+SE332,3,se,Norrbottens län,Norrbottens län,2024
+SI,0,si,Slovenija,Slovenija,2024
+SI0,1,si,Slovenija,Slovenija,2024
+SI03,2,si,Vzhodna Slovenija,Vzhodna Slovenija,2024
+SI031,3,si,Pomurska,Pomurska,2024
+SI032,3,si,Podravska,Podravska,2024
+SI033,3,si,Koroška,Koroška,2024
+SI034,3,si,Savinjska,Savinjska,2024
+SI035,3,si,Zasavska,Zasavska,2024
+SI036,3,si,Posavska,Posavska,2024
+SI037,3,si,Jugovzhodna Slovenija,Jugovzhodna Slovenija,2024
+SI038,3,si,Primorsko-notranjska,Primorsko-notranjska,2024
+SI04,2,si,Zahodna Slovenija,Zahodna Slovenija,2024
+SI041,3,si,Osrednjeslovenska,Osrednjeslovenska,2024
+SI042,3,si,Gorenjska,Gorenjska,2024
+SI043,3,si,Goriška,Goriška,2024
+SI044,3,si,Obalno-kraška,Obalno-kraška,2024
+SK,0,sk,Slovensko,Slovensko,2024
+SK0,1,sk,Slovensko,Slovensko,2024
+SK01,2,sk,Bratislavský kraj,Bratislavský kraj,2024
+SK010,3,sk,Bratislavský kraj,Bratislavský kraj,2024
+SK02,2,sk,Západné Slovensko,Západné Slovensko,2024
+SK021,3,sk,Trnavský kraj,Trnavský kraj,2024
+SK022,3,sk,Trenčiansky kraj,Trenčiansky kraj,2024
+SK023,3,sk,Nitriansky kraj,Nitriansky kraj,2024
+SK03,2,sk,Stredné Slovensko,Stredné Slovensko,2024
+SK031,3,sk,Žilinský kraj,Žilinský kraj,2024
+SK032,3,sk,Banskobystrický kraj,Banskobystrický kraj,2024
+SK04,2,sk,Východné Slovensko,Východné Slovensko,2024
+SK041,3,sk,Prešovský kraj,Prešovský kraj,2024
+SK042,3,sk,Košický kraj,Košický kraj,2024
+TR,0,tr,Türkiye,Türkiye,2024
+TR1,1,tr,İstanbul,İstanbul,2024
+TR10,2,tr,İstanbul,İstanbul,2024
+TR100,3,tr,İstanbul,İstanbul,2024
+TR2,1,tr,Batı Marmara,Batı Marmara,2024
+TR21,2,tr,"Tekirdağ, Edirne, Kırklareli","Tekirdağ, Edirne, Kırklareli",2024
+TR211,3,tr,Tekirdağ,Tekirdağ,2024
+TR212,3,tr,Edirne,Edirne,2024
+TR213,3,tr,Kırklareli,Kırklareli,2024
+TR22,2,tr,"Balıkesir, Çanakkale","Balıkesir, Çanakkale",2024
+TR221,3,tr,Balıkesir,Balıkesir,2024
+TR222,3,tr,Çanakkale,Çanakkale,2024
+TR3,1,tr,Ege,Ege,2024
+TR31,2,tr,İzmir,İzmir,2024
+TR310,3,tr,İzmir,İzmir,2024
+TR32,2,tr,"Aydın, Denizli, Muğla","Aydın, Denizli, Muğla",2024
+TR321,3,tr,Aydın,Aydın,2024
+TR322,3,tr,Denizli,Denizli,2024
+TR323,3,tr,Muğla,Muğla,2024
+TR33,2,tr,"Manisa, Afyonkarahisar, Kütahya, Uşak","Manisa, Afyonkarahisar, Kütahya, Uşak",2024
+TR331,3,tr,Manisa,Manisa,2024
+TR332,3,tr,Afyonkarahisar,Afyonkarahisar,2024
+TR333,3,tr,Kütahya,Kütahya,2024
+TR334,3,tr,Uşak,Uşak,2024
+TR4,1,tr,Doğu Marmara,Doğu Marmara,2024
+TR41,2,tr,"Bursa, Eskişehir, Bilecik","Bursa, Eskişehir, Bilecik",2024
+TR411,3,tr,Bursa,Bursa,2024
+TR412,3,tr,Eskişehir,Eskişehir,2024
+TR413,3,tr,Bilecik,Bilecik,2024
+TR42,2,tr,"Kocaeli, Sakarya, Düzce, Bolu, Yalova","Kocaeli, Sakarya, Düzce, Bolu, Yalova",2024
+TR421,3,tr,Kocaeli,Kocaeli,2024
+TR422,3,tr,Sakarya,Sakarya,2024
+TR423,3,tr,Düzce,Düzce,2024
+TR424,3,tr,Bolu,Bolu,2024
+TR425,3,tr,Yalova,Yalova,2024
+TR5,1,tr,Batı Anadolu,Batı Anadolu,2024
+TR51,2,tr,Ankara,Ankara,2024
+TR510,3,tr,Ankara,Ankara,2024
+TR52,2,tr,"Konya, Karaman","Konya, Karaman",2024
+TR521,3,tr,Konya,Konya,2024
+TR522,3,tr,Karaman,Karaman,2024
+TR6,1,tr,Akdeniz,Akdeniz,2024
+TR61,2,tr,"Antalya, Isparta, Burdur","Antalya, Isparta, Burdur",2024
+TR611,3,tr,Antalya,Antalya,2024
+TR612,3,tr,Isparta,Isparta,2024
+TR613,3,tr,Burdur,Burdur,2024
+TR62,2,tr,"Adana, Mersin","Adana, Mersin",2024
+TR621,3,tr,Adana,Adana,2024
+TR622,3,tr,Mersin,Mersin,2024
+TR63,2,tr,"Hatay, Kahramanmaraş, Osmaniye","Hatay, Kahramanmaraş, Osmaniye",2024
+TR631,3,tr,Hatay,Hatay,2024
+TR632,3,tr,Kahramanmaraş,Kahramanmaraş,2024
+TR633,3,tr,Osmaniye,Osmaniye,2024
+TR7,1,tr,Orta Anadolu,Orta Anadolu,2024
+TR71,2,tr,"Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir","Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir",2024
+TR711,3,tr,Kırıkkale,Kırıkkale,2024
+TR712,3,tr,Aksaray,Aksaray,2024
+TR713,3,tr,Niğde,Niğde,2024
+TR714,3,tr,Nevşehir,Nevşehir,2024
+TR715,3,tr,Kırşehir,Kırşehir,2024
+TR72,2,tr,"Kayseri, Sivas, Yozgat","Kayseri, Sivas, Yozgat",2024
+TR721,3,tr,Kayseri,Kayseri,2024
+TR722,3,tr,Sivas,Sivas,2024
+TR723,3,tr,Yozgat,Yozgat,2024
+TR8,1,tr,Batı Karadeniz,Batı Karadeniz,2024
+TR81,2,tr,"Zonguldak, Karabük, Bartın","Zonguldak, Karabük, Bartın",2024
+TR811,3,tr,Zonguldak,Zonguldak,2024
+TR812,3,tr,Karabük,Karabük,2024
+TR813,3,tr,Bartın,Bartın,2024
+TR82,2,tr,"Kastamonu, Çankırı, Sinop","Kastamonu, Çankırı, Sinop",2024
+TR821,3,tr,Kastamonu,Kastamonu,2024
+TR822,3,tr,Çankırı,Çankırı,2024
+TR823,3,tr,Sinop,Sinop,2024
+TR83,2,tr,"Samsun, Tokat, Çorum, Amasya","Samsun, Tokat, Çorum, Amasya",2024
+TR831,3,tr,Samsun,Samsun,2024
+TR832,3,tr,Tokat,Tokat,2024
+TR833,3,tr,Çorum,Çorum,2024
+TR834,3,tr,Amasya,Amasya,2024
+TR9,1,tr,Doğu Karadeniz,Doğu Karadeniz,2024
+TR90,2,tr,"Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane","Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane",2024
+TR901,3,tr,Trabzon,Trabzon,2024
+TR902,3,tr,Ordu,Ordu,2024
+TR903,3,tr,Giresun,Giresun,2024
+TR904,3,tr,Rize,Rize,2024
+TR905,3,tr,Artvin,Artvin,2024
+TR906,3,tr,Gümüşhane,Gümüşhane,2024
+TRA,1,tr,Kuzeydoğu Anadolu,Kuzeydoğu Anadolu,2024
+TRA1,2,tr,"Erzurum, Erzincan, Bayburt","Erzurum, Erzincan, Bayburt",2024
+TRA11,3,tr,Erzurum,Erzurum,2024
+TRA12,3,tr,Erzincan,Erzincan,2024
+TRA13,3,tr,Bayburt,Bayburt,2024
+TRA2,2,tr,"Ağrı, Kars, Iğdır, Ardahan","Ağrı, Kars, Iğdır, Ardahan",2024
+TRA21,3,tr,Ağrı,Ağrı,2024
+TRA22,3,tr,Kars,Kars,2024
+TRA23,3,tr,Iğdır,Iğdır,2024
+TRA24,3,tr,Ardahan,Ardahan,2024
+TRB,1,tr,Ortadoğu Anadolu,Ortadoğu Anadolu,2024
+TRB1,2,tr,"Malatya, Elazığ, Bingöl, Tunceli","Malatya, Elazığ, Bingöl, Tunceli",2024
+TRB11,3,tr,Malatya,Malatya,2024
+TRB12,3,tr,Elazığ,Elazığ,2024
+TRB13,3,tr,Bingöl,Bingöl,2024
+TRB14,3,tr,Tunceli,Tunceli,2024
+TRB2,2,tr,"Van, Muş, Bitlis, Hakkari","Van, Muş, Bitlis, Hakkari",2024
+TRB21,3,tr,Van,Van,2024
+TRB22,3,tr,Muş,Muş,2024
+TRB23,3,tr,Bitlis,Bitlis,2024
+TRB24,3,tr,Hakkari,Hakkari,2024
+TRC,1,tr,Güneydoğu Anadolu,Güneydoğu Anadolu,2024
+TRC1,2,tr,"Gaziantep, Adıyaman, Kilis","Gaziantep, Adıyaman, Kilis",2024
+TRC11,3,tr,Gaziantep,Gaziantep,2024
+TRC12,3,tr,Adıyaman,Adıyaman,2024
+TRC13,3,tr,Kilis,Kilis,2024
+TRC2,2,tr,"Şanlıurfa, Diyarbakır","Şanlıurfa, Diyarbakır",2024
+TRC21,3,tr,Şanlıurfa,Şanlıurfa,2024
+TRC22,3,tr,Diyarbakır,Diyarbakır,2024
+TRC3,2,tr,"Mardin, Batman, Şırnak, Siirt","Mardin, Batman, Şırnak, Siirt",2024
+TRC31,3,tr,Mardin,Mardin,2024
+TRC32,3,tr,Batman,Batman,2024
+TRC33,3,tr,Şırnak,Şırnak,2024
+TRC34,3,tr,Siirt,Siirt,2024
+UA,0,ua,Ukraina,Україна,2024
+UA1,1,ua,Macroregion_01,Макрорегіон_01,2024
+UA11,2,ua,Poltavska Oblast,Полтавська Область,2024
+UA111,3,ua,Kremenchutskyi Raion,Кременчуцький Район,2024
+UA112,3,ua,Lubenskyi Raion,Лубенський Район,2024
+UA113,3,ua,Myrhorodskyi Raion,Миргородський Район,2024
+UA114,3,ua,Poltavskyi Raion,Полтавський Район,2024
+UA12,2,ua,Sumska Oblast,Сумська Область,2024
+UA121,3,ua,Konotopskyi Raion,Конотопський Район,2024
+UA122,3,ua,Okhtyrskyi Raion,Охтирський Район,2024
+UA123,3,ua,Romenskyi Raion,Роменський Район,2024
+UA124,3,ua,Sumskyi Raion,Сумський Район,2024
+UA125,3,ua,Shostkynskyi Raion,Шосткинський Район,2024
+UA13,2,ua,Kharkivska Oblast,Харківська Область,2024
+UA131,3,ua,Bohodukhivskyi Raion,Богодухівський Район,2024
+UA132,3,ua,Iziumskyi Raion,Ізюмський Район,2024
+UA133,3,ua,Krasnohradskyi Raion,Красноградський Район,2024
+UA134,3,ua,Kupianskyi Raion,Куп'Янський Район,2024
+UA135,3,ua,Lozivskyi Raion,Лозівський Район,2024
+UA136,3,ua,Kharkivskyi Raion,Харківський Район,2024
+UA137,3,ua,Chuhuivskyi Raion,Чугуївський Район,2024
+UA14,2,ua,Chernihivska Oblast,Чернігівська Область,2024
+UA141,3,ua,Koriukivskyi Raion,Корюківський Район,2024
+UA142,3,ua,Nizhynskyi Raion,Ніжинський Район,2024
+UA143,3,ua,Novhorod-Siverskyi Raion,Новгород-Сіверський Район,2024
+UA144,3,ua,Prylutskyi Raion,Прилуцький Район,2024
+UA145,3,ua,Chernihivskyi Raion,Чернігівський Район,2024
+UA2,1,ua,Macroregion_02,Макрорегіон_02,2024
+UA21,2,ua,Donetska Oblast,Донецька Область,2024
+UA211,3,ua,Bakhmutskyi Raion,Бахмутський Район,2024
+UA212,3,ua,Volnovaskyi Raion,Волноваський Район,2024
+UA213,3,ua,Horlivskyi Raion,Горлівський Район,2024
+UA214,3,ua,Donetskyi Raion,Донецький Район,2024
+UA215,3,ua,Kalmiuskyi Raion,Кальміуський Район,2024
+UA216,3,ua,Kramatorskyi Raion,Краматорський Район,2024
+UA217,3,ua,Mariupolskyi Raion,Маріупольський Район,2024
+UA218,3,ua,Pokrovskyi Raion,Покровський Район,2024
+UA22,2,ua,Luhanska Oblast,Луганська Область,2024
+UA221,3,ua,Alchevskyi Raion,Алчевський Район,2024
+UA222,3,ua,Dovzhanskyi Raion,Довжанський Район,2024
+UA223,3,ua,Luhanskyi Raion,Луганський Район,2024
+UA224,3,ua,Rovenkivskyi Raion,Ровеньківський Район,2024
+UA225,3,ua,Svativskyi Raion,Сватівський Район,2024
+UA226,3,ua,Sievierodonetskyi Raion,Сєвєродонецький Район,2024
+UA227,3,ua,Starobilskyi Raion,Старобільський Район,2024
+UA228,3,ua,Shchastynskyi Raion,Щастинський Район,2024
+UA3,1,ua,Macroregion_03,Макрорегіон_03,2024
+UA31,2,ua,Dnipropetrovska Oblast,Дніпропетровська Область,2024
+UA311,3,ua,Dniprovskyi Raion,Дніпровський Район,2024
+UA312,3,ua,Kamianskyi Raion,Кам'Янський Район,2024
+UA313,3,ua,Kryvorizkyi Raion,Криворізький Район,2024
+UA314,3,ua,Nikopolskyi Raion,Нікопольський Район,2024
+UA315,3,ua,Novomoskovskyi Raion,Новомосковський Район,2024
+UA316,3,ua,Pavlohradskyi Raion,Павлоградський Район,2024
+UA317,3,ua,Synelnykivskyi Raion,Синельниківський Район,2024
+UA32,2,ua,Zaporizka Oblast,Запорізька Область,2024
+UA321,3,ua,Berdianskyi Raion,Бердянський Район,2024
+UA322,3,ua,Vasylivskyi Raion,Василівський Район,2024
+UA323,3,ua,Zaporizkyi Raion,Запорізький Район,2024
+UA324,3,ua,Melitopolskyi Raion,Мелітопольський Район,2024
+UA325,3,ua,Polohivskyi Raion,Пологівський Район,2024
+UA33,2,ua,Kirovohradska Oblast,Кіровоградська Область,2024
+UA331,3,ua,Holovanivskyi Raion,Голованівський Район,2024
+UA332,3,ua,Kropyvnytskyi Raion,Кропивницький Район,2024
+UA333,3,ua,Novoukrainskyi Raion,Новоукраїнський Район,2024
+UA334,3,ua,Oleksandriiskyi Raion,Олександрійський Район,2024
+UA4,1,ua,Macroregion_04,Макрорегіон_04,2024
+UA41,2,ua,Mykolaivska Oblast,Миколаївська Область,2024
+UA411,3,ua,Bashtanskyi Raion,Баштанський Район,2024
+UA412,3,ua,Voznesenskyi Raion,Вознесенський Район,2024
+UA413,3,ua,Mykolaivskyi Raion,Миколаївський Район,2024
+UA414,3,ua,Pervomaiskyi Raion,Первомайський Район,2024
+UA42,2,ua,Odeska Oblast,Одеська Область,2024
+UA421,3,ua,Berezivskyi Raion,Березівський Район,2024
+UA422,3,ua,Bilhorod-Dnistrovskyi Raion,Білгород-Дністровський Район,2024
+UA423,3,ua,Bolhradskyi Raion,Болградський Район,2024
+UA424,3,ua,Izmailskyi Raion,Ізмаїльський Район,2024
+UA425,3,ua,Odeskyi Raion,Одеський Район,2024
+UA426,3,ua,Podilskyi Raion,Подільський Район,2024
+UA427,3,ua,Rozdilnianskyi Raion,Роздільнянський Район,2024
+UA43,2,ua,Khersonska Oblast,Херсонська Область,2024
+UA431,3,ua,Beryslavskyi Raion,Бериславський Район,2024
+UA432,3,ua,Henicheskyi Raion,Генічеський Район,2024
+UA433,3,ua,Kakhovskyi Raion,Каховський Район,2024
+UA434,3,ua,Skadovskyi Raion,Скадовський Район,2024
+UA435,3,ua,Khersonskyi Raion,Херсонський Район,2024
+UA44,2,ua,Avtonomna Respublika Krym,Ар Крим,2024
+UA441,3,ua,Bakhchysaraiskyi Raion,Бахчисарайський Район,2024
+UA442,3,ua,Bilohirskyi Raion,Білогірський Район,2024
+UA443,3,ua,Dzhankoiskyi Raion,Джанкойський Район,2024
+UA444,3,ua,Ievpatoriiskyi Raion,Євпаторійський Район,2024
+UA445,3,ua,Kerchenskyi Raion,Керченський Район,2024
+UA446,3,ua,Kurmanskyi Raion,Курманський Район,2024
+UA447,3,ua,Perekopskyi Raion,Перекопський Район,2024
+UA448,3,ua,Simferopolskyi Raion,Сімферопольський Район,2024
+UA449,3,ua,Feodosiiskyi Raion,Феодосійський Район,2024
+UA44A,3,ua,Ialtynskyi Raion,Ялтинський Район,2024
+UA45,2,ua,M. Sevastopol,М. Севастополь,2024
+UA450,3,ua,M. Sevastopol,М. Севастополь,2024
+UA5,1,ua,Macroregion_05,Макрорегіон_05,2024
+UA51,2,ua,Vinnytska Oblast,Вінницька Область,2024
+UA511,3,ua,Vinnytskyi Raion,Вінницький Район,2024
+UA512,3,ua,Haisynskyi Raion,Гайсинський Район,2024
+UA513,3,ua,Zhmerynskyi Raion,Жмеринський Район,2024
+UA514,3,ua,Mohyliv-Podilskyi Raion,Могилів-Подільський Район,2024
+UA515,3,ua,Tulchynskyi Raion,Тульчинський Район,2024
+UA516,3,ua,Khmilnytskyi Raion,Хмільницький Район,2024
+UA52,2,ua,Ternopilska Oblast,Тернопільська Область,2024
+UA521,3,ua,Kremenetskyi Raion,Кременецький Район,2024
+UA522,3,ua,Ternopilskyi Raion,Тернопільський Район,2024
+UA523,3,ua,Chortkivskyi Raion,Чортківський Район,2024
+UA53,2,ua,Khmelnytska Oblast,Хмельницька Область,2024
+UA531,3,ua,Kamianets-Podilskyi Raion,Кам'Янець-Подільський Район,2024
+UA532,3,ua,Khmelnytskyi Raion,Хмельницький Район,2024
+UA533,3,ua,Shepetivskyi Raion,Шепетівський Район,2024
+UA6,1,ua,Macroregion_06,Макрорегіон_06,2024
+UA61,2,ua,Kyivska Oblast,Київська  Область,2024
+UA611,3,ua,Bilotserkivskyi Raion,Білоцерківський Район,2024
+UA612,3,ua,Boryspilskyi Raion,Бориспільський Район,2024
+UA613,3,ua,Brovarskyi Raion,Броварський Район,2024
+UA614,3,ua,Buchanskyi Raion,Бучанський Район,2024
+UA615,3,ua,Vyshhorodskyi Raion,Вишгородський Район,2024
+UA616,3,ua,Obukhivskyi Raion,Обухівський Район,2024
+UA617,3,ua,Fastivskyi Raion,Фастівський Район,2024
+UA62,2,ua,Cherkaska Oblast,Черкаська  Область,2024
+UA621,3,ua,Zvenyhorodskyi Raion,Звенигородський Район,2024
+UA622,3,ua,Zolotoniskyi Raion,Золотоніський Район,2024
+UA623,3,ua,Umanskyi Raion,Уманський Район,2024
+UA624,3,ua,Cherkaskyi Raion,Черкаський Район,2024
+UA63,2,ua,M. Kyiv,М. Київ,2024
+UA630,3,ua,M. Kyiv,М. Київ,2024
+UA7,1,ua,Macroregion_07,Макрорегіон_07,2024
+UA71,2,ua,Zakarpatska Oblast,Закарпатська Область,2024
+UA711,3,ua,Berehivskyi Raion,Берегівський Район,2024
+UA712,3,ua,Mukachivskyi Raion,Мукачівський Район,2024
+UA713,3,ua,Rakhivskyi Raion,Рахівський Район,2024
+UA714,3,ua,Tiachivskyi Raion,Тячівський Район,2024
+UA715,3,ua,Uzhhorodskyi Raion,Ужгородський Район,2024
+UA716,3,ua,Khustskyi Raion,Хустський Район,2024
+UA72,2,ua,Ivano-Frankivska Oblast,Івано-Франківська Область,2024
+UA721,3,ua,Verkhovynskyi Raion,Верховинський Район,2024
+UA722,3,ua,Ivano-Frankivskyi Raion,Івано-Франківський Район,2024
+UA723,3,ua,Kaluskyi Raion,Калуський Район,2024
+UA724,3,ua,Kolomyiskyi Raion,Коломийський Район,2024
+UA725,3,ua,Kosivskyi Raion,Косівський Район,2024
+UA726,3,ua,Nadvirnianskyi Raion,Надвірнянський Район,2024
+UA73,2,ua,Lvivska Oblast,Львівська Область,2024
+UA731,3,ua,Drohobytskyi Raion,Дрогобицький Район,2024
+UA732,3,ua,Zolochivskyi Raion,Золочівський Район,2024
+UA733,3,ua,Lvivskyi Raion,Львівський Район,2024
+UA734,3,ua,Sambirskyi Raion,Самбірський Район,2024
+UA735,3,ua,Stryiskyi Raion,Стрийський Район,2024
+UA736,3,ua,Chervonohradskyi Raion,Червоноградський Район,2024
+UA737,3,ua,Iavorivskyi Raion,Яворівський Район,2024
+UA74,2,ua,Chernivetska Oblast,Чернівецька Область,2024
+UA741,3,ua,Vyzhnytskyi Raion,Вижницький Район,2024
+UA742,3,ua,Dnistrovskyi Raion,Дністровський Район,2024
+UA743,3,ua,Chernivetskyi Raion,Чернівецький Район,2024
+UA8,1,ua,Macroregion_08,Макрорегіон_08,2024
+UA81,2,ua,Volynska Oblast,Волинська Область,2024
+UA811,3,ua,Volodymyrskyi Raion,Володимирський Район,2024
+UA812,3,ua,Kamin-Kashyrskyi Raion,Камінь-Каширський Район,2024
+UA813,3,ua,Kovelskyi Raion,Ковельський Район,2024
+UA814,3,ua,Lutskyi Raion,Луцький Район,2024
+UA82,2,ua,Zhytomyrska Oblast,Житомирська Область,2024
+UA821,3,ua,Berdychivskyi Raion,Бердичівський Район,2024
+UA822,3,ua,Zhytomyrskyi Raion,Житомирський Район,2024
+UA823,3,ua,Korostenskyi Raion,Коростенський Район,2024
+UA824,3,ua,Zviahelskyi Raion,Звягельський Район,2024
+UA83,2,ua,Rivnenska Oblast,Рівненська Область,2024
+UA831,3,ua,Varaskyi Raion,Вараський Район,2024
+UA832,3,ua,Dubenskyi Raion,Дубенський Район,2024
+UA833,3,ua,Rivnenskyi Raion,Рівненський Район,2024
+UA834,3,ua,Sarnenskyi Raion,Сарненський Район,2024
+UK,0,uk,United Kingdom,United Kingdom,2021
+UKC,1,uk,North East (England),North East (England),2021
+UKC1,2,uk,Tees Valley and Durham,Tees Valley and Durham,2021
+UKC11,3,uk,Hartlepool and Stockton-on-Tees,Hartlepool and Stockton-on-Tees,2021
+UKC12,3,uk,South Teesside,South Teesside,2021
+UKC13,3,uk,Darlington,Darlington,2021
+UKC14,3,uk,Durham CC,Durham CC,2021
+UKC2,2,uk,Northumberland and Tyne and Wear,Northumberland and Tyne and Wear,2021
+UKC21,3,uk,Northumberland,Northumberland,2021
+UKC22,3,uk,Tyneside,Tyneside,2021
+UKC23,3,uk,Sunderland,Sunderland,2021
+UKD,1,uk,North West (England),North West (England),2021
+UKD1,2,uk,Cumbria,Cumbria,2021
+UKD11,3,uk,West Cumbria,West Cumbria,2021
+UKD12,3,uk,East Cumbria,East Cumbria,2021
+UKD3,2,uk,Greater Manchester,Greater Manchester,2021
+UKD33,3,uk,Manchester,Manchester,2021
+UKD34,3,uk,Greater Manchester South West,Greater Manchester South West,2021
+UKD35,3,uk,Greater Manchester South East,Greater Manchester South East,2021
+UKD36,3,uk,Greater Manchester North West,Greater Manchester North West,2021
+UKD37,3,uk,Greater Manchester North East,Greater Manchester North East,2021
+UKD4,2,uk,Lancashire,Lancashire,2021
+UKD41,3,uk,Blackburn with Darwen,Blackburn with Darwen,2021
+UKD42,3,uk,Blackpool,Blackpool,2021
+UKD44,3,uk,Lancaster and Wyre,Lancaster and Wyre,2021
+UKD45,3,uk,Mid Lancashire,Mid Lancashire,2021
+UKD46,3,uk,East Lancashire,East Lancashire,2021
+UKD47,3,uk,Chorley and West Lancashire,Chorley and West Lancashire,2021
+UKD6,2,uk,Cheshire,Cheshire,2021
+UKD61,3,uk,Warrington,Warrington,2021
+UKD62,3,uk,Cheshire East,Cheshire East,2021
+UKD63,3,uk,Cheshire West and Chester,Cheshire West and Chester,2021
+UKD7,2,uk,Merseyside,Merseyside,2021
+UKD71,3,uk,East Merseyside,East Merseyside,2021
+UKD72,3,uk,Liverpool,Liverpool,2021
+UKD73,3,uk,Sefton,Sefton,2021
+UKD74,3,uk,Wirral,Wirral,2021
+UKE,1,uk,Yorkshire and the Humber,Yorkshire and the Humber,2021
+UKE1,2,uk,East Yorkshire and Northern Lincolnshire,East Yorkshire and Northern Lincolnshire,2021
+UKE11,3,uk,"Kingston upon Hull, City of","Kingston upon Hull, City of",2021
+UKE12,3,uk,East Riding of Yorkshire,East Riding of Yorkshire,2021
+UKE13,3,uk,North and North East Lincolnshire,North and North East Lincolnshire,2021
+UKE2,2,uk,North Yorkshire,North Yorkshire,2021
+UKE21,3,uk,York,York,2021
+UKE22,3,uk,North Yorkshire CC,North Yorkshire CC,2021
+UKE3,2,uk,South Yorkshire,South Yorkshire,2021
+UKE31,3,uk,"Barnsley, Doncaster and Rotherham","Barnsley, Doncaster and Rotherham",2021
+UKE32,3,uk,Sheffield,Sheffield,2021
+UKE4,2,uk,West Yorkshire,West Yorkshire,2021
+UKE41,3,uk,Bradford,Bradford,2021
+UKE42,3,uk,Leeds,Leeds,2021
+UKE44,3,uk,Calderdale and Kirklees,Calderdale and Kirklees,2021
+UKE45,3,uk,Wakefield,Wakefield,2021
+UKF,1,uk,East Midlands (England),East Midlands (England),2021
+UKF1,2,uk,Derbyshire and Nottinghamshire,Derbyshire and Nottinghamshire,2021
+UKF11,3,uk,Derby,Derby,2021
+UKF12,3,uk,East Derbyshire,East Derbyshire,2021
+UKF13,3,uk,South and West Derbyshire,South and West Derbyshire,2021
+UKF14,3,uk,Nottingham,Nottingham,2021
+UKF15,3,uk,North Nottinghamshire,North Nottinghamshire,2021
+UKF16,3,uk,South Nottinghamshire,South Nottinghamshire,2021
+UKF2,2,uk,"Leicestershire, Rutland and Northamptonshire","Leicestershire, Rutland and Northamptonshire",2021
+UKF21,3,uk,Leicester,Leicester,2021
+UKF22,3,uk,Leicestershire CC and Rutland,Leicestershire CC and Rutland,2021
+UKF24,3,uk,West Northamptonshire,West Northamptonshire,2021
+UKF25,3,uk,North Northamptonshire,North Northamptonshire,2021
+UKF3,2,uk,Lincolnshire,Lincolnshire,2021
+UKF30,3,uk,Lincolnshire,Lincolnshire,2021
+UKG,1,uk,West Midlands (England),West Midlands (England),2021
+UKG1,2,uk,"Herefordshire, Worcestershire and Warwickshire","Herefordshire, Worcestershire and Warwickshire",2021
+UKG11,3,uk,"Herefordshire, County of","Herefordshire, County of",2021
+UKG12,3,uk,Worcestershire,Worcestershire,2021
+UKG13,3,uk,Warwickshire,Warwickshire,2021
+UKG2,2,uk,Shropshire and Staffordshire,Shropshire and Staffordshire,2021
+UKG21,3,uk,Telford and Wrekin,Telford and Wrekin,2021
+UKG22,3,uk,Shropshire CC,Shropshire CC,2021
+UKG23,3,uk,Stoke-on-Trent,Stoke-on-Trent,2021
+UKG24,3,uk,Staffordshire CC,Staffordshire CC,2021
+UKG3,2,uk,West Midlands,West Midlands,2021
+UKG31,3,uk,Birmingham,Birmingham,2021
+UKG32,3,uk,Solihull,Solihull,2021
+UKG33,3,uk,Coventry,Coventry,2021
+UKG36,3,uk,Dudley,Dudley,2021
+UKG37,3,uk,Sandwell,Sandwell,2021
+UKG38,3,uk,Walsall,Walsall,2021
+UKG39,3,uk,Wolverhampton,Wolverhampton,2021
+UKH,1,uk,East of England,East of England,2021
+UKH1,2,uk,East Anglia,East Anglia,2021
+UKH11,3,uk,Peterborough,Peterborough,2021
+UKH12,3,uk,Cambridgeshire CC,Cambridgeshire CC,2021
+UKH14,3,uk,Suffolk,Suffolk,2021
+UKH15,3,uk,Norwich and East Norfolk,Norwich and East Norfolk,2021
+UKH16,3,uk,North and West Norfolk,North and West Norfolk,2021
+UKH17,3,uk,Breckland and South Norfolk,Breckland and South Norfolk,2021
+UKH2,2,uk,Bedfordshire and Hertfordshire,Bedfordshire and Hertfordshire,2021
+UKH21,3,uk,Luton,Luton,2021
+UKH23,3,uk,Hertfordshire,Hertfordshire,2021
+UKH24,3,uk,Bedford,Bedford,2021
+UKH25,3,uk,Central Bedfordshire,Central Bedfordshire,2021
+UKH3,2,uk,Essex,Essex,2021
+UKH31,3,uk,Southend-on-Sea,Southend-on-Sea,2021
+UKH32,3,uk,Thurrock,Thurrock,2021
+UKH34,3,uk,Essex Haven Gateway,Essex Haven Gateway,2021
+UKH35,3,uk,West Essex,West Essex,2021
+UKH36,3,uk,Heart of Essex,Heart of Essex,2021
+UKH37,3,uk,Essex Thames Gateway,Essex Thames Gateway,2021
+UKI,1,uk,London,London,2021
+UKI3,2,uk,Inner London — West,Inner London — West,2021
+UKI31,3,uk,Camden and City of London,Camden and City of London,2021
+UKI32,3,uk,Westminster,Westminster,2021
+UKI33,3,uk,Kensington & Chelsea and Hammersmith & Fulham,Kensington & Chelsea and Hammersmith & Fulham,2021
+UKI34,3,uk,Wandsworth,Wandsworth,2021
+UKI4,2,uk,Inner London — East,Inner London — East,2021
+UKI41,3,uk,Hackney and Newham,Hackney and Newham,2021
+UKI42,3,uk,Tower Hamlets,Tower Hamlets,2021
+UKI43,3,uk,Haringey and Islington,Haringey and Islington,2021
+UKI44,3,uk,Lewisham and Southwark,Lewisham and Southwark,2021
+UKI45,3,uk,Lambeth,Lambeth,2021
+UKI5,2,uk,Outer London — East and North East,Outer London — East and North East,2021
+UKI51,3,uk,Bexley and Greenwich,Bexley and Greenwich,2021
+UKI52,3,uk,Barking & Dagenham and Havering,Barking & Dagenham and Havering,2021
+UKI53,3,uk,Redbridge and Waltham Forest,Redbridge and Waltham Forest,2021
+UKI54,3,uk,Enfield,Enfield,2021
+UKI6,2,uk,Outer London — South,Outer London — South,2021
+UKI61,3,uk,Bromley,Bromley,2021
+UKI62,3,uk,Croydon,Croydon,2021
+UKI63,3,uk,"Merton, Kingston upon Thames and Sutton","Merton, Kingston upon Thames and Sutton",2021
+UKI7,2,uk,Outer London — West and North West,Outer London — West and North West,2021
+UKI71,3,uk,Barnet,Barnet,2021
+UKI72,3,uk,Brent,Brent,2021
+UKI73,3,uk,Ealing,Ealing,2021
+UKI74,3,uk,Harrow and Hillingdon,Harrow and Hillingdon,2021
+UKI75,3,uk,Hounslow and Richmond upon Thames,Hounslow and Richmond upon Thames,2021
+UKJ,1,uk,South East (England),South East (England),2021
+UKJ1,2,uk,"Berkshire, Buckinghamshire and Oxfordshire","Berkshire, Buckinghamshire and Oxfordshire",2021
+UKJ11,3,uk,Berkshire,Berkshire,2021
+UKJ12,3,uk,Milton Keynes,Milton Keynes,2021
+UKJ13,3,uk,Buckinghamshire CC,Buckinghamshire CC,2021
+UKJ14,3,uk,Oxfordshire,Oxfordshire,2021
+UKJ2,2,uk,"Surrey, East and West Sussex","Surrey, East and West Sussex",2021
+UKJ21,3,uk,Brighton and Hove,Brighton and Hove,2021
+UKJ22,3,uk,East Sussex CC,East Sussex CC,2021
+UKJ25,3,uk,West Surrey,West Surrey,2021
+UKJ26,3,uk,East Surrey,East Surrey,2021
+UKJ27,3,uk,West Sussex (South West),West Sussex (South West),2021
+UKJ28,3,uk,West Sussex (North East),West Sussex (North East),2021
+UKJ3,2,uk,Hampshire and Isle of Wight,Hampshire and Isle of Wight,2021
+UKJ31,3,uk,Portsmouth,Portsmouth,2021
+UKJ32,3,uk,Southampton,Southampton,2021
+UKJ34,3,uk,Isle of Wight,Isle of Wight,2021
+UKJ35,3,uk,South Hampshire,South Hampshire,2021
+UKJ36,3,uk,Central Hampshire,Central Hampshire,2021
+UKJ37,3,uk,North Hampshire,North Hampshire,2021
+UKJ4,2,uk,Kent,Kent,2021
+UKJ41,3,uk,Medway,Medway,2021
+UKJ43,3,uk,Kent Thames Gateway,Kent Thames Gateway,2021
+UKJ44,3,uk,East Kent,East Kent,2021
+UKJ45,3,uk,Mid Kent,Mid Kent,2021
+UKJ46,3,uk,West Kent,West Kent,2021
+UKK,1,uk,South West (England),South West (England),2021
+UKK1,2,uk,"Gloucestershire, Wiltshire and Bristol/Bath area","Gloucestershire, Wiltshire and Bristol/Bath area",2021
+UKK11,3,uk,"Bristol, City of","Bristol, City of",2021
+UKK12,3,uk,"Bath and North East Somerset, North Somerset and South Gloucestershire","Bath and North East Somerset, North Somerset and South Gloucestershire",2021
+UKK13,3,uk,Gloucestershire,Gloucestershire,2021
+UKK14,3,uk,Swindon,Swindon,2021
+UKK15,3,uk,Wiltshire CC,Wiltshire CC,2021
+UKK2,2,uk,Dorset and Somerset,Dorset and Somerset,2021
+UKK23,3,uk,Somerset,Somerset,2021
+UKK24,3,uk,"Bournemouth, Christchurch and Poole","Bournemouth, Christchurch and Poole",2021
+UKK25,3,uk,Dorset,Dorset,2021
+UKK3,2,uk,Cornwall and Isles of Scilly,Cornwall and Isles of Scilly,2021
+UKK30,3,uk,Cornwall and Isles of Scilly,Cornwall and Isles of Scilly,2021
+UKK4,2,uk,Devon,Devon,2021
+UKK41,3,uk,Plymouth,Plymouth,2021
+UKK42,3,uk,Torbay,Torbay,2021
+UKK43,3,uk,Devon CC,Devon CC,2021
+UKL,1,uk,Wales,Wales,2021
+UKL1,2,uk,West Wales and The Valleys,West Wales and The Valleys,2021
+UKL11,3,uk,Isle of Anglesey,Isle of Anglesey,2021
+UKL12,3,uk,Gwynedd,Gwynedd,2021
+UKL13,3,uk,Conwy and Denbighshire,Conwy and Denbighshire,2021
+UKL14,3,uk,South West Wales,South West Wales,2021
+UKL15,3,uk,Central Valleys,Central Valleys,2021
+UKL16,3,uk,Gwent Valleys,Gwent Valleys,2021
+UKL17,3,uk,Bridgend and Neath Port Talbot,Bridgend and Neath Port Talbot,2021
+UKL18,3,uk,Swansea,Swansea,2021
+UKL2,2,uk,East Wales,East Wales,2021
+UKL21,3,uk,Monmouthshire and Newport,Monmouthshire and Newport,2021
+UKL22,3,uk,Cardiff and Vale of Glamorgan,Cardiff and Vale of Glamorgan,2021
+UKL23,3,uk,Flintshire and Wrexham,Flintshire and Wrexham,2021
+UKL24,3,uk,Powys,Powys,2021
+UKM,1,uk,Scotland,Scotland,2021
+UKM5,2,uk,North Eastern Scotland,North Eastern Scotland,2021
+UKM50,3,uk,Aberdeen City and Aberdeenshire,Aberdeen City and Aberdeenshire,2021
+UKM6,2,uk,Highlands and Islands,Highlands and Islands,2021
+UKM61,3,uk,Caithness & Sutherland and Ross & Cromarty,Caithness & Sutherland and Ross & Cromarty,2021
+UKM62,3,uk,"Inverness & Nairn and Moray, Badenoch & Strathspey","Inverness & Nairn and Moray, Badenoch & Strathspey",2021
+UKM63,3,uk,"Lochaber, Skye & Lochalsh, Arran & Cumbrae and Argyll & Bute","Lochaber, Skye & Lochalsh, Arran & Cumbrae and Argyll & Bute",2021
+UKM64,3,uk,Na h-Eileanan Siar (Western Isles),Na h-Eileanan Siar (Western Isles),2021
+UKM65,3,uk,Orkney Islands,Orkney Islands,2021
+UKM66,3,uk,Shetland Islands,Shetland Islands,2021
+UKM7,2,uk,Eastern Scotland,Eastern Scotland,2021
+UKM71,3,uk,Angus and Dundee City,Angus and Dundee City,2021
+UKM72,3,uk,Clackmannanshire and Fife,Clackmannanshire and Fife,2021
+UKM73,3,uk,East Lothian and Midlothian,East Lothian and Midlothian,2021
+UKM75,3,uk,"Edinburgh, City of","Edinburgh, City of",2021
+UKM76,3,uk,Falkirk,Falkirk,2021
+UKM77,3,uk,Perth & Kinross and Stirling,Perth & Kinross and Stirling,2021
+UKM78,3,uk,West Lothian,West Lothian,2021
+UKM8,2,uk,West Central Scotland,West Central Scotland,2021
+UKM81,3,uk,"East Dunbartonshire, West Dunbartonshire and Helensburgh & Lomond","East Dunbartonshire, West Dunbartonshire and Helensburgh & Lomond",2021
+UKM82,3,uk,Glasgow City,Glasgow City,2021
+UKM83,3,uk,"Inverclyde, East Renfrewshire and Renfrewshire","Inverclyde, East Renfrewshire and Renfrewshire",2021
+UKM84,3,uk,North Lanarkshire,North Lanarkshire,2021
+UKM9,2,uk,Southern Scotland,Southern Scotland,2021
+UKM91,3,uk,Scottish Borders,Scottish Borders,2021
+UKM92,3,uk,Dumfries & Galloway,Dumfries & Galloway,2021
+UKM93,3,uk,East Ayrshire and North Ayrshire mainland,East Ayrshire and North Ayrshire mainland,2021
+UKM94,3,uk,South Ayrshire,South Ayrshire,2021
+UKM95,3,uk,South Lanarkshire,South Lanarkshire,2021
+UKN,1,uk,Northern Ireland,Northern Ireland,2021
+UKN0,2,uk,Northern Ireland,Northern Ireland,2021
+UKN06,3,uk,Belfast,Belfast,2021
+UKN07,3,uk,"Armagh City, Banbridge and Craigavon","Armagh City, Banbridge and Craigavon",2021
+UKN08,3,uk,"Newry, Mourne and Down","Newry, Mourne and Down",2021
+UKN09,3,uk,Ards and North Down,Ards and North Down,2021
+UKN0A,3,uk,Derry City and Strabane,Derry City and Strabane,2021
+UKN0B,3,uk,Mid Ulster,Mid Ulster,2021
+UKN0C,3,uk,Causeway Coast and Glens,Causeway Coast and Glens,2021
+UKN0D,3,uk,Antrim and Newtownabbey,Antrim and Newtownabbey,2021
+UKN0E,3,uk,Lisburn and Castlereagh,Lisburn and Castlereagh,2021
+UKN0F,3,uk,Mid and East Antrim,Mid and East Antrim,2021
+UKN0G,3,uk,Fermanagh and Omagh,Fermanagh and Omagh,2021
+XK,0,xk,Kosovo*,Kosovo*,2024
+XK0,1,xk,Kosovo,Kosovo,2024
+XK00,2,xk,Kosovo,Kosovo,2024
+XK001,3,xk,Prishtinë,Prishtinë,2024
+XK002,3,xk,Mitrovicë,Mitrovicë,2024
+XK003,3,xk,Pejë,Pejë,2024
+XK004,3,xk,Prizren,Prizren,2024
+XK005,3,xk,Ferizaj,Ferizaj,2024
+XK006,3,xk,Gjilan,Gjilan,2024
+XK007,3,xk,Gjakovë,Gjakovë,2024

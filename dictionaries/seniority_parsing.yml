@@ -1,0 +1,105 @@
+# Seniority/experience-requirement parsing — feeds question 5 (what does
+# "junior" actually mean?). Not wired into any model yet — dictionary +
+# dry-run first, same discipline as the other two dictionaries.
+#
+# Two independent signals, extracted separately and only cross-referenced
+# downstream (in whatever model consumes this, not here):
+#   1. years_experience_patterns — required years of experience parsed from
+#      description text, as (min_years, max_years) where max_years is null
+#      for a bare "N+ years" / "at least N years" claim.
+#   2. title_seniority_markers — junior/mid/senior implied by the JOB TITLE
+#      alone, independent of years stated in the body.
+#
+# The whole point of separating these is to catch the mismatch the project
+# cares about: a "junior" title secretly requiring 3+ years should surface
+# as a mismatch, not get miscounted as compliant. Blending them into one
+# signal here would make that comparison impossible downstream.
+#
+# Each years_experience_patterns entry is a regex with capture groups in
+# this fixed convention: group 1 = min years (always present), group 2 =
+# max years (present only for genuine ranges like "3-5 years" — absent for
+# "5+ years" / "at least 5 years", which are open-ended).
+#
+# PLAUSIBILITY BOUND: any extracted number above MAX_PLAUSIBLE_YEARS is
+# rejected outright, not clamped or kept — verified necessary against real
+# data (2026-09-18): "über 55 Jahren Erfahrung" ("over 55 years of
+# experience") describing a COMPANY's history, not a candidate requirement.
+# No individual candidate has 55 years of experience; this is a real,
+# recurring pattern (companies citing decades of heritage), not a one-off.
+#
+# CONTEXT EXCLUSIONS: some plausible-magnitude mentions are still not a
+# candidate requirement — "seit 10 Jahren am Markt" (in the market for 10
+# years), "X years in business", "our company has N years of experience" —
+# describing the EMPLOYER's tenure, not what's asked of the candidate. These
+# are excluded by context pattern, same mechanism as the language
+# dictionary's exclusion_patterns. This is inherently harder to get fully
+# right via regex than the plausibility bound (subject identification is a
+# real NLP problem); documented as a known limitation, not solved perfectly.
+
+max_plausible_years: 20
+
+years_experience_patterns:
+  # "3-5 years" / "3 to 5 years" / "3-5 Jahre" / "3 à 5 ans" — genuine range
+  - '\b(\d{1,2})\s*(?:-|to|bis|à)\s*(\d{1,2})\s*(?:\+)?\s*(?:years?|jahre?n?|ans?)\b'
+  # "5+ years" / "5 or more years" — open-ended minimum
+  - '\b(\d{1,2})\s*\+\s*(?:years?|jahre?n?|ans?)\b'
+  # "minimum 5 years" / "at least 5 years" / "mindestens 5 Jahre" /
+  # "au moins 5 ans" / "min. 5 Jahre" — unit word is REQUIRED, not optional:
+  # an earlier draft made it optional and matched "mindestens 6 Monate"
+  # (at least 6 MONTHS) and "at least 3 months" as if they said years
+  # (found via dry run against real postings, 2026-09-18 — the same root
+  # cause produced two separate false positives in one 50-posting sample).
+  - '\b(?:minimum|min\.?|at least|mindestens|au\s+moins)\s*(\d{1,2})\s*(?:\+)?\s*(?:years?|jahre?n?|ans?)\b'
+  # "5 years of experience" / "5 Jahre Erfahrung" / "5 ans d'expérience" —
+  # bare number, no explicit minimum/range wording
+  - '\b(\d{1,2})\s*(?:years?|jahre?n?|ans?)\b(?:\s+(?:of\s+)?(?:experience|erfahrung|d.expérience|berufserfahrung))?'
+  # "0-2 years" entry-level range phrasing (also caught by the first
+  # pattern, kept explicit for clarity per the project's own wording)
+  - '\b(\d)\s*-\s*(\d)\s*(?:years?|jahre?n?|ans?)\b'
+
+entry_level_phrases:
+  # No number at all, but an explicit "entry level" claim
+  - '\bentry[- ]level\b'
+  - '\bno\s+(?:prior\s+)?experience\s+(?:required|necessary)\b'
+  - '\bkeine\s+berufserfahrung\s+(?:erforderlich|notwendig|vorausgesetzt)\b'
+  - '\bdébutant\s+accepté\b'
+
+experience_context_exclusions:
+  # Company history/tenure, not a candidate requirement — masked out before
+  # years_experience_patterns run, same mechanism as the language
+  # dictionary's exclusion_patterns.
+  - '(?:seit|for)\s*\d{1,3}\s*(?:years?|jahre?n?|ans?)\s*(?:am\s+markt|in\s+business|on\s+the\s+market)'
+  - '(?:unternehmen|company|entreprise)[^.,;]{0,30}\d{1,3}\s*(?:years?|jahre?n?|ans?)'
+  - '\d{1,3}\s*(?:years?|jahre?n?|ans?)[^.,;]{0,20}(?:erfahrung|experience|expérience)[^.,;]{0,20}(?:in\s+der\s+bearbeitung|im\s+bereich|in\s+the\s+industry)'
+  - 'profitieren\s+(?:sie\s+)?von[^.,;]{0,20}\d{1,3}\s*jahre'
+  - 'gegründet[^.,;]{0,30}\d{1,3}\s*jahre'
+  # Recruiting-agency/company "About Us" boilerplate citing THEIR OWN years
+  # of experience, not a candidate requirement — real example found
+  # 2026-09-18: "About Hays: With over 15 years of experience in the
+  # pharmaceutical and chemical industry..." sitting right after an
+  # unrelated candidate-requirements bullet list for a JUNIOR role.
+  - 'with\s+over\s+\d{1,3}\s*(?:years?|jahre?n?|ans?)\s+of\s+experience\s+in\s+the'
+  - 'mit\s+über\s+\d{1,3}\s*jahre[n]?\s+erfahrung\s+in\s+der'
+
+title_seniority_markers:
+  junior:
+    - '\bjunior\b'
+    - '\bentry[- ]level\b'
+    - '\bgraduate\b'
+    - '\btrainee\b'
+    - '\bwerkstudent(?:in)?\b'
+    - '\bpraktikant(?:in)?\b'
+    - '\bstagiaire\b'
+    - '\bintern(?:ship)?\b'
+    - '\bapprenti(?:e)?\b'
+  mid:
+    - '\bmedior\b'
+    - '\bmid[- ]level\b'
+    - '\bintermediate\b'
+  senior:
+    - '\bsenior\b'
+    - '\blead\b'
+    - '\bprincipal\b'
+    - '\bhead\s+of\b'
+    - '\bexpert(?:e)?\b'
+    - '\bchief\b'
